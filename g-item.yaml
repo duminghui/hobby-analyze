@@ -2294,7 +2294,7 @@
   normalFor: []
 - name: 松茸
   idx: 324
-  exist: E
+  exist: "N"
   gold: ""
   big: ""
   betterFor: [日向]
