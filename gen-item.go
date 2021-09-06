@@ -14,6 +14,7 @@ import (
 
 type sBreedRule struct {
 	PrefixKey []string         `yaml:"prefixKey,flow"`
+	SuffixKey []string         `yaml:"suffixKey,flow"`
 	Exception []breedException `yaml:"exception"`
 }
 
@@ -144,8 +145,12 @@ func main() {
 	}
 	// 添加品种相关的物品, 如果不在存在列表中, 不添加
 	itemExistMap := make(map[string]int)
+	var itemExistFix []string
 	for _, itemName := range itemData.Exists {
-		itemExistMap[itemName] = 1
+		if itemName != "" {
+			itemExistMap[itemName] = 1
+			itemExistFix = append(itemExistFix, itemName)
+		}
 	}
 
 	for _, breed := range breedData {
@@ -162,8 +167,15 @@ func main() {
 		}
 		for _, breedName := range breedNameSlice {
 			rBreedName := breedName
+
 			for _, key := range breedRule.PrefixKey {
 				rBreedName = strings.Replace(rBreedName, key, "所有", -1)
+			}
+			for _, key := range breedRule.SuffixKey {
+				rBreedName = strings.Replace(rBreedName, key, "", -1)
+				if !strings.Contains(rBreedName, "所有") {
+					rBreedName = "所有" + rBreedName
+				}
 			}
 			allIndex := strings.LastIndex(rBreedName, "所有")
 			if strings.Contains(rBreedName, "所有") {
@@ -177,6 +189,9 @@ func main() {
 
 			if rBreedName == "果汁" {
 				rBreedName = "汁"
+			}
+			if breedName == "羽毛類" {
+				fmt.Println(itemName, rBreedName)
 			}
 			if strings.HasSuffix(itemName, rBreedName) {
 				if !inStringArray(breedNameSliceMap[breedName], itemName) {
@@ -230,7 +245,7 @@ func main() {
 		personSlice[idx].NormalFix = normalFix
 	}
 
-	_, itemExistSlice := stringSliceItemNotInMap(itemData.Exists, itemNameFixMap)
+	_, itemExistSlice := stringSliceItemNotInMap(itemExistFix, itemNameFixMap)
 	_, golds := stringSliceItemNotInMap(itemData.Golds, itemNameFixMap)
 	_, bigSlice := stringSliceItemNotInMap(itemData.Big, itemNameFixMap)
 	itemData.ExistsFix = itemExistSlice
@@ -250,7 +265,7 @@ func main() {
 		bigMap[name] = "B"
 	}
 	idxMap := make(map[string]int)
-	for idx, name := range itemData.Exists {
+	for idx, name := range itemExistFix {
 		name = strings.Replace(name, "*", "", -1)
 		idxMap[name] = idx + 1
 	}

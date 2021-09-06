@@ -1,4 +1,5 @@
-prefixKey: [各种, 所有, 全部, 類]
+prefixKey: [各种, 所有, 全部]
+suffixKey: [類]
 exception:
 - name: 水果
   items: [奶汁焗水果]

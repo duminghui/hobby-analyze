@@ -4,3588 +4,3525 @@
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [汪汪糖, 梅根]
+  normalFor: [梅根]
 - name: 小萝卜
   idx: 2
   exist: E
   gold: ""
   big: ""
   betterFor: [布拉德, 密斯拉*]
-  normalFor: [汪汪糖, 梅根, 科林, 米兰达, 托托塔拉]
+  normalFor: [梅根, 科林, 米兰达, 托托塔拉]
 - name: 土豆
   idx: 3
   exist: E
   gold: ""
   big: ""
   betterFor: [海科特, 科林, 布拉德]
-  normalFor: [汪汪糖]
-- name: 草莓
+  normalFor: []
+- name: 卷心菜
   idx: 4
-  exist: E
+  exist: "N"
   gold: ""
   big: ""
-  betterFor: [希卡, 科林, 凯丽, 布拉德, 小女神大人, 雏桃]
-  normalFor: [优卡, 汪汪糖, 费朗克, 海科特, 诺艾尔, 弥一]
-- name: 洋葱
+  betterFor: [汪汪糖, 布拉德]
+  normalFor: []
+- name: 草莓
   idx: 5
   exist: E
   gold: ""
   big: ""
-  betterFor: [布拉德, 密斯拉*]
-  normalFor: [汪汪糖, 费朗克, 海科特, 科林, 罗塔斯*, 托托塔拉]
-- name: 番茄
+  betterFor: [希卡, 科林, 凯丽, 布拉德, 小女神大人, 雏桃]
+  normalFor: [优卡, 费朗克, 海科特, 诺艾尔, 弥一]
+- name: 樱桃
   idx: 6
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [布拉德]
+  normalFor: [汪汪糖, 费朗克, 米兰达, 凯丽]
+- name: 黄瓜
+  idx: 7
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [汪汪糖]
+  normalFor: [费朗克]
+- name: 洋葱
+  idx: 8
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [布拉德, 密斯拉*]
+  normalFor: [费朗克, 梅根, 海科特, 科林, 罗塔斯*, 托托塔拉]
+- name: 番茄
+  idx: 9
   exist: E
   gold: ""
   big: ""
   betterFor: [梅根, 海科特, 布拉德, 密斯拉*]
-  normalFor: [汪汪糖, 科林, 米兰达, 诺艾尔, 罗塔斯*, 托托塔拉, 银次郎]
+  normalFor: [科林, 米兰达, 诺艾尔, 罗塔斯*, 托托塔拉, 银次郎]
+- name: 紫苏
+  idx: 10
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [汪汪糖]
+  normalFor: []
 - name: 西瓜
-  idx: 7
+  idx: 11
   exist: E
   gold: ""
   big: ""
   betterFor: [希卡, 汪汪糖, 科林]
   normalFor: [优卡, 银次郎]
 - name: 蜜瓜
-  idx: 8
+  idx: 12
   exist: E
   gold: ""
   big: ""
   betterFor: [希卡, 汪汪糖]
   normalFor: [优卡]
 - name: 菠萝
-  idx: 9
+  idx: 13
   exist: E
   gold: ""
   big: ""
   betterFor: [希卡, 小女神大人]
-  normalFor: [优卡, 汪汪糖, 布拉德]
-- name: 雏菊
-  idx: 10
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [御美代]
-  normalFor: [汪汪糖, 凯丽, 阿鲁玛]
-- name: 木槿
-  idx: 11
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [优卡]
-  normalFor: [汪汪糖]
-- name: 鸡蛋花
-  idx: 12
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [御美代]
-  normalFor: [韦恩, 优卡, 汪汪糖, 小女神大人, 阿鲁玛, 静]
-- name: 向日葵
-  idx: 13
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [雏桃]
-  normalFor: [汪汪糖]
-- name: 小麦
+  normalFor: [优卡, 梅根, 布拉德]
+- name: 木薯
   idx: 14
   exist: E
   gold: ""
   big: ""
-  betterFor: [布拉德]
-  normalFor: [汪汪糖]
-- name: 大豆
+  betterFor: []
+  normalFor: [罗塔斯*]
+- name: 雏菊
   idx: 15
   exist: E
   gold: ""
   big: ""
-  betterFor: [小稻荷大小(男)*]
-  normalFor: [丝特法妮, 汪汪糖]
-- name: 猕猴桃
+  betterFor: [御美代]
+  normalFor: [凯丽, 阿鲁玛]
+- name: 木槿
   idx: 16
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [优卡]
+  normalFor: []
+- name: 鸡蛋花
+  idx: 17
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [御美代]
+  normalFor: [韦恩, 优卡, 小女神大人, 阿鲁玛, 静]
+- name: 向日葵
+  idx: 18
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [雏桃]
+  normalFor: []
+- name: 小麦
+  idx: 19
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [布拉德]
+  normalFor: []
+- name: 大豆
+  idx: 20
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [小稻荷大小(男)*]
+  normalFor: [丝特法妮]
+- name: 猕猴桃
+  idx: 21
   exist: E
   gold: ""
   big: ""
   betterFor: []
   normalFor: [汪汪糖]
 - name: 柠檬
-  idx: 17
+  idx: 22
   exist: E
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [汪汪糖, 费朗克]
-- name: 橄榄
-  idx: 18
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [布拉德]
-  normalFor: [汪汪糖, 费朗克, 海科特, 米兰达, 马尔科]
+  normalFor: [费朗克]
 - name: 橙子
-  idx: 19
+  idx: 23
   exist: E
   gold: ""
   big: ""
   betterFor: [希卡, 科林]
   normalFor: [优卡, 汪汪糖]
+- name: 南瓜
+  idx: 24
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [丝特法妮]
+- name: 菠菜
+  idx: 25
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [密斯拉*, 梅吉]
+  normalFor: []
+- name: 胡萝卜
+  idx: 26
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [密斯拉*]
+  normalFor: [费朗克, 诺艾尔]
+- name: 青椒
+  idx: 27
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [海科特, 布拉德]
+  normalFor: []
+- name: 苹果
+  idx: 28
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [汪汪糖, 科林, 布拉德]
+  normalFor: [费朗克, 海科特, 凯丽]
+- name: 橄榄
+  idx: 29
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [布拉德]
+  normalFor: [费朗克, 海科特, 米兰达, 马尔科]
+- name: 地瓜
+  idx: 30
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [汪汪糖]
+  normalFor: [心鞠, 海科特, 科林, 梅吉]
+- name: 白萝卜
+  idx: 31
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [布拉德]
+- name: 白菜
+  idx: 32
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [汪汪糖, 密斯拉*]
+  normalFor: []
+- name: 西兰花
+  idx: 33
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [梅根, 布拉德]
+  normalFor: [费德, 海科特, 小女神大人, 托托塔拉]
+- name: 芥末
+  idx: 34
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [心鞠, 银次郎]
+  normalFor: [丝特法妮]
+- name: 辣椒
+  idx: 35
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [卢迪斯, 米兰达, 银次郎]
+  normalFor: [丝特法妮]
+- name: 香菇
+  idx: 36
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [小女神大人]
+- name: 蘑菇
+  idx: 37
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [霞]
 - name: 芒果
-  idx: 20
+  idx: 38
   exist: E
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [希卡, 汪汪糖]
+  normalFor: [希卡]
 - name: 香蕉
-  idx: 21
+  idx: 39
   exist: E
   gold: ""
   big: ""
   betterFor: [卢迪斯, 希卡]
   normalFor: [费德, 优卡, 汪汪糖, 夏鲁克]
 - name: 牛奶
-  idx: 22
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [费朗克]
-  normalFor: [汪汪糖, 科林, 诺艾尔, 凯丽, 马尔科, 小女神大人]
-- name: 鸡蛋
-  idx: 23
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [费朗克]
-  normalFor: [霞, 汪汪糖, 科林, 米兰达, 布拉德, 马尔科]
-- name: 蜂蜜
-  idx: 24
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [凯丽, 熊]
-  normalFor: [悠月*, 丝特法妮, 汪汪糖, 梅根, 米兰达, 小女神大人, 弥一]
-- name: 土豆泥
-  idx: 25
-  exist: E
-  gold: ""
-  big: ""
-  bestFor: [科林]
-  betterFor: [海科特]
-  normalFor: [汪汪糖, 罗塔斯*]
-- name: 番茄沙拉
-  idx: 26
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [心鞠, 海科特, 米兰达]
-  normalFor: [丝特法妮, 汪汪糖]
-- name: 含羞草沙拉
-  idx: 27
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [莉雪特, 心鞠, 科林]
-  normalFor: [汪汪糖, 米兰达]
-- name: 玉米浓汤
-  idx: 28
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [诺艾尔]
-  normalFor: [汪汪糖]
-- name: 鱼派
-  idx: 29
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [马尔科]
-  normalFor: [汪汪糖, 布拉德, 卡里拉]
-- name: 烤番茄
-  idx: 30
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [米兰达]
-  normalFor: [汪汪糖, 诺艾尔, 密斯拉*]
-- name: 蒸面包果
-  idx: 31
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [托托塔拉]
-  normalFor: [汪汪糖]
-- name: 萨莫萨三角饺
-  idx: 32
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [夏鲁克]
-  normalFor: [汪汪糖]
-- name: 章鱼意面
-  idx: 33
-  exist: E
-  gold: ""
-  big: ""
-  bestFor: [夏鲁克]
-  betterFor: []
-  normalFor: [汪汪糖, 小魔女大人*]
-- name: 木薯糍粑
-  idx: 34
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [托托塔拉]
-  normalFor: [汪汪糖]
-- name: 蔬菜蛋糕
-  idx: 35
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [凯丽]
-  normalFor: [汪汪糖, 海科特]
-- name: 菠萝蛋糕
-  idx: 36
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [夏鲁克]
-  normalFor: [汪汪糖]
-- name: 奶汁焗水果
-  idx: 37
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [希卡, 凯丽, 托托塔拉]
-  normalFor: [汪汪糖]
-- name: 番茄汁
-  idx: 38
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [梅根]
-  normalFor: [费德, 心鞠, 汪汪糖, 米兰达]
-- name: 卡布奇诺
-  idx: 39
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [韦恩]
-  normalFor: [汪汪糖]
-- name: 摩卡咖啡
   idx: 40
   exist: E
   gold: ""
   big: ""
-  bestFor: [韦恩]
-  betterFor: []
-  normalFor: [汪汪糖]
-- name: 咖啡
+  betterFor: [费朗克]
+  normalFor: [科林, 诺艾尔, 凯丽, 马尔科, 小女神大人]
+- name: 鸡蛋
   idx: 41
   exist: E
   gold: ""
   big: ""
-  betterFor: [韦恩, 费德]
-  normalFor: [汪汪糖, 布拉德, 马尔科, 森谷]
-- name: 热牛奶
+  betterFor: [费朗克]
+  normalFor: [霞, 科林, 米兰达, 布拉德, 马尔科]
+- name: 蜂蜜
   idx: 42
   exist: E
   gold: ""
   big: ""
-  betterFor: [弥一]
-  normalFor: [汪汪糖, 凯丽, 布拉德]
-- name: 黄油
-  idx: 43
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [费朗克]
-  normalFor: [汪汪糖, 马尔科]
-- name: 小麦粉
-  idx: 44
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 布拉德]
-- name: 大米
-  idx: 45
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [心鞠, 银次郎]
-  normalFor: [汪汪糖]
-- name: 盐
-  idx: 46
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 布拉德]
-- name: 红色布
-  idx: 47
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [诺艾尔]
-  normalFor: [汪汪糖, 海科特, 米兰达, 布拉德, 马尔科]
-- name: 黄色布
-  idx: 48
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [莉雪特, 汪汪糖, 布拉德, 马尔科]
-- name: 绿色布
-  idx: 49
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [莉雪特, 汪汪糖, 布拉德, 马尔科]
-- name: 星鳗
-  idx: 50
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 提格雷*]
-- name: 沙丁鱼
-  idx: 51
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [扎哈, 卡里拉]
-  normalFor: [汪汪糖, 夏鲁克, 提格雷*]
-- name: 鲽鱼
-  idx: 52
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [马尔科]
-  normalFor: [汪汪糖, 夏鲁克]
-- name: 青花鱼
-  idx: 53
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [扎哈]
-  normalFor: [汪汪糖, 夏鲁克, 提格雷*]
-- name: 秋刀鱼
-  idx: 54
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [扎哈, 卡里拉]
-  normalFor: [汪汪糖, 夏鲁克, 提格雷*]
-- name: 小龙虾
-  idx: 55
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [扎哈]
-  normalFor: [汪汪糖, 提格雷*]
-- name: 鲷鱼
-  idx: 56
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [心鞠, 森谷, 银次郎]
-  normalFor: [汪汪糖, 提格雷*]
-- name: 乌尾鮗
-  idx: 57
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [扎哈]
-  normalFor: [汪汪糖, 夏鲁克]
-- name: 带鱼
-  idx: 58
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [扎哈, 提格雷*]
-  normalFor: [汪汪糖, 马尔科, 夏鲁克]
-- name: 飞鱼
-  idx: 59
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [扎哈]
-  normalFor: [汪汪糖, 提格雷*]
-- name: 虹鳟
-  idx: 60
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [马尔科, 鹰]
-  normalFor: [汪汪糖]
-- name: 虾虎鱼
-  idx: 61
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [马尔科]
-  normalFor: [汪汪糖, 扎哈]
-- name: 红鳟
-  idx: 62
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [马尔科]
-  normalFor: [汪汪糖]
-- name: 黑鲈鱼
-  idx: 63
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [马尔科]
-  normalFor: [汪汪糖]
-- name: 蓝鳃太阳鱼
-  idx: 64
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [马尔科]
-  normalFor: [汪汪糖]
-- name: 鳕鱼
-  idx: 65
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [提格雷*]
-  normalFor: [汪汪糖]
-- name: 鲻鱼
-  idx: 66
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [马尔科]
-  normalFor: [汪汪糖]
-- name: 白鲈
-  idx: 67
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [马尔科]
-  normalFor: [汪汪糖]
-- name: 鳟鱼
-  idx: 68
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [马尔科]
-  normalFor: [汪汪糖]
-- name: 鱿鱼
-  idx: 69
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 提格雷*]
-- name: 章鱼
-  idx: 70
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 扎哈, 夏鲁克, 提格雷*, 小魔女大人*]
-- name: 花蛤
-  idx: 71
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [卡里拉]
-  normalFor: [汪汪糖, 马尔科, 扎哈, 夏鲁克]
-- name: 角蝾螺
-  idx: 72
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [卡里拉]
-  normalFor: [汪汪糖, 夏鲁克]
-- name: 蚬贝
-  idx: 73
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [卡里拉]
-  normalFor: [汪汪糖, 夏鲁克]
-- name: 扇贝
-  idx: 74
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [卡里拉]
-  normalFor: [汪汪糖, 扎哈, 夏鲁克]
-- name: 海胆
-  idx: 75
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [扎哈, 卡里拉]
-  normalFor: [汪汪糖, 马尔科, 夏鲁克, 提格雷*]
-- name: 钓饵
-  idx: 76
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [卢迪斯, 汪汪糖, 夏鲁克, 提格雷*, 哈鲁巴*]
-- name: 金闪闪肥料
-  idx: 77
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 费朗克, 梅根, 海科特, 梅吉]
-- name: 宠物饲料
-  idx: 79
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 费朗克, 哈鲁巴*, 托托塔拉, 小魔女大人*]
-- name: 鸡饲料
-  idx: 80
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 费朗克, 小魔女大人*]
-- name: 鱼笼
-  idx: 81
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [扎哈]
-  normalFor: [汪汪糖]
-- name: 松茸
-  idx: 82
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [日向]
-  normalFor: [汪汪糖]
-- name: 薄荷
-  idx: 83
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [莉雪特, 优卡, 希卡, 汪汪糖, 布拉德]
-- name: 甘菊
-  idx: 84
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 小女神大人]
-- name: 薰衣草
-  idx: 85
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 小女神大人]
-- name: 芦荟
-  idx: 86
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [日向, 莉雪特, 优卡, 希卡, 汪汪糖, 梅根, 布拉德, 小女神大人]
-- name: 核桃
-  idx: 87
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 科林, 布拉德]
-- name: 杏子
-  idx: 88
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [悠月*, 霞, 希卡, 汪汪糖, 梅根, 科林, 米兰达, 诺艾尔, 凯丽, 弥一, 雏桃, 梅吉, 御美代]
-- name: 李子
-  idx: 89
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 梅根, 科林, 米兰达, 诺艾尔, 凯丽, 布拉德, 阿鲁玛]
-- name: 鳄梨
-  idx: 90
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [日向, 莉雪特, 汪汪糖, 夏鲁克]
-- name: 香草
-  idx: 91
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [费德, 优卡, 希卡]
-  normalFor: [韦恩, 莉雪特, 汪汪糖]
-- name: 软树枝
-  idx: 92
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [卢迪斯, 汪汪糖]
-- name: 硬树枝
-  idx: 93
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [卢迪斯, 汪汪糖]
-- name: 松树枝
-  idx: 94
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [卢迪斯, 悠月*, 汪汪糖, 静]
-- name: 黑树枝
-  idx: 95
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [卢迪斯, 汪汪糖]
-- name: 银杏树枝
-  idx: 96
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [卢迪斯, 悠月*, 汪汪糖]
-- name: 竹子
-  idx: 97
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [悠月*, 汪汪糖]
-- name: 竹
-  idx: 98
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 静]
-- name: 枫树
-  idx: 99
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [悠月*, 汪汪糖]
-- name: 小木材
-  idx: 100
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [卢迪斯]
-  normalFor: [汪汪糖]
-- name: 木材
-  idx: 101
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [卢迪斯]
-  normalFor: [汪汪糖]
-- name: 黑木材
-  idx: 102
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [卢迪斯]
-  normalFor: [汪汪糖]
-- name: 钻石
-  idx: 103
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [莉雪特, 汪汪糖]
-- name: 祖母绿
-  idx: 104
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [莉雪特]
-  normalFor: [汪汪糖]
-- name: 萤石
-  idx: 105
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 静]
-- name: 精金
-  idx: 106
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [日向, 汪汪糖]
-- name: 白金
-  idx: 107
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [森谷]
-  normalFor: [汪汪糖]
-- name: 粉钻
-  idx: 108
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [森谷]
-  normalFor: [汪汪糖]
-- name: 贤者之石
-  idx: 109
-  exist: E
-  gold: ""
-  big: ""
-  bestFor: [森谷]
-  betterFor: []
-  normalFor: [汪汪糖]
-- name: 硬币
-  idx: 110
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [密斯拉*]
-  normalFor: [韦恩, 卢迪斯, 汪汪糖, 夏鲁克, 罗塔斯*]
-- name: 生锈的硬币
-  idx: 111
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [密斯拉*]
-  normalFor: [汪汪糖, 夏鲁克, 罗塔斯*]
-- name: 闪亮的硬币
-  idx: 112
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [密斯拉*]
-  normalFor: [汪汪糖, 夏鲁克, 罗塔斯*]
-- name: 月落草
-  idx: 113
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [优卡, 希卡, 汪汪糖, 海科特, 科林, 凯丽, 小女神大人, 阿鲁玛, 托托塔拉, 雏桃]
-- name: 魔术红草
-  idx: 114
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 米兰达]
-- name: 魔术蓝草
-  idx: 115
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [优卡, 希卡, 汪汪糖, 凯丽]
-- name: 团扇仙人掌
-  idx: 116
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [韦恩, 汪汪糖, 凯丽]
-- name: 桃红色羽扇豆
-  idx: 117
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [优卡, 希卡, 汪汪糖, 海科特, 米兰达, 诺艾尔, 凯丽, 小女神大人, 阿鲁玛, 托托塔拉]
-- name: 淡紫色羽扇豆
-  idx: 118
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [静]
-  normalFor: [汪汪糖, 凯丽, 阿鲁玛, 托托塔拉, 雏桃, 御美代]
-- name: 紫阳花
-  idx: 119
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [莉雪特, 静]
-  normalFor: [汪汪糖, 小女神大人, 雏桃]
-- name: 马蹄莲
-  idx: 120
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [阿鲁玛]
-  normalFor: [莉雪特, 优卡, 希卡, 汪汪糖, 凯丽, 卡里拉, 托托塔拉]
-- name: 单叶蔓荆
-  idx: 121
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [优卡, 阿鲁玛]
-  normalFor: [莉雪特, 希卡, 汪汪糖, 凯丽, 卡里拉]
-- name: 红色羽毛
-  idx: 122
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [卢迪斯, 日向, 汪汪糖, 海科特, 科林, 米兰达, 诺艾尔, 阿鲁玛, 罗塔斯*]
-- name: 绿色羽毛
-  idx: 123
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [卢迪斯, 汪汪糖]
-- name: 蓝色羽毛
-  idx: 124
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [卢迪斯]
-  normalFor: [汪汪糖, 夏鲁克, 辰巳]
-- name: 黄色羽毛
-  idx: 125
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [卢迪斯, 汪汪糖, 科林, 诺艾尔]
-- name: 青色羽毛
-  idx: 126
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 科林]
-- name: 珊瑚
-  idx: 127
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [丝特法妮, 汪汪糖, 凯丽, 阿鲁玛]
-- name: 骨螺
-  idx: 128
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 卡里拉]
-- name: 心跳少女的香气
-  idx: 129
-  exist: E
-  gold: ""
-  big: ""
-  betterFor: [托托塔拉]
-  normalFor: [汪汪糖]
-- name: 热带沙拉
-  idx: 134
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [心鞠, 希卡]
-  normalFor: [汪汪糖]
-- name: 水果沙拉
-  idx: 135
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [心鞠, 希卡, 罗塔斯*]
-  normalFor: [汪汪糖, 科林]
-- name: 夏季蔬沙拉
-  idx: 136
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [心鞠, 梅根, 海科特, 米兰达, 诺艾尔]
-  normalFor: [汪汪糖]
+  betterFor: [凯丽, 熊]
+  normalFor: [悠月*, 丝特法妮, 梅根, 米兰达, 小女神大人, 弥一]
 - name: 土豆沙拉
-  idx: 137
+  idx: 43
   exist: "N"
   gold: ""
   big: ""
   bestFor: [海科特]
   betterFor: [心鞠]
-  normalFor: [汪汪糖]
-- name: 混合沙拉
-  idx: 138
+  normalFor: []
+- name: 土豆泥
+  idx: 44
+  exist: E
+  gold: ""
+  big: ""
+  bestFor: [科林]
+  betterFor: [海科特]
+  normalFor: [罗塔斯*]
+- name: 洋葱沙拉
+  idx: 45
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [心鞠, 海科特, 密斯拉*]
-  normalFor: [汪汪糖]
-- name: 玉米沙拉
-  idx: 139
-  exist: "N"
+  betterFor: [心鞠]
+  normalFor: [密斯拉*]
+- name: 番茄沙拉
+  idx: 46
+  exist: E
   gold: ""
   big: ""
-  betterFor: [心鞠, 海科特]
-  normalFor: [汪汪糖]
+  betterFor: [心鞠, 海科特, 米兰达]
+  normalFor: [丝特法妮]
+- name: 含羞草沙拉
+  idx: 47
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [莉雪特, 心鞠, 科林]
+  normalFor: [米兰达]
 - name: 奶香沙拉
-  idx: 140
+  idx: 48
   exist: "N"
   gold: ""
   big: ""
   betterFor: [心鞠, 科林]
-  normalFor: [汪汪糖]
-- name: 卡普里沙拉
-  idx: 141
+  normalFor: []
+- name: 混合沙拉
+  idx: 49
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [心鞠, 米兰达]
-  normalFor: [汪汪糖]
-- name: 椰子沙拉
-  idx: 142
+  betterFor: [心鞠, 海科特, 密斯拉*]
+  normalFor: []
+- name: 凉拌卷心菜
+  idx: 50
   exist: "N"
   gold: ""
   big: ""
-  bestFor: [卡里拉]
-  betterFor: [心鞠]
-  normalFor: [丝特法妮, 汪汪糖]
+  betterFor: [科林]
+  normalFor: []
+- name: 南瓜沙拉
+  idx: 51
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [心鞠, 静, 辰巳, 弥一]
+  normalFor: [丝特法妮]
+- name: 凉拌蔬菜
+  idx: 52
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [静, 梅吉, 御美代]
+  normalFor: [森谷, 银次郎]
+- name: 梅香黄瓜
+  idx: 53
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [静]
+  normalFor: []
 - name: 梅子紫苏沙拉
-  idx: 143
+  idx: 54
   exist: "N"
   gold: ""
   big: ""
   bestFor: [静]
   betterFor: [心鞠]
-  normalFor: [汪汪糖]
-- name: 南瓜沙拉
-  idx: 144
+  normalFor: []
+- name: 芥末章鱼
+  idx: 55
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [心鞠, 静, 辰巳, 弥一]
-  normalFor: [丝特法妮, 汪汪糖]
-- name: 明太子沙拉
-  idx: 145
+  betterFor: [银次郎]
+  normalFor: [扎哈, 卡里拉]
+- name: 生鱼片
+  idx: 56
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [心鞠]
-  normalFor: [汪汪糖, 哈鲁巴*]
+  betterFor: [日向, 扎哈]
+  normalFor: [夏鲁克, 森谷]
+- name: 豆腐皮
+  idx: 57
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [心鞠, 一徹, 梅吉, 御美代]
+  normalFor: [霞]
 - name: 炸物沙拉
-  idx: 146
+  idx: 58
   exist: "N"
   gold: ""
   big: ""
   betterFor: [心鞠]
-  normalFor: [汪汪糖, 卡里拉]
-- name: 洋葱沙拉
-  idx: 147
+  normalFor: [卡里拉]
+- name: 明太子沙拉
+  idx: 59
   exist: "N"
   gold: ""
   big: ""
   betterFor: [心鞠]
-  normalFor: [汪汪糖, 密斯拉*]
-- name: 鲣鱼
-  idx: 148
+  normalFor: [哈鲁巴*]
+- name: 玉米沙拉
+  idx: 60
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [提格雷*]
-  normalFor: [汪汪糖]
-- name: 针鱼
-  idx: 149
+  betterFor: [心鞠, 海科特]
+  normalFor: []
+- name: 夏季蔬沙拉
+  idx: 61
   exist: "N"
   gold: ""
   big: ""
+  betterFor: [心鞠, 梅根, 海科特, 米兰达, 诺艾尔]
+  normalFor: []
+- name: 椰子沙拉
+  idx: 62
+  exist: "N"
+  gold: ""
+  big: ""
+  bestFor: [卡里拉]
+  betterFor: [心鞠]
+  normalFor: [丝特法妮]
+- name: 热带沙拉
+  idx: 63
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [心鞠, 希卡]
+  normalFor: []
+- name: 水果沙拉
+  idx: 64
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [心鞠, 希卡, 罗塔斯*]
+  normalFor: [科林]
+- name: 南国罗米三文鱼
+  idx: 65
+  exist: "N"
+  gold: ""
+  big: ""
+  bestFor: [托托塔拉]
   betterFor: []
-  normalFor: [汪汪糖, 提格雷*]
-- name: 鳗鱼
-  idx: 150
+  normalFor: []
+- name: 生春卷
+  idx: 66
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [森谷]
-  normalFor: [汪汪糖, 提格雷*]
-- name: 鲯鳅
-  idx: 151
+  betterFor: [哈鲁巴*, 银次郎]
+  normalFor: []
+- name: 印度泡菜
+  idx: 67
   exist: "N"
   gold: ""
   big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 哈鲁巴*]
-- name: 鲟鱼
-  idx: 152
+  betterFor: [密斯拉*, 银次郎]
+  normalFor: []
+- name: 卡普里沙拉
+  idx: 68
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [森谷]
-  normalFor: [汪汪糖, 哈鲁巴*]
-- name: 葡萄
-  idx: 157
+  betterFor: [心鞠, 米兰达]
+  normalFor: []
+- name: 意式蔬菜沙拉
+  idx: 69
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [科林, 布拉德]
-  normalFor: [汪汪糖]
-- name: 巧克力曲奇
-  idx: 158
+  betterFor: [心鞠]
+  normalFor: [费德]
+- name: 玉米浓汤
+  idx: 70
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [诺艾尔]
+  normalFor: []
+- name: 胡萝卜汤
+  idx: 71
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [韦恩]
-  normalFor: [汪汪糖]
-- name: 春风进行曲
-  idx: 159
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [韦恩, 托托塔拉]
-  normalFor: [汪汪糖]
-- name: 爆米花
-  idx: 160
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [夏鲁克]
-  normalFor: [汪汪糖, 费朗克, 凯丽]
-- name: 绣球花
-  idx: 161
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [静]
-  normalFor: [韦恩, 优卡, 汪汪糖, 小女神大人, 御美代]
-- name: 西兰花
-  idx: 162
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [梅根, 布拉德]
-  normalFor: [费德, 汪汪糖, 海科特, 小女神大人, 托托塔拉]
+  bestFor: [梅根]
+  betterFor: [米兰达]
+  normalFor: []
 - name: 香草汤
-  idx: 163
+  idx: 72
   exist: "N"
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [韦恩, 汪汪糖]
-- name: 多利亚煸饭
-  idx: 164
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [韦恩, 汪汪糖]
-- name: 奶茶
-  idx: 165
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [韦恩, 汪汪糖]
-- name: 奶酪
-  idx: 166
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [费朗克]
-  normalFor: [韦恩, 丝特法妮, 汪汪糖, 马尔科]
-- name: 荔枝酒
-  idx: 167
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [费朗克, 布拉德]
-  normalFor: [韦恩, 汪汪糖, 马尔科]
+  normalFor: [韦恩]
 - name: 蔬菜蒜泥浓汤
-  idx: 168
+  idx: 73
   exist: "N"
   gold: ""
   big: ""
   bestFor: [费德]
   betterFor: []
-  normalFor: [汪汪糖]
-- name: 蔬菜锅
-  idx: 169
-  exist: "N"
-  gold: ""
-  big: ""
-  bestFor: [密斯拉*]
-  betterFor: []
-  normalFor: [费德, 汪汪糖, 科林]
-- name: 火上锅
-  idx: 170
+  normalFor: []
+- name: 高汤
+  idx: 74
   exist: "N"
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [费德, 汪汪糖]
-- name: 意式蔬菜沙拉
-  idx: 171
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [心鞠]
-  normalFor: [费德, 汪汪糖]
-- name: 蔬菜汁
-  idx: 172
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [梅根]
-  normalFor: [费德, 汪汪糖]
-- name: 炸鱼肉饼
-  idx: 173
-  exist: "N"
-  gold: ""
-  big: ""
-  bestFor: [卢迪斯]
-  betterFor: [哈鲁巴*]
-  normalFor: [汪汪糖, 卡里拉]
-- name: 辣椒
-  idx: 174
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [卢迪斯, 米兰达, 银次郎]
-  normalFor: [丝特法妮, 汪汪糖]
-- name: 辣椒炒乌贼
-  idx: 175
-  exist: "N"
-  gold: ""
-  big: ""
-  bestFor: [哈鲁巴*]
-  betterFor: [卢迪斯]
-  normalFor: [汪汪糖]
-- name: 干烧虾仁
-  idx: 176
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [卢迪斯, 米兰达, 银次郎]
-  normalFor: [汪汪糖]
-- name: 香蕉冰淇淋
-  idx: 177
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [卢迪斯]
-  normalFor: [汪汪糖]
-- name: 羊毛
-  idx: 178
+  normalFor: [霞]
+- name: 秋葵汤
+  idx: 75
   exist: "N"
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [卢迪斯, 汪汪糖, 托托塔拉]
-- name: 果树
-  idx: 179
+  normalFor: [哈鲁巴*]
+- name: 蘑菇汤
+  idx: 76
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [霞, 御美代]
+  normalFor: []
+- name: 菠菜蛋汤
+  idx: 77
+  exist: "N"
+  gold: ""
+  big: ""
+  bestFor: [梅吉]
+  betterFor: [霞]
+  normalFor: [悠月*, 小稻荷大小(男)*, 小稻荷大小(女)*]
+- name: 芜菁汤
+  idx: 78
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [梅吉]
+  normalFor: []
+- name: 蛋花汤
+  idx: 79
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [梅吉, 御美代]
+  normalFor: []
+- name: 味噌汤
+  idx: 80
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [御美代]
+  normalFor: []
+- name: 牛蒡汤
+  idx: 81
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [小魔女大人*]
+  normalFor: []
+- name: 高级螃蟹汤
+  idx: 82
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [银次郎]
+  normalFor: []
+- name: 清汤
+  idx: 83
   exist: "N"
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [卢迪斯]
-- name: 披萨
-  idx: 180
+  normalFor: [霞]
+- name: 日式杂烩汤
+  idx: 84
   exist: "N"
   gold: ""
   big: ""
-  bestFor: [费朗克]
-  betterFor: []
-  normalFor: [卢迪斯, 丝特法妮, 汪汪糖]
-- name: 牛奶火锅
-  idx: 181
+  bestFor: [霞]
+  betterFor: [一徹]
+  normalFor: []
+- name: 蚬贝汤
+  idx: 85
   exist: "N"
   gold: ""
   big: ""
-  bestFor: [马尔科]
-  betterFor: []
-  normalFor: [卢迪斯, 汪汪糖]
-- name: 印度鸡肉饭
-  idx: 182
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [卢迪斯, 汪汪糖]
-- name: 咖喱饭
-  idx: 183
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [卢迪斯, 汪汪糖]
-- name: 豆腐汉堡
-  idx: 184
-  exist: "N"
-  gold: ""
-  big: ""
-  bestFor: [日向]
-  betterFor: []
-  normalFor: [霞, 汪汪糖]
-- name: 红豆包
-  idx: 185
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [日向, 辰巳, 弥一, 雏桃]
-  normalFor: [汪汪糖, 诺艾尔, 夏鲁克, 阿鲁玛]
-- name: 生鱼片
-  idx: 186
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [日向, 扎哈]
-  normalFor: [汪汪糖, 夏鲁克, 森谷]
-- name: 年节菜
-  idx: 187
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [日向, 心鞠, 静, 森谷, 银次郎]
-  normalFor: [汪汪糖]
-- name: 关东煮
-  idx: 188
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [日向, 霞, 雏桃, 银次郎]
-  normalFor: [汪汪糖]
-- name: 蘑菇饭
-  idx: 189
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [日向]
-  normalFor: [汪汪糖, 御美代]
-- name: 味噌青花鱼
-  idx: 190
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [日向, 静, 银次郎]
-  normalFor: [汪汪糖]
-- name: 白米饭
-  idx: 191
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [日向, 心鞠, 梅吉, 银次郎]
-  normalFor: [悠月*, 霞, 汪汪糖, 罗塔斯*]
-- name: 鲷鱼茶泡饭
-  idx: 192
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [日向, 霞, 御美代]
-  normalFor: [汪汪糖]
-- name: 大福
-  idx: 193
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [日向, 悠月*, 小稻荷大小(男)*, 小稻荷大小(女)*, 辰巳, 弥一]
-  normalFor: [汪汪糖, 森谷, 雏桃]
-- name: 蛋浇饭
-  idx: 194
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [日向]
-  normalFor: [汪汪糖]
-- name: 散寿司
-  idx: 195
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [日向, 悠月*]
-  normalFor: [汪汪糖]
-- name: 铜锣烧
-  idx: 196
-  exist: "N"
-  gold: ""
-  big: ""
-  bestFor: [弥一]
-  betterFor: [日向, 辰巳, 雏桃]
-  normalFor: [汪汪糖]
-- name: 馎饦
-  idx: 197
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [日向, 一徹, 辰巳, 弥一, 梅吉]
-  normalFor: [汪汪糖]
-- name: 和式糯米团
-  idx: 198
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [日向, 悠月*, 小稻荷大小(男)*, 小稻荷大小(女)*, 弥一, 雏桃]
-  normalFor: [汪汪糖]
-- name: 杏仁奶糖
-  idx: 199
-  exist: "N"
-  gold: ""
-  big: ""
-  bestFor: [诺艾尔]
-  betterFor: []
-  normalFor: [日向, 汪汪糖]
-- name: 杏仁曲奇
-  idx: 200
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [诺艾尔]
-  normalFor: [日向, 汪汪糖]
-- name: 拂晓天明的香气
-  idx: 201
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [托托塔拉]
-  normalFor: [日向, 汪汪糖]
+  betterFor: [静, 银次郎]
+  normalFor: []
 - name: 意式水煮鱼贝
-  idx: 202
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [日向, 汪汪糖]
-- name: 苹果冰激凌
-  idx: 203
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [日向, 汪汪糖]
-- name: 油豆腐
-  idx: 204
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [日向, 汪汪糖]
-- name: 甜米酒
-  idx: 205
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [心鞠, 费朗克, 布拉德, 静, 御美代]
-  normalFor: [日向, 霞, 汪汪糖, 马尔科]
-- name: 所有贝类
-  idx: 206
+  idx: 86
   exist: "N"
   gold: ""
   big: ""
   betterFor: []
   normalFor: [日向]
-- name: 青草团子
-  idx: 207
+- name: 椰子汤
+  idx: 87
   exist: "N"
   gold: ""
   big: ""
-  bestFor: [悠月*]
-  betterFor: [小稻荷大小(男)*, 梅吉]
-  normalFor: [汪汪糖]
-- name: 最中
-  idx: 208
+  betterFor: []
+  normalFor: [丝特法妮]
+- name: 椰奶章鱼煮
+  idx: 88
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [悠月*, 弥一]
-  normalFor: [汪汪糖]
-- name: 艾草
-  idx: 209
+  betterFor: [夏鲁克, 提格雷*]
+  normalFor: []
+- name: 冬荫功汤
+  idx: 89
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [悠月*]
-  normalFor: [汪汪糖]
-- name: 羊羹
-  idx: 210
+  betterFor: [哈鲁巴*]
+  normalFor: []
+- name: 椰奶鱼汤
+  idx: 90
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [悠月*]
-  normalFor: [汪汪糖]
+  betterFor: [夏鲁克, 提格雷*]
+  normalFor: []
+- name: 鱼汤杂烩
+  idx: 91
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [夏鲁克]
+  normalFor: []
+- name: 土豆薄烤饼
+  idx: 92
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [费朗克, 海科特]
+- name: 蘑菇派
+  idx: 93
+  exist: "N"
+  gold: ""
+  big: ""
+  bestFor: [小女神大人]
+  betterFor: []
+  normalFor: []
+- name: 鱼派
+  idx: 94
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [马尔科]
+  normalFor: [布拉德, 卡里拉]
+- name: 烤番茄
+  idx: 95
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [米兰达]
+  normalFor: [诺艾尔, 密斯拉*]
+- name: 烤奶酪
+  idx: 96
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [丝特法妮, 布拉德]
+- name: 奶汁烤菜
+  idx: 97
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [莉雪特]
+  normalFor: [丝特法妮]
+- name: 法式咸派
+  idx: 98
+  exist: "N"
+  gold: ""
+  big: ""
+  bestFor: [莉雪特]
+  betterFor: []
+  normalFor: [丝特法妮]
+- name: 披萨
+  idx: 99
+  exist: "N"
+  gold: ""
+  big: ""
+  bestFor: [费朗克]
+  betterFor: []
+  normalFor: [卢迪斯, 丝特法妮]
+- name: 奶酪土豆
+  idx: 100
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [丝特法妮]
+- name: 玉米饼
+  idx: 101
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [海科特]
+  normalFor: [费朗克]
+- name: 炸薯条
+  idx: 102
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [费朗克]
+- name: 烤地瓜
+  idx: 103
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [心鞠, 小稻荷大小(男)*, 小稻荷大小(女)*, 丝特法妮, 辰巳, 弥一, 雏桃, 梅吉]
+- name: 烤蘑菇
+  idx: 104
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [小女神大人, 一徹]
+- name: 烤鱼
+  idx: 105
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [银次郎]
+  normalFor: [霞, 小稻荷大小(男)*, 小稻荷大小(女)*, 提格雷*, 哈鲁巴*, 森谷]
+- name: 照烧南瓜
+  idx: 106
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [银次郎]
+  normalFor: [丝特法妮]
+- name: 八宝菜
+  idx: 107
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [霞]
+- name: 御好烧
+  idx: 108
+  exist: "N"
+  gold: ""
+  big: ""
+  bestFor: [银次郎]
+  betterFor: []
+  normalFor: []
+- name: 金平牛蒡
+  idx: 109
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [霞]
+- name: 豆腐汉堡
+  idx: 110
+  exist: "N"
+  gold: ""
+  big: ""
+  bestFor: [日向]
+  betterFor: []
+  normalFor: [霞]
+- name: 饺子
+  idx: 111
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [银次郎]
+  normalFor: []
+- name: 三个蛋黄煎蛋
+  idx: 112
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [科林, 诺艾尔, 夏鲁克, 阿鲁玛, 雏桃]
+  normalFor: [提格雷*]
+- name: 烤海螺
+  idx: 113
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [扎哈, 卡里拉, 夏鲁克, 提格雷*, 托托塔拉]
+- name: 辣椒炒乌贼
+  idx: 114
+  exist: "N"
+  gold: ""
+  big: ""
+  bestFor: [哈鲁巴*]
+  betterFor: [卢迪斯]
+  normalFor: []
+- name: 蒸面包果
+  idx: 115
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [托托塔拉]
+  normalFor: []
+- name: 蔬菜冻
+  idx: 116
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [米兰达]
+- name: 干烧虾仁
+  idx: 117
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [卢迪斯, 米兰达, 银次郎]
+  normalFor: []
+- name: 酿番茄
+  idx: 118
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [米兰达]
+- name: 可乐饼
+  idx: 119
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [海科特]
+- name: 牛奶火锅
+  idx: 120
+  exist: "N"
+  gold: ""
+  big: ""
+  bestFor: [马尔科]
+  betterFor: []
+  normalFor: [卢迪斯]
+- name: 奶酪火锅
+  idx: 121
+  exist: "N"
+  gold: ""
+  big: ""
+  bestFor: [丝特法妮]
+  betterFor: []
+  normalFor: []
+- name: 白萝卜干
+  idx: 122
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [御美代]
+  normalFor: [梅吉, 银次郎]
+- name: 关东煮
+  idx: 123
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [日向, 霞, 雏桃, 银次郎]
+  normalFor: []
+- name: 炖煮南瓜
+  idx: 124
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [御美代]
+  normalFor: []
+- name: 炖煮土豆
+  idx: 125
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [悠月*, 静]
+- name: 水煮蛋
+  idx: 126
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [心鞠, 小稻荷大小(男)*, 小稻荷大小(女)*]
+- name: 茶碗蒸
+  idx: 127
+  exist: "N"
+  gold: ""
+  big: ""
+  bestFor: [御美代]
+  betterFor: []
+  normalFor: []
+- name: 炸鲶鱼
+  idx: 128
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [扎哈]
+- name: 甲鱼火锅
+  idx: 129
+  exist: "N"
+  gold: ""
+  big: ""
+  bestFor: [心鞠]
+  betterFor: []
+  normalFor: []
+- name: 河豚锅
+  idx: 130
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [心鞠]
+  normalFor: []
+- name: 味噌青花鱼
+  idx: 131
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [日向, 静, 银次郎]
+  normalFor: []
+- name: 炸虾
+  idx: 132
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [夏鲁克]
+- name: 年节菜
+  idx: 133
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [日向, 心鞠, 静, 森谷, 银次郎]
+  normalFor: []
+- name: 下野家例
+  idx: 134
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [一徹]
+  normalFor: []
+- name: 油豆腐
+  idx: 135
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [日向]
+- name: 馎饦
+  idx: 136
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [日向, 一徹, 辰巳, 弥一, 梅吉]
+  normalFor: []
+- name: 油炸豆腐
+  idx: 137
+  exist: "N"
+  gold: ""
+  big: ""
+  bestFor: [一徹]
+  betterFor: [静, 辰巳, 弥一, 梅吉, 御美代]
+  normalFor: []
+- name: 咸烹海味
+  idx: 138
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [霞, 马尔科, 扎哈, 卡里拉, 提格雷*]
+- name: 蔬菜锅
+  idx: 139
+  exist: "N"
+  gold: ""
+  big: ""
+  bestFor: [密斯拉*]
+  betterFor: []
+  normalFor: [费德, 科林]
+- name: 巴西炖鱼
+  idx: 140
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [托托塔拉]
+  normalFor: []
+- name: 萨莫萨三角饺
+  idx: 141
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [夏鲁克]
+  normalFor: []
+- name: 石头斑鱼锅
+  idx: 142
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [提格雷*]
+  normalFor: []
+- name: 鮟鱇鱼锅
+  idx: 143
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [提格雷*, 哈鲁巴*]
+  normalFor: []
+- name: 炸鱼肉饼
+  idx: 144
+  exist: "N"
+  gold: ""
+  big: ""
+  bestFor: [卢迪斯]
+  betterFor: [哈鲁巴*]
+  normalFor: [卡里拉]
+- name: 火上锅
+  idx: 145
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [费德]
+- name: 多利亚焗饭
+  idx: 146
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [韦恩, 布拉德]
+- name: 南瓜焗饭
+  idx: 147
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [弥一]
+  normalFor: []
+- name: 酸奶饭
+  idx: 148
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [罗塔斯*]
+- name: 白米饭
+  idx: 149
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [日向, 心鞠, 梅吉, 银次郎]
+  normalFor: [悠月*, 霞, 罗塔斯*]
+- name: 菜肉焖饭
+  idx: 150
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [一徹, 银次郎]
+  normalFor: []
 - name: 地瓜饭
-  idx: 211
+  idx: 151
   exist: "N"
   gold: ""
   big: ""
   betterFor: [悠月*, 心鞠]
   normalFor: [小稻荷大小(男)*, 小稻荷大小(女)*, 汪汪糖, 弥一, 雏桃]
 - name: 栗子饭
-  idx: 212
+  idx: 152
   exist: "N"
   gold: ""
   big: ""
   betterFor: [悠月*, 弥一]
-  normalFor: [心鞠, 小稻荷大小(男)*, 小稻荷大小(女)*, 汪汪糖]
-- name: 菠菜蛋汤
-  idx: 213
+  normalFor: [心鞠, 小稻荷大小(男)*, 小稻荷大小(女)*]
+- name: 蘑菇饭
+  idx: 153
   exist: "N"
   gold: ""
   big: ""
-  bestFor: [梅吉]
-  betterFor: [霞]
-  normalFor: [悠月*, 小稻荷大小(男)*, 小稻荷大小(女)*, 汪汪糖]
-- name: 炖煮土豆
-  idx: 214
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [悠月*, 汪汪糖, 静]
-- name: 大米烤薄饼
-  idx: 215
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [悠月*, 汪汪糖]
-- name: 布丁
-  idx: 216
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [悠月*, 汪汪糖, 科林, 诺艾尔, 凯丽, 夏鲁克, 阿鲁玛, 辰巳, 弥一, 雏桃]
-- name: 甜甜圈
-  idx: 217
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [悠月*, 汪汪糖, 诺艾尔, 凯丽, 夏鲁克, 阿鲁玛]
-- name: 可丽饼
-  idx: 218
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [悠月*, 汪汪糖, 凯丽, 阿鲁玛]
-- name: 水果蛋糕
-  idx: 219
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [希卡, 凯丽, 阿鲁玛, 雏桃]
-  normalFor: [悠月*, 汪汪糖]
-- name: 泡芙
-  idx: 220
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [悠月*, 汪汪糖]
-- name: 香草冰激凌
-  idx: 221
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [悠月*, 汪汪糖]
-- name: 法式千层酥
-  idx: 222
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [凯丽, 雏桃]
-  normalFor: [悠月*, 汪汪糖]
-- name: 绿茶
-  idx: 223
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [霞, 一徹, 梅吉, 御美代, 银次郎]
-  normalFor: [悠月*, 心鞠, 汪汪糖, 辰巳, 森谷]
-- name: 梅子茶
-  idx: 224
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [心鞠, 梅吉, 御美代]
-  normalFor: [悠月*, 霞, 小稻荷大小(男)*, 小稻荷大小(女)*, 汪汪糖, 密斯拉*, 静]
-- name: 冰糖姜水
-  idx: 225
+  betterFor: [日向]
+  normalFor: [御美代]
+- name: 炒饭
+  idx: 154
   exist: "N"
   gold: ""
   big: ""
   betterFor: [银次郎]
-  normalFor: [悠月*, 霞, 汪汪糖]
-- name: 红瞿麦
-  idx: 226
+  normalFor: []
+- name: 鳗鱼盖饭
+  idx: 155
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [静, 雏桃, 御美代]
-  normalFor: [悠月*, 莉雪特, 汪汪糖]
-- name: 法式咸派
-  idx: 227
+  betterFor: [静, 银次郎]
+  normalFor: []
+- name: 新香卷
+  idx: 156
   exist: "N"
   gold: ""
   big: ""
-  bestFor: [莉雪特]
-  betterFor: []
-  normalFor: [丝特法妮, 汪汪糖]
-- name: 滨海珍珠菜
-  idx: 228
+  betterFor: [梅吉]
+  normalFor: [小稻荷大小(男)*, 小稻荷大小(女)*]
+- name: 散寿司
+  idx: 157
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [莉雪特, 阿鲁玛]
-  normalFor: [汪汪糖, 凯丽]
-- name: 桃子
-  idx: 229
+  betterFor: [日向, 悠月*]
+  normalFor: []
+- name: 鲷鱼茶泡饭
+  idx: 158
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [莉雪特, 汪汪糖]
-  normalFor: [小魔女大人*]
-- name: 桃子果酱
-  idx: 230
+  betterFor: [日向, 霞, 御美代]
+  normalFor: []
+- name: 紫苏饭团
+  idx: 159
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [莉雪特, 希卡, 小魔女大人*, 雏桃]
-  normalFor: [优卡, 汪汪糖, 凯丽, 布拉德]
-- name: 奶汁烤菜
-  idx: 231
+  betterFor: [辰巳]
+  normalFor: []
+- name: 粽子
+  idx: 160
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [莉雪特]
-  normalFor: [丝特法妮, 汪汪糖]
-- name: 桃子茶
-  idx: 232
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [莉雪特, 小魔女大人*, 雏桃]
-  normalFor: [汪汪糖]
-- name: 曼珠沙华
-  idx: 233
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [莉雪特, 汪汪糖, 诺艾尔]
-- name: 饲料叶
-  idx: 234
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [莉雪特, 汪汪糖]
-- name: 月夜夜想曲
-  idx: 235
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [托托塔拉]
-  normalFor: [莉雪特, 汪汪糖]
-- name: 甲鱼火锅
-  idx: 236
-  exist: "N"
-  gold: ""
-  big: ""
-  bestFor: [心鞠]
-  betterFor: []
-  normalFor: [汪汪糖]
-- name: 芥末
-  idx: 237
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [心鞠, 银次郎]
-  normalFor: [丝特法妮, 汪汪糖]
-- name: 铃铛
-  idx: 238
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [心鞠]
-  normalFor: [汪汪糖]
-- name: 豆腐皮
-  idx: 239
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [心鞠, 一徹, 梅吉, 御美代]
-  normalFor: [霞, 汪汪糖]
-- name: 河豚锅
-  idx: 240
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [心鞠]
-  normalFor: [汪汪糖]
-- name: 腌萝卜
-  idx: 241
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [心鞠, 霞, 银次郎]
-  normalFor: [汪汪糖, 一徹, 森谷]
-- name: 梅子
-  idx: 242
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [心鞠]
-  normalFor: [汪汪糖]
-- name: 地瓜
-  idx: 243
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [汪汪糖]
-  normalFor: [心鞠, 海科特, 科林, 梅吉]
-- name: 水煮蛋
-  idx: 244
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [心鞠, 小稻荷大小(男)*, 小稻荷大小(女)*, 汪汪糖]
-- name: 烤地瓜
-  idx: 245
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [心鞠, 丝特法妮, 汪汪糖, 辰巳, 雏桃]
-- name: 胡萝卜汁
-  idx: 246
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [梅根]
-  normalFor: [心鞠, 汪汪糖, 米兰达, 密斯拉*]
-- name: 日式杂烩汤
-  idx: 247
-  exist: "N"
-  gold: ""
-  big: ""
-  bestFor: [霞]
   betterFor: [一徹]
-  normalFor: [汪汪糖]
-- name: 抹茶
-  idx: 248
+  normalFor: []
+- name: 粥
+  idx: 161
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [霞, 静]
-  normalFor: [汪汪糖, 密斯拉*, 森谷, 梅吉]
-- name: 蘑菇汤
-  idx: 249
+  betterFor: [梅吉, 御美代]
+  normalFor: []
+- name: 蛋浇饭
+  idx: 162
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [霞, 御美代]
-  normalFor: [汪汪糖]
-- name: 红小豆糯米饭
-  idx: 250
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [霞, 御美代]
-  normalFor: [汪汪糖]
-- name: 高汤
-  idx: 251
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [霞, 汪汪糖]
-- name: 清汤
-  idx: 252
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [霞, 汪汪糖]
-- name: 蘑菇
-  idx: 253
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [霞, 汪汪糖]
-- name: 烤鱼
-  idx: 254
+  betterFor: [日向]
+  normalFor: []
+- name: 金枪鱼紫菜寿司卷
+  idx: 163
   exist: "N"
   gold: ""
   big: ""
   betterFor: [银次郎]
-  normalFor: [霞, 小稻荷大小(男)*, 小稻荷大小(女)*, 汪汪糖, 提格雷*, 哈鲁巴*, 森谷]
-- name: 咸烹海味
-  idx: 255
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [霞, 汪汪糖, 马尔科, 扎哈, 卡里拉, 提格雷*]
-- name: 八宝菜
-  idx: 256
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [霞, 汪汪糖]
-- name: 金平牛蒡
-  idx: 257
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [霞, 汪汪糖]
-- name: 切蒲英
-  idx: 258
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [霞, 汪汪糖, 密斯拉*]
+  normalFor: []
 - name: 油豆腐寿司
-  idx: 259
+  idx: 164
   exist: "N"
   gold: ""
   big: ""
   bestFor: [小稻荷大小(男)*, 小稻荷大小(女)*]
   betterFor: [弥一]
-  normalFor: [霞, 汪汪糖]
-- name: 茶粥
-  idx: 260
+  normalFor: [霞]
+- name: 红小豆糯米饭
+  idx: 165
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [梅吉, 御美代]
-  normalFor: [霞, 汪汪糖]
-- name: 草粥
-  idx: 261
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [梅吉, 御美代]
-  normalFor: [霞, 汪汪糖]
-- name: 夏威夷米饭汉堡
-  idx: 262
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [霞, 汪汪糖]
-- name: 菠萝面包
-  idx: 263
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [霞, 汪汪糖]
-- name: 蜂蜜蛋糕
-  idx: 264
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [辰巳, 弥一, 森谷, 雏桃]
-  normalFor: [霞, 小稻荷大小(男)*, 小稻荷大小(女)*, 汪汪糖]
-- name: 紫苏汁
-  idx: 265
-  exist: "N"
-  gold: ""
-  big: ""
-  bestFor: [辰巳]
-  betterFor: [静, 弥一]
-  normalFor: [霞, 小稻荷大小(男)*, 小稻荷大小(女)*, 汪汪糖, 梅根]
-- name: 南国奶茶
-  idx: 266
-  exist: "N"
-  gold: ""
-  big: ""
-  bestFor: [优卡]
-  betterFor: []
-  normalFor: [汪汪糖]
-- name: 茶叶
-  idx: 267
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [优卡]
-  normalFor: [汪汪糖, 哈鲁巴*, 托托塔拉]
-- name: 所有冷饮
-  idx: 268
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [优卡]
+  betterFor: [霞, 御美代]
   normalFor: []
-- name: 热带果汁
-  idx: 269
+- name: 茶粥
+  idx: 166
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [优卡, 阿鲁玛]
-  normalFor: [汪汪糖]
-- name: 苹果汁
-  idx: 270
+  betterFor: [梅吉, 御美代]
+  normalFor: [霞]
+- name: 杂炊饭
+  idx: 167
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [优卡]
-  normalFor: [汪汪糖, 小魔女大人*]
-- name: 樱桃果酱
-  idx: 271
+  betterFor: [御美代, 银次郎]
+  normalFor: []
+- name: 草粥
+  idx: 168
   exist: "N"
   gold: ""
   big: ""
-  betterFor: []
-  normalFor: [优卡, 汪汪糖, 米兰达, 布拉德]
-- name: 杏子果酱
-  idx: 272
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [优卡, 汪汪糖, 凯丽, 布拉德]
-- name: 菠萝果酱
-  idx: 273
+  betterFor: [梅吉, 御美代]
+  normalFor: [霞]
+- name: 咖喱饭
+  idx: 169
   exist: "N"
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [优卡, 汪汪糖, 布拉德, 夏鲁克]
-- name: 草莓果酱
-  idx: 274
+  normalFor: [卢迪斯]
+- name: 辣咖喱
+  idx: 170
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [雏桃]
-  normalFor: [优卡, 汪汪糖, 米兰达, 诺艾尔, 布拉德]
-- name: 苹果果酱
-  idx: 275
+  betterFor: [银次郎]
+  normalFor: []
+- name: 西非风鲷鱼饭
+  idx: 171
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [雏桃]
-  normalFor: [优卡, 汪汪糖, 布拉德]
+  bestFor: [提格雷*]
+  betterFor: [托托塔拉]
+  normalFor: [卡里拉, 夏鲁克]
+- name: 印度鸡肉饭
+  idx: 172
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [卢迪斯]
+- name: 阿拉伯马克鲁巴饭
+  idx: 173
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [提格雷*]
+  normalFor: []
+- name: 夏威夷米饭汉堡
+  idx: 174
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [霞]
+- name: 海鲜拌饭
+  idx: 175
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [哈鲁巴*, 银次郎]
+  normalFor: []
+- name: 面包
+  idx: 176
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [布拉德, 罗塔斯*]
+- name: 土豆面包
+  idx: 177
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [海科特]
+- name: 玉米面包
+  idx: 178
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [布拉德]
+- name: 蔬菜面包
+  idx: 179
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [梅根, 海科特]
+- name: 法国吐司
+  idx: 180
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [凯丽]
+  normalFor: [诺艾尔]
+- name: 酸奶面包
+  idx: 181
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [罗塔斯*]
+  normalFor: []
+- name: 罗勒奶酪面包
+  idx: 182
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [丝特法妮]
+- name: 菠萝面包
+  idx: 183
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [霞]
+- name: 奶酪通心粉
+  idx: 184
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [丝特法妮]
+- name: 火腿蛋吐司
+  idx: 185
+  exist: "N"
+  gold: ""
+  big: ""
+  bestFor: [米兰达]
+  betterFor: []
+  normalFor: []
+- name: 红豆包
+  idx: 186
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [日向, 辰巳, 弥一, 雏桃]
+  normalFor: [诺艾尔, 夏鲁克, 阿鲁玛]
+- name: 章鱼意面
+  idx: 187
+  exist: E
+  gold: ""
+  big: ""
+  bestFor: [夏鲁克]
+  betterFor: []
+  normalFor: [小魔女大人*]
+- name: 馕饼
+  idx: 188
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [罗塔斯*]
+  normalFor: []
+- name: 皮塔饼
+  idx: 189
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [托托塔拉]
+  normalFor: []
+- name: 夏威夷细面汤
+  idx: 190
+  exist: "N"
+  gold: ""
+  big: ""
+  bestFor: [扎哈]
+  betterFor: []
+  normalFor: []
+- name: 木薯糍粑
+  idx: 191
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [托托塔拉]
+  normalFor: []
 - name: 热带三明治
-  idx: 276
+  idx: 192
   exist: "N"
   gold: ""
   big: ""
   bestFor: [希卡]
   betterFor: [阿鲁玛]
-  normalFor: [汪汪糖]
-- name: 水果酸奶
-  idx: 277
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [希卡]
-  normalFor: [汪汪糖]
-- name: 水果酸奶冰
-  idx: 278
-  exist: "N"
-  gold: ""
-  big: ""
-  bestFor: [汪汪糖, 汪汪糖]
-  betterFor: [希卡, 罗塔斯*]
-  normalFor: [汪汪糖]
-- name: 水果宾治
-  idx: 279
-  exist: "N"
-  gold: ""
-  big: ""
-  bestFor: [阿鲁玛]
-  betterFor: [希卡, 凯丽, 雏桃]
-  normalFor: [汪汪糖]
-- name: 桃子馅饼
-  idx: 280
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [希卡, 小魔女大人*]
-  normalFor: [汪汪糖]
-- name: 柠檬馅饼
-  idx: 281
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [希卡]
-  normalFor: [汪汪糖, 罗塔斯*]
-- name: 各种冷饮
-  idx: 282
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [希卡]
   normalFor: []
-- name: 和食
-  idx: 283
+- name: 海鲜意面
+  idx: 193
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [小稻荷大小(男)*]
-  normalFor: [汪汪糖]
-- name: 和果子
-  idx: 284
+  betterFor: [扎哈]
+  normalFor: []
+- name: 意式香辣面
+  idx: 194
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [小稻荷大小(男)*]
-  normalFor: [汪汪糖]
-- name: 黍团子
-  idx: 285
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [小稻荷大小(男)*, 小稻荷大小(女)*, 辰巳, 弥一]
-  normalFor: [汪汪糖, 御美代]
-- name: 糯米
-  idx: 286
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [小稻荷大小(男)*]
-  normalFor: [汪汪糖]
-- name: 水稻
-  idx: 287
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [小稻荷大小(男)*]
-  normalFor: [汪汪糖]
-- name: 烤红薯
-  idx: 288
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [小稻荷大小(男)*, 小稻荷大小(女)*, 汪汪糖, 弥一]
-- name: 新香卷
-  idx: 289
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [梅吉]
-  normalFor: [小稻荷大小(男)*, 小稻荷大小(女)*, 汪汪糖]
-- name: 奶酪火锅
-  idx: 290
-  exist: "N"
-  gold: ""
-  big: ""
-  bestFor: [丝特法妮]
-  betterFor: []
-  normalFor: [汪汪糖]
-- name: 葡萄酒
-  idx: 291
-  exist: "N"
-  gold: ""
-  big: ""
-  bestFor: [布拉德]
-  betterFor: [丝特法妮, 费朗克]
-  normalFor: [汪汪糖, 马尔科]
-- name: 极品奶酪
-  idx: 292
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [丝特法妮, 费朗克]
-  normalFor: [汪汪糖]
-- name: 南瓜
-  idx: 293
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [丝特法妮, 汪汪糖]
-- name: 椰子汤
-  idx: 294
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [丝特法妮, 汪汪糖]
-- name: 烤奶酪
-  idx: 295
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [丝特法妮, 汪汪糖, 布拉德]
-- name: 奶酪土豆
-  idx: 296
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [丝特法妮, 汪汪糖]
-- name: 照烧南瓜
-  idx: 297
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [银次郎]
-  normalFor: [丝特法妮, 汪汪糖]
-- name: 罗勒奶酪面包
-  idx: 298
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [丝特法妮, 汪汪糖]
-- name: 奶酪通心粉
-  idx: 299
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [丝特法妮, 汪汪糖]
+  betterFor: [米兰达]
+  normalFor: []
 - name: 甘薯点心
-  idx: 300
+  idx: 195
   exist: "N"
   gold: ""
   big: ""
   betterFor: []
   normalFor: [丝特法妮, 汪汪糖, 费朗克, 凯丽, 托托塔拉]
+- name: 可丽饼
+  idx: 196
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [悠月*, 凯丽, 阿鲁玛]
+- name: 桃子馅饼
+  idx: 197
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [希卡, 小魔女大人*]
+  normalFor: []
+- name: 苹果派
+  idx: 198
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [凯丽]
+  normalFor: []
+- name: 酸奶派
+  idx: 199
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [罗塔斯*]
+  normalFor: []
+- name: 蔬菜蛋糕
+  idx: 200
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [凯丽]
+  normalFor: [海科特]
+- name: 热香饼
+  idx: 201
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [诺艾尔, 凯丽]
+- name: 巧克力曲奇
+  idx: 202
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [韦恩]
+  normalFor: []
+- name: 杏仁曲奇
+  idx: 203
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [诺艾尔]
+  normalFor: [日向]
 - name: 奶酪蛋糕
-  idx: 301
+  idx: 204
   exist: "N"
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [丝特法妮, 汪汪糖, 凯丽, 布拉德]
-- name: 卷心菜
-  idx: 302
+  normalFor: [丝特法妮, 凯丽, 布拉德]
+- name: 布丁
+  idx: 205
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [汪汪糖, 布拉德]
+  betterFor: []
+  normalFor: [悠月*, 科林, 诺艾尔, 凯丽, 夏鲁克, 阿鲁玛, 辰巳, 弥一, 雏桃]
+- name: 南瓜补丁
+  idx: 206
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [弥一]
   normalFor: []
-- name: 黄瓜
-  idx: 303
+- name: 杏仁奶糖
+  idx: 207
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [汪汪糖]
+  bestFor: [诺艾尔]
+  betterFor: []
+  normalFor: [日向]
+- name: 南瓜冰激凌
+  idx: 208
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [科林]
+- name: 巧克力冰激凌
+  idx: 209
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [凯丽]
+  normalFor: []
+- name: 甜甜圈
+  idx: 210
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [悠月*, 诺艾尔, 凯丽, 夏鲁克, 阿鲁玛]
+- name: 苹果果酱
+  idx: 211
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [雏桃]
+  normalFor: [优卡, 布拉德]
+- name: 枫糖
+  idx: 212
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
   normalFor: [费朗克]
-- name: 紫苏
+- name: 牛奶鸡蛋派
+  idx: 213
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [诺艾尔]
+- name: 爆米花
+  idx: 214
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [夏鲁克]
+  normalFor: [费朗克, 凯丽]
+- name: 甜果派
+  idx: 215
+  exist: "N"
+  gold: ""
+  big: ""
+  bestFor: [凯丽]
+  betterFor: []
+  normalFor: []
+- name: 大型花式蛋糕
+  idx: 216
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [雏桃]
+  normalFor: []
+- name: 大米烤薄饼
+  idx: 217
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [悠月*]
+- name: 豆浆布丁
+  idx: 218
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [静, 辰巳, 弥一, 御美代]
+  normalFor: []
+- name: 香草冰激凌
+  idx: 219
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [悠月*]
+- name: 豆馅糯米饼
+  idx: 220
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [御美代]
+  normalFor: []
+- name: 大福
+  idx: 221
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [日向, 悠月*, 小稻荷大小(男)*, 小稻荷大小(女)*, 辰巳, 弥一]
+  normalFor: [森谷, 雏桃]
+- name: 青草团子
+  idx: 222
+  exist: "N"
+  gold: ""
+  big: ""
+  bestFor: [悠月*]
+  betterFor: [小稻荷大小(男)*, 梅吉]
+  normalFor: [御美代]
+- name: 和式糯米团
+  idx: 223
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [日向, 悠月*, 小稻荷大小(男)*, 小稻荷大小(女)*, 弥一, 雏桃]
+  normalFor: []
+- name: 黍团子
+  idx: 224
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [小稻荷大小(男)*, 小稻荷大小(女)*, 辰巳, 弥一]
+  normalFor: [御美代]
+- name: 仙贝
+  idx: 225
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [一徹]
+  normalFor: [辰巳]
+- name: 铜锣烧
+  idx: 226
+  exist: "N"
+  gold: ""
+  big: ""
+  bestFor: [弥一]
+  betterFor: [日向, 辰巳, 雏桃]
+  normalFor: []
+- name: 羊羹
+  idx: 227
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [悠月*]
+  normalFor: []
+- name: 糖汁刨冰
+  idx: 228
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [雏桃]
+  normalFor: []
+- name: 草莓牛奶刨冰
+  idx: 229
+  exist: "N"
+  gold: ""
+  big: ""
+  bestFor: [雏桃]
+  betterFor: [凯丽]
+  normalFor: []
+- name: 蜂蜜蛋糕
+  idx: 230
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [辰巳, 弥一, 森谷, 雏桃]
+  normalFor: [霞, 小稻荷大小(男)*, 小稻荷大小(女)*]
+- name: 水果宾治
+  idx: 231
+  exist: "N"
+  gold: ""
+  big: ""
+  bestFor: [阿鲁玛]
+  betterFor: [希卡, 凯丽, 雏桃]
+  normalFor: []
+- name: 菠萝蛋糕
+  idx: 232
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [夏鲁克]
+  normalFor: []
+- name: 柠檬馅饼
+  idx: 233
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [希卡]
+  normalFor: [罗塔斯*]
+- name: 奶汁焗水果
+  idx: 234
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [希卡, 凯丽, 托托塔拉]
+  normalFor: []
+- name: 油炸甜甜圈
+  idx: 235
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [夏鲁克, 弥一]
+  normalFor: [阿鲁玛]
+- name: 草莓冰激凌
+  idx: 236
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [夏鲁克, 阿鲁玛, 雏桃]
+  normalFor: []
+- name: 菠萝冰激凌
+  idx: 237
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [夏鲁克, 阿鲁玛]
+  normalFor: [小魔女大人*]
+- name: 桃子冰激凌
+  idx: 238
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [阿鲁玛, 小魔女大人*, 雏桃]
+  normalFor: []
+- name: 樱桃冰激凌
+  idx: 239
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [雏桃]
+  normalFor: []
+- name: 香蕉冰激凌
+  idx: 240
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [卢迪斯]
+  normalFor: []
+- name: 苹果冰激凌
+  idx: 241
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [日向]
+- name: 蓝莓冰激凌
+  idx: 242
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [罗塔斯*]
+- name: 柠檬冰激凌
+  idx: 243
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [罗塔斯*]
+- name: 椰果
+  idx: 244
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [罗塔斯*, 托托塔拉]
+  normalFor: [小魔女大人*, 静, 御美代]
+- name: 芦荟酸奶
+  idx: 245
+  exist: "N"
+  gold: ""
+  big: ""
+  bestFor: [罗塔斯*]
+  betterFor: [静]
+  normalFor: []
+- name: 奶糕
+  idx: 246
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [诺艾尔]
+  normalFor: []
+- name: 香蕉椰奶汤
+  idx: 247
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [夏鲁克, 阿鲁玛]
+  normalFor: []
+- name: 酸奶冰激凌
+  idx: 248
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [阿鲁玛, 罗塔斯*]
+  normalFor: []
+- name: 巧克力火锅
+  idx: 249
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [凯丽, 雏桃]
+  normalFor: []
+- name: 马卡龙
+  idx: 250
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [凯丽]
+  normalFor: []
+- name: 蒙布朗
+  idx: 251
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [弥一]
+  normalFor: []
+- name: 水果蛋糕
+  idx: 252
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [希卡, 凯丽, 阿鲁玛, 雏桃]
+  normalFor: [悠月*]
+- name: 法式千层酥
+  idx: 253
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [凯丽, 雏桃]
+  normalFor: [悠月*]
+- name: 泡芙
+  idx: 254
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [悠月*]
+- name: 松糕
+  idx: 255
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [凯丽]
+- name: 果仁千层酥
+  idx: 256
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [诺艾尔]
+  normalFor: []
+- name: 番茄汁
+  idx: 257
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [梅根]
+  normalFor: [费德, 心鞠, 米兰达]
+- name: 胡萝卜汁
+  idx: 258
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [梅根]
+  normalFor: [心鞠, 米兰达, 密斯拉*]
+- name: 苹果汁
+  idx: 259
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [优卡]
+  normalFor: [小魔女大人*]
+- name: 桃子茶
+  idx: 260
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [莉雪特, 小魔女大人*, 雏桃]
+  normalFor: []
+- name: 樱桃茶
+  idx: 261
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [雏桃]
+  normalFor: []
+- name: 香草茶
+  idx: 262
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [哈鲁巴*]
+- name: 奶茶
+  idx: 263
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [韦恩]
+- name: 卡布奇诺
+  idx: 264
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [韦恩]
+  normalFor: []
+- name: 摩卡咖啡
+  idx: 265
+  exist: E
+  gold: ""
+  big: ""
+  bestFor: [韦恩]
+  betterFor: []
+  normalFor: []
+- name: 咖啡
+  idx: 266
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [韦恩, 费德]
+  normalFor: [布拉德, 马尔科, 森谷]
+- name: 热牛奶
+  idx: 267
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [弥一]
+  normalFor: [凯丽, 布拉德]
+- name: 蔬菜汁
+  idx: 268
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [梅根]
+  normalFor: [费德]
+- name: 紫苏汁
+  idx: 269
+  exist: "N"
+  gold: ""
+  big: ""
+  bestFor: [辰巳]
+  betterFor: [静, 弥一]
+  normalFor: [霞, 小稻荷大小(男)*, 小稻荷大小(女)*, 梅根]
+- name: 抹茶
+  idx: 270
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [霞, 静]
+  normalFor: [密斯拉*, 森谷, 梅吉]
+- name: 甜米酒
+  idx: 272
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [心鞠, 费朗克, 布拉德, 静, 御美代]
+  normalFor: [日向, 霞, 马尔科]
+- name: 梅子茶
+  idx: 273
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [心鞠, 梅吉, 御美代]
+  normalFor: [悠月*, 霞, 小稻荷大小(男)*, 小稻荷大小(女)*, 密斯拉*, 静]
+- name: 冰糖姜水
+  idx: 274
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [银次郎]
+  normalFor: [悠月*, 霞]
+- name: 樱桃桃子调饮
+  idx: 275
+  exist: "N"
+  gold: ""
+  big: ""
+  bestFor: [小魔女大人*]
+  betterFor: [雏桃]
+  normalFor: []
+- name: 浆果调饮
+  idx: 276
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [凯丽]
+  normalFor: []
+- name: 水果酸奶冰
+  idx: 277
+  exist: "N"
+  gold: ""
+  big: ""
+  bestFor: [汪汪糖]
+  betterFor: [希卡, 罗塔斯*]
+  normalFor: []
+- name: 蔬菜酸奶冰
+  idx: 278
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [梅根]
+  normalFor: []
+- name: 椰子牛奶
+  idx: 279
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [托托塔拉]
+  normalFor: [夏鲁克, 阿鲁玛]
+- name: 热带果汁
+  idx: 280
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [优卡, 阿鲁玛]
+  normalFor: []
+- name: 南国奶茶
+  idx: 281
+  exist: "N"
+  gold: ""
+  big: ""
+  bestFor: [优卡]
+  betterFor: []
+  normalFor: []
+- name: 洛神花茶
+  idx: 282
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [托托塔拉]
+- name: 拉西酪乳
+  idx: 283
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [罗塔斯*]
+  normalFor: []
+- name: 黄油
+  idx: 284
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [费朗克]
+  normalFor: [马尔科]
+- name: 小麦粉
+  idx: 285
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [布拉德]
+- name: 大米
+  idx: 286
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [心鞠, 银次郎]
+  normalFor: []
+- name: 盐
+  idx: 287
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [布拉德]
+- name: 红色布
+  idx: 288
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [诺艾尔]
+  normalFor: [海科特, 米兰达, 布拉德, 马尔科]
+- name: 黄色布
+  idx: 289
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [莉雪特, 布拉德, 马尔科]
+- name: 绿色布
+  idx: 290
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [莉雪特, 布拉德, 马尔科]
+- name: 星鳗
+  idx: 291
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [提格雷*]
+- name: 沙丁鱼
+  idx: 292
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [扎哈, 卡里拉]
+  normalFor: [夏鲁克, 提格雷*]
+- name: 鲽鱼
+  idx: 293
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [马尔科]
+  normalFor: [夏鲁克]
+- name: 青花鱼
+  idx: 294
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [扎哈]
+  normalFor: [夏鲁克, 提格雷*]
+- name: 秋刀鱼
+  idx: 295
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [扎哈, 卡里拉]
+  normalFor: [夏鲁克, 提格雷*]
+- name: 小龙虾
+  idx: 296
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [扎哈]
+  normalFor: [提格雷*]
+- name: 鲷鱼
+  idx: 297
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [心鞠, 森谷, 银次郎]
+  normalFor: [提格雷*]
+- name: 乌尾鮗
+  idx: 298
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [扎哈]
+  normalFor: [夏鲁克, 提格雷*]
+- name: 带鱼
+  idx: 299
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [扎哈, 提格雷*]
+  normalFor: [马尔科, 夏鲁克]
+- name: 飞鱼
+  idx: 300
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [扎哈]
+  normalFor: [提格雷*]
+- name: 虹鳟
+  idx: 301
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [马尔科, 鹰]
+  normalFor: []
+- name: 虾虎鱼
+  idx: 302
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [马尔科]
+  normalFor: [扎哈]
+- name: 红鳟
+  idx: 303
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [马尔科]
+  normalFor: []
+- name: 黑鲈鱼
   idx: 304
-  exist: "N"
+  exist: E
   gold: ""
   big: ""
-  betterFor: [汪汪糖]
+  betterFor: [马尔科]
   normalFor: []
-- name: 白菜
+- name: 蓝鳃太阳鱼
   idx: 305
-  exist: "N"
+  exist: E
   gold: ""
   big: ""
-  betterFor: [汪汪糖, 密斯拉*]
+  betterFor: [马尔科]
   normalFor: []
-- name: 苹果
+- name: 鳕鱼
   idx: 306
-  exist: "N"
+  exist: E
   gold: ""
   big: ""
-  betterFor: [汪汪糖, 科林, 布拉德]
-  normalFor: [费朗克, 海科特, 凯丽]
-- name: 柿子
+  betterFor: [提格雷*]
+  normalFor: []
+- name: 鲻鱼
   idx: 307
-  exist: "N"
+  exist: E
   gold: ""
   big: ""
-  betterFor: [汪汪糖]
+  betterFor: [马尔科]
   normalFor: []
-- name: 极品乳类加工品
+- name: 白鲈
   idx: 308
-  exist: "N"
+  exist: E
   gold: ""
   big: ""
-  betterFor: [汪汪糖]
+  betterFor: [马尔科]
   normalFor: []
-- name: 樱桃
+- name: 鳟鱼
   idx: 309
-  exist: "N"
+  exist: E
   gold: ""
   big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 费朗克, 米兰达, 凯丽]
-- name: 枫糖浆
+  betterFor: [马尔科]
+  normalFor: []
+- name: 鱿鱼
   idx: 310
-  exist: "N"
+  exist: E
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [汪汪糖, 米兰达]
-- name: 乳制品
+  normalFor: [提格雷*]
+- name: 章鱼
   idx: 311
-  exist: "N"
+  exist: E
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [汪汪糖]
-- name: 骨胶
+  normalFor: [扎哈, 夏鲁克, 提格雷*, 小魔女大人*]
+- name: 花蛤
   idx: 312
-  exist: "N"
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [卡里拉]
+  normalFor: [马尔科, 扎哈, 夏鲁克]
+- name: 角蝾螺
+  idx: 313
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [卡里拉]
+  normalFor: [夏鲁克]
+- name: 蚬贝
+  idx: 314
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [卡里拉]
+  normalFor: [夏鲁克]
+- name: 扇贝
+  idx: 315
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [卡里拉]
+  normalFor: [扎哈, 夏鲁克]
+- name: 海胆
+  idx: 316
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [扎哈, 卡里拉]
+  normalFor: [马尔科, 夏鲁克, 提格雷*]
+- name: 钓饵
+  idx: 317
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [卢迪斯, 夏鲁克, 提格雷*, 哈鲁巴*]
+- name: 金闪闪肥料
+  idx: 318
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [费朗克, 梅根, 海科特, 梅吉]
+- name: 宠物饲料
+  idx: 319
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [费朗克, 哈鲁巴*, 托托塔拉, 小魔女大人*]
+- name: 鸡饲料
+  idx: 320
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [费朗克, 小魔女大人*]
+- name: 骨胶
+  idx: 321
+  exist: E
   gold: ""
   big: ""
   betterFor: []
   normalFor: [汪汪糖]
+- name: 铃铛
+  idx: 322
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [心鞠]
+  normalFor: [汪汪糖]
+- name: 鱼笼
+  idx: 323
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [扎哈]
+  normalFor: []
+- name: 松茸
+  idx: 324
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [日向]
+  normalFor: []
+- name: 薄荷
+  idx: 325
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [莉雪特, 优卡, 希卡, 布拉德]
+- name: 甘菊
+  idx: 326
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [小女神大人]
+- name: 薰衣草
+  idx: 327
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [小女神大人]
+- name: 芦荟
+  idx: 328
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [日向, 莉雪特, 优卡, 希卡, 梅根, 布拉德, 小女神大人]
+- name: 核桃
+  idx: 329
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [科林, 布拉德]
+- name: 杏子
+  idx: 330
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [悠月*, 霞, 希卡, 梅根, 科林, 米兰达, 诺艾尔, 凯丽, 弥一, 雏桃, 梅吉, 御美代]
+- name: 李子
+  idx: 331
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [梅根, 科林, 米兰达, 诺艾尔, 凯丽, 布拉德, 阿鲁玛]
+- name: 鳄梨
+  idx: 332
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [日向, 莉雪特, 夏鲁克]
+- name: 香草
+  idx: 333
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [费德, 优卡, 希卡]
+  normalFor: [韦恩, 莉雪特]
+- name: 软树枝
+  idx: 334
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [卢迪斯, 汪汪糖]
+- name: 硬树枝
+  idx: 335
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [卢迪斯, 汪汪糖]
+- name: 松树枝
+  idx: 336
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [卢迪斯, 悠月*, 静]
+- name: 黑树枝
+  idx: 337
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [卢迪斯, 汪汪糖]
+- name: 银杏树枝
+  idx: 338
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [卢迪斯, 悠月*]
+- name: 竹子
+  idx: 339
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [悠月*]
+- name: 竹
+  idx: 340
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [静]
+- name: 枫树
+  idx: 341
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [悠月*]
+- name: 小木材
+  idx: 342
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [卢迪斯]
+  normalFor: []
+- name: 木材
+  idx: 343
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [卢迪斯]
+  normalFor: []
+- name: 黑木材
+  idx: 344
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [卢迪斯]
+  normalFor: []
+- name: 闪闪发光的石头
+  idx: 345
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [阿鲁玛]
+- name: 玻璃石头
+  idx: 346
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [阿鲁玛]
+- name: 钻石
+  idx: 347
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [莉雪特]
+- name: 祖母绿
+  idx: 348
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [莉雪特]
+  normalFor: []
+- name: 萤石
+  idx: 349
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [静]
+- name: 精金
+  idx: 350
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [日向]
+- name: 白金
+  idx: 351
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [森谷]
+  normalFor: []
+- name: 粉钻
+  idx: 352
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [森谷]
+  normalFor: []
+- name: 贤者之石
+  idx: 353
+  exist: E
+  gold: ""
+  big: ""
+  bestFor: [森谷]
+  betterFor: []
+  normalFor: []
+- name: 硬币
+  idx: 354
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [密斯拉*]
+  normalFor: [韦恩, 卢迪斯, 夏鲁克, 罗塔斯*]
+- name: 生锈的硬币
+  idx: 355
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [密斯拉*]
+  normalFor: [夏鲁克, 罗塔斯*]
+- name: 闪亮的硬币
+  idx: 356
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [密斯拉*]
+  normalFor: [夏鲁克, 罗塔斯*]
+- name: 月落草
+  idx: 357
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [优卡, 希卡, 海科特, 科林, 凯丽, 小女神大人, 阿鲁玛, 托托塔拉, 雏桃]
+- name: 魔术红草
+  idx: 358
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [米兰达]
+- name: 魔术蓝草
+  idx: 359
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [优卡, 希卡, 凯丽]
+- name: 团扇仙人掌
+  idx: 360
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [韦恩, 凯丽]
+- name: 桃红色羽扇豆
+  idx: 361
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [优卡, 希卡, 海科特, 米兰达, 诺艾尔, 凯丽, 小女神大人, 阿鲁玛, 托托塔拉]
+- name: 淡紫色羽扇豆
+  idx: 362
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [静]
+  normalFor: [凯丽, 阿鲁玛, 托托塔拉, 雏桃, 御美代]
+- name: 紫阳花
+  idx: 363
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [莉雪特, 静]
+  normalFor: [小女神大人, 雏桃]
+- name: 马蹄莲
+  idx: 364
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [阿鲁玛]
+  normalFor: [莉雪特, 优卡, 希卡, 凯丽, 卡里拉, 托托塔拉]
+- name: 滨海珍珠菜
+  idx: 365
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [莉雪特, 阿鲁玛]
+  normalFor: [凯丽]
+- name: 单叶蔓荆
+  idx: 366
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [优卡, 阿鲁玛]
+  normalFor: [莉雪特, 希卡, 凯丽, 卡里拉]
+- name: 红色羽毛
+  idx: 367
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [卢迪斯, 日向, 汪汪糖, 海科特, 科林, 米兰达, 诺艾尔, 阿鲁玛, 罗塔斯*]
+- name: 绿色羽毛
+  idx: 368
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [卢迪斯, 汪汪糖]
+- name: 蓝色羽毛
+  idx: 369
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [卢迪斯]
+  normalFor: [汪汪糖, 夏鲁克, 辰巳]
+- name: 黄色羽毛
+  idx: 370
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [卢迪斯, 汪汪糖, 科林, 诺艾尔]
+- name: 青色羽毛
+  idx: 371
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [汪汪糖, 科林]
+- name: 珊瑚
+  idx: 372
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [丝特法妮, 凯丽, 阿鲁玛]
+- name: 骨螺
+  idx: 373
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [卡里拉]
+- name: 心跳少女的香气
+  idx: 374
+  exist: E
+  gold: ""
+  big: ""
+  betterFor: [托托塔拉]
+  normalFor: []
+- name: 拂晓天明的香气
+  idx: 375
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [托托塔拉]
+  normalFor: [日向]
 - name: 雪球
-  idx: 314
+  idx: 376
   exist: "N"
   gold: ""
   big: ""
   betterFor: []
   normalFor: [汪汪糖, 科林, 阿鲁玛]
+- name: 糯米
+  idx: 377
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [小稻荷大小(男)*]
+  normalFor: []
+- name: 水稻
+  idx: 378
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [小稻荷大小(男)*]
+  normalFor: []
+- name: 红瞿麦
+  idx: 379
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [静, 雏桃, 御美代]
+  normalFor: [悠月*, 莉雪特]
+- name: 红椒
+  idx: 380
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: []
+  normalFor: [海科特, 米兰达, 布拉德]
+- name: 葡萄
+  idx: 381
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [科林, 布拉德]
+  normalFor: []
+- name: 柿子
+  idx: 382
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [汪汪糖]
+  normalFor: []
+- name: 桃子
+  idx: 383
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [莉雪特, 汪汪糖]
+  normalFor: [小魔女大人*]
+- name: 蜂王浆
+  idx: 384
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [梅根]
+  normalFor: []
+- name: 百合
+  idx: 385
+  exist: "N"
+  gold: ""
+  big: ""
+  betterFor: [静]
+  normalFor: []
 - name: 副产物
-  idx: 315
+  idx: 386
   exist: "N"
   gold: ""
   big: ""
   betterFor: []
   normalFor: [汪汪糖]
 - name: 极品牛奶
-  idx: 316
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [费朗克]
-  normalFor: [汪汪糖]
-- name: 极品鸡蛋
-  idx: 317
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [费朗克]
-  normalFor: [汪汪糖]
-- name: 极品免毛
-  idx: 318
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [费朗克]
-  normalFor: [汪汪糖]
-- name: 极品黄油
-  idx: 319
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [费朗克]
-  normalFor: [汪汪糖]
-- name: 酸奶
-  idx: 320
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [费朗克]
-  normalFor: [汪汪糖, 布拉德]
-- name: 极品酸奶
-  idx: 321
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [费朗克]
-  normalFor: [汪汪糖]
-- name: 御好烧
-  idx: 322
-  exist: "N"
-  gold: ""
-  big: ""
-  bestFor: [银次郎]
-  betterFor: [费朗克, 布拉德]
-  normalFor: [汪汪糖, 马尔科]
-- name: 樱桃酒
-  idx: 323
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [费朗克, 布拉德]
-  normalFor: [汪汪糖, 米兰达, 马尔科]
-- name: 草莓酒
-  idx: 324
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [费朗克, 布拉德]
-  normalFor: [汪汪糖, 米兰达, 凯丽, 马尔科]
-- name: 胡萝卜
-  idx: 325
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [密斯拉*]
-  normalFor: [汪汪糖, 费朗克, 诺艾尔]
-- name: 炸薯条
-  idx: 326
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 费朗克]
-- name: 土豆薄烤饼
-  idx: 327
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 费朗克, 海科特]
-- name: 玉米饼
-  idx: 328
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [海科特]
-  normalFor: [汪汪糖, 费朗克]
-- name: 枫糖
-  idx: 329
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 费朗克]
-- name: 胡萝卜汤
-  idx: 330
-  exist: "N"
-  gold: ""
-  big: ""
-  bestFor: [梅根]
-  betterFor: [米兰达]
-  normalFor: [汪汪糖]
-- name: 蔬菜酸奶冰
-  idx: 331
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [梅根]
-  normalFor: [汪汪糖]
-- name: 蜂王浆
-  idx: 332
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [梅根]
-  normalFor: [汪汪糖]
-- name: 洋葱菠萝
-  idx: 333
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 梅根]
-- name: 蔬菜面包
-  idx: 334
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 梅根, 海科特]
-- name: 青椒
-  idx: 335
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [海科特, 布拉德]
-  normalFor: [汪汪糖]
-- name: 红椒
-  idx: 336
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 海科特, 米兰达, 布拉德]
-- name: 可乐饼
-  idx: 337
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 海科特]
-- name: 土豆面包
-  idx: 338
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 海科特]
-- name: 蔬菜酱
-  idx: 339
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 海科特]
-- name: 红色的线
-  idx: 340
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [诺艾尔]
-  normalFor: [海科特, 米兰达]
-- name: 凉拌卷心菜
-  idx: 341
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [科林]
-  normalFor: [汪汪糖]
-- name: 三个蛋黄煎蛋
-  idx: 342
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [科林, 诺艾尔, 夏鲁克, 阿鲁玛, 雏桃]
-  normalFor: [汪汪糖, 提格雷*]
-- name: 南瓜冰激凌
-  idx: 343
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 科林]
-- name: 浆果
-  idx: 344
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 科林, 凯丽]
-- name: 蓝莓
-  idx: 345
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 科林, 阿鲁玛]
-- name: 火腿蛋吐司
-  idx: 346
-  exist: "N"
-  gold: ""
-  big: ""
-  bestFor: [米兰达]
-  betterFor: []
-  normalFor: [汪汪糖]
-- name: 意式香辣面
-  idx: 347
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [米兰达]
-  normalFor: [汪汪糖]
-- name: 酿番茄
-  idx: 348
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 米兰达]
-- name: 蔬菜冻
-  idx: 349
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 米兰达]
-- name: 奶糕
-  idx: 350
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [诺艾尔]
-  normalFor: [汪汪糖]
-- name: 果仁千层酥
-  idx: 351
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [诺艾尔]
-  normalFor: [汪汪糖]
-- name: 杏仁黄油
-  idx: 352
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [诺艾尔]
-  normalFor: [汪汪糖]
-- name: 法国吐司
-  idx: 353
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [凯丽]
-  normalFor: [汪汪糖, 诺艾尔]
-- name: 热香饼
-  idx: 354
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 诺艾尔, 凯丽]
-- name: 牛奶鸡蛋派
-  idx: 355
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 诺艾尔]
-- name: 甜果派
-  idx: 356
-  exist: "N"
-  gold: ""
-  big: ""
-  bestFor: [凯丽]
-  betterFor: []
-  normalFor: [汪汪糖]
-- name: 苹果派
-  idx: 357
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [凯丽]
-  normalFor: [汪汪糖]
-- name: 马卡龙
-  idx: 358
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [凯丽]
-  normalFor: [汪汪糖]
-- name: 巧克力冰激凌
-  idx: 359
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [凯丽]
-  normalFor: [汪汪糖]
-- name: 草莓牛奶刨冰
-  idx: 360
-  exist: "N"
-  gold: ""
-  big: ""
-  bestFor: [雏桃]
-  betterFor: [凯丽]
-  normalFor: [汪汪糖]
-- name: 巧克力火锅
-  idx: 361
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [凯丽, 雏桃]
-  normalFor: [汪汪糖]
-- name: 浆果调饮
-  idx: 362
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [凯丽]
-  normalFor: [汪汪糖]
-- name: 松糕
-  idx: 363
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 凯丽]
-- name: 櫻桃
-  idx: 364
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [布拉德]
-  normalFor: [汪汪糖]
-- name: 白萝卜
-  idx: 365
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 布拉德]
-- name: 多利亚煽饭
-  idx: 366
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 布拉德]
-- name: 面包
-  idx: 367
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 布拉德, 罗塔斯*]
-- name: 玉米面包
-  idx: 368
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 布拉德]
-- name: 斑节虾
-  idx: 369
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [马尔科]
-  normalFor: [汪汪糖]
-- name: 凤尾对虾
-  idx: 370
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [马尔科]
-  normalFor: [汪汪糖]
-- name: 舌骨鱼
-  idx: 371
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [马尔科, 森谷]
-  normalFor: [汪汪糖, 密斯拉*]
-- name: 大雀鳝
-  idx: 372
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [马尔科]
-  normalFor: [汪汪糖, 密斯拉*, 提格雷*]
-- name: 幼鲑
-  idx: 373
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [马尔科, 森谷]
-  normalFor: [汪汪糖]
-- name: 樱鲑
-  idx: 374
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 马尔科]
-- name: 丁斑鱼
-  idx: 375
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 马尔科]
-- name: 黄颡鱼
-  idx: 376
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 马尔科]
-- name: 鲫鱼
-  idx: 377
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 马尔科]
-- name: 鳉鱼
-  idx: 378
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 马尔科]
-- name: 青河蟹
-  idx: 379
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 马尔科]
-- name: 萤火鱿
-  idx: 380
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 马尔科, 扎哈, 夏鲁克]
-- name: 文蛤
-  idx: 381
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [卡里拉]
-  normalFor: [汪汪糖, 马尔科, 扎哈, 夏鲁克, 森谷]
-- name: 蘑菇派
-  idx: 382
-  exist: "N"
-  gold: ""
-  big: ""
-  bestFor: [小女神大人]
-  betterFor: []
-  normalFor: [汪汪糖]
-- name: 乌骨鸡蛋
-  idx: 383
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [小女神大人]
-  normalFor: [汪汪糖, 密斯拉*]
-- name: 鼠尾草
-  idx: 384
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 小女神大人]
-- name: 香菇
-  idx: 385
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 小女神大人]
-- name: 烤蘑菇
-  idx: 386
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 小女神大人, 一徹]
-- name: 夏威夷细面汤
   idx: 387
   exist: "N"
   gold: ""
   big: ""
-  bestFor: [扎哈]
-  betterFor: []
-  normalFor: [汪汪糖]
-- name: 海鲜意面
+  betterFor: [费朗克]
+  normalFor: []
+- name: 极品鸡蛋
   idx: 388
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [扎哈]
-  normalFor: [汪汪糖]
-- name: 石头斑鱼
+  betterFor: [费朗克]
+  normalFor: []
+- name: 乌骨鸡蛋
   idx: 389
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [扎哈, 提格雷*]
-  normalFor: [汪汪糖]
-- name: 金枪鱼
+  betterFor: [小女神大人]
+  normalFor: [密斯拉*]
+- name: 极品免毛
   idx: 390
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [扎哈]
-  normalFor: [汪汪糖]
-- name: 芥末章鱼
+  betterFor: [费朗克]
+  normalFor: []
+- name: 鲣鱼
   idx: 391
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [银次郎]
-  normalFor: [汪汪糖, 扎哈, 卡里拉]
-- name: 烤海螺
+  betterFor: [提格雷*]
+  normalFor: []
+- name: 针鱼
   idx: 392
   exist: "N"
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [汪汪糖, 扎哈, 卡里拉, 夏鲁克, 提格雷*, 托托塔拉]
-- name: 炸鲶鱼
+  normalFor: [提格雷*]
+- name: 鳗鱼
   idx: 393
   exist: "N"
   gold: ""
   big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 扎哈]
-- name: 西非风鲷鱼饭
+  betterFor: [森谷]
+  normalFor: [提格雷*]
+- name: 鲯鳅
   idx: 394
   exist: "N"
   gold: ""
   big: ""
-  bestFor: [提格雷*]
-  betterFor: [托托塔拉]
-  normalFor: [汪汪糖, 卡里拉, 夏鲁克]
-- name: 法螺贝
+  betterFor: []
+  normalFor: [哈鲁巴*]
+- name: 鲟鱼
   idx: 395
   exist: "N"
   gold: ""
   big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 卡里拉]
-- name: 乐园狂想曲
+  betterFor: [森谷]
+  normalFor: [哈鲁巴*]
+- name: 舌骨鱼
   idx: 396
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [阿鲁玛, 托托塔拉]
-  normalFor: [汪汪糖, 卡里拉, 提格雷*]
-- name: 甲鱼
+  betterFor: [马尔科, 森谷]
+  normalFor: [密斯拉*]
+- name: 大雀鳝
   idx: 397
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [森谷]
-  normalFor: [汪汪糖, 卡里拉]
-- name: 椰奶章鱼煮
+  betterFor: [马尔科]
+  normalFor: [密斯拉*, 提格雷*]
+- name: 幼鲑
   idx: 398
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [夏鲁克, 提格雷*]
-  normalFor: [汪汪糖]
-- name: 椰奶鱼汤
+  betterFor: [马尔科, 森谷]
+  normalFor: []
+- name: 樱鲑
   idx: 399
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [夏鲁克, 提格雷*]
-  normalFor: [汪汪糖]
-- name: 油炸甜甜圈
+  betterFor: []
+  normalFor: [马尔科]
+- name: 丁斑鱼
   idx: 400
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [夏鲁克, 弥一]
-  normalFor: [汪汪糖, 阿鲁玛]
-- name: 香蕉椰奶汤
+  betterFor: []
+  normalFor: [马尔科]
+- name: 黄颡鱼
   idx: 401
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [夏鲁克, 阿鲁玛]
-  normalFor: [汪汪糖]
-- name: 鱼汤杂烩
+  betterFor: []
+  normalFor: [马尔科]
+- name: 鲫鱼
   idx: 402
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [夏鲁克]
-  normalFor: [汪汪糖]
-- name: 草莓冰激凌
+  betterFor: []
+  normalFor: [马尔科]
+- name: 鳉鱼
   idx: 403
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [夏鲁克, 阿鲁玛]
-  normalFor: [汪汪糖]
-- name: 菠萝冰激凌
+  betterFor: []
+  normalFor: [马尔科]
+- name: 石头斑鱼
   idx: 404
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [夏鲁克, 阿鲁玛]
-  normalFor: [汪汪糖, 小魔女大人*]
-- name: 炸虾
+  betterFor: [扎哈, 提格雷*]
+  normalFor: []
+- name: 金枪鱼
   idx: 405
   exist: "N"
   gold: ""
   big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 夏鲁克]
-- name: 椰子牛奶
+  betterFor: [扎哈]
+  normalFor: []
+- name: 甲鱼
   idx: 406
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [托托塔拉]
-  normalFor: [汪汪糖, 夏鲁克, 阿鲁玛]
-- name: 帝王蟹
+  betterFor: [森谷]
+  normalFor: [卡里拉]
+- name: 鳐鱼
   idx: 407
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [森谷]
-  normalFor: [汪汪糖, 夏鲁克]
-- name: 桃子冰激凌
+  betterFor: []
+  normalFor: [密斯拉*]
+- name: 翻车鱼
   idx: 408
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [阿鲁玛, 小魔女大人*]
-  normalFor: [汪汪糖]
-- name: 酸奶冰激凌
+  betterFor: []
+  normalFor: [密斯拉*]
+- name: 锦鲤
   idx: 409
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [阿鲁玛, 罗塔斯*]
-  normalFor: [汪汪糖]
-- name: 非洲菊
+  betterFor: [森谷]
+  normalFor: []
+- name: 鮟鱇
   idx: 410
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [静, 御美代]
-  normalFor: [汪汪糖, 阿鲁玛]
-- name: 风铃草
+  betterFor: [森谷]
+  normalFor: []
+- name: 远东哲罗鱼
   idx: 411
   exist: "N"
   gold: ""
   big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 阿鲁玛, 托托塔拉]
-- name: 闪闪发光的石头
+  betterFor: [森谷]
+  normalFor: []
+- name: 旗鱼
   idx: 412
   exist: "N"
   gold: ""
   big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 阿鲁玛]
-- name: 玻璃石头
+  betterFor: [森谷]
+  normalFor: []
+- name: 帝王蟹
   idx: 413
   exist: "N"
   gold: ""
   big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 阿鲁玛]
-- name: 宝石类
+  betterFor: [森谷]
+  normalFor: [夏鲁克]
+- name: 大闸蟹
   idx: 414
   exist: "N"
   gold: ""
   big: ""
-  betterFor: []
-  normalFor: [阿鲁玛]
-- name: 菠菜
+  betterFor: [森谷]
+  normalFor: []
+- name: 青河蟹
   idx: 415
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [密斯拉*, 梅吉]
-  normalFor: [汪汪糖]
-- name: 印度泡菜
+  betterFor: []
+  normalFor: [马尔科]
+- name: 斑节虾
   idx: 416
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [密斯拉*, 银次郎]
-  normalFor: [汪汪糖]
-- name: 泡菜
+  betterFor: [马尔科]
+  normalFor: []
+- name: 凤尾对虾
   idx: 417
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [密斯拉*]
-  normalFor: [汪汪糖]
-- name: 古老的土偶
+  betterFor: [马尔科]
+  normalFor: []
+- name: 巨乌贼
   idx: 418
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [密斯拉*]
-  normalFor: [汪汪糖]
-- name: 古代鱼化石
+  betterFor: []
+  normalFor: [密斯拉*]
+- name: 萤火鱿
   idx: 419
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [密斯拉*]
-  normalFor: [汪汪糖, 罗塔斯*]
-- name: 西式咸菜
+  betterFor: []
+  normalFor: [马尔科, 扎哈, 夏鲁克]
+- name: 文蛤
   idx: 420
   exist: "N"
   gold: ""
   big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 密斯拉*]
-- name: 鳐鱼
+  betterFor: [卡里拉]
+  normalFor: [马尔科, 扎哈, 夏鲁克, 森谷]
+- name: 法螺贝
   idx: 421
   exist: "N"
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [汪汪糖, 密斯拉*]
-- name: 翻车鱼
+  normalFor: [卡里拉]
+- name: 海螺
   idx: 422
   exist: "N"
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [汪汪糖, 密斯拉*]
-- name: 巨乌贼
+  normalFor: [森谷]
+- name: 极品黄油
   idx: 423
   exist: "N"
   gold: ""
   big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 密斯拉*]
-- name: 芦荟酸奶
+  betterFor: [费朗克]
+  normalFor: []
+- name: 艾草
   idx: 424
   exist: "N"
   gold: ""
   big: ""
-  bestFor: [罗塔斯*]
-  betterFor: [静]
-  normalFor: [汪汪糖]
-- name: 酸奶面包
+  betterFor: [悠月*]
+  normalFor: []
+- name: 梅子
   idx: 425
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [罗塔斯*]
-  normalFor: [汪汪糖]
-- name: 馕饼
+  betterFor: [心鞠]
+  normalFor: []
+- name: 栗子
   idx: 426
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [罗塔斯*]
-  normalFor: [汪汪糖]
-- name: 酸奶派
+  betterFor: []
+  normalFor: [辰巳]
+- name: 蓝莓
   idx: 427
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [罗塔斯*]
-  normalFor: [汪汪糖]
-- name: 椰果
+  betterFor: []
+  normalFor: [科林, 阿鲁玛]
+- name: 鼠尾草
   idx: 428
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [罗塔斯*, 托托塔拉]
-  normalFor: [汪汪糖, 小魔女大人*, 静, 御美代]
-- name: 拉西酪乳
+  betterFor: []
+  normalFor: [小女神大人]
+- name: 非洲菊
   idx: 429
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [罗塔斯*]
-  normalFor: [汪汪糖]
-- name: 提神药
+  betterFor: [静, 御美代]
+  normalFor: [阿鲁玛]
+- name: 风铃草
   idx: 430
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [罗塔斯*]
-  normalFor: [汪汪糖]
-- name: 耐力药G
+  betterFor: []
+  normalFor: [阿鲁玛, 托托塔拉]
+- name: 宝石类
   idx: 431
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [罗塔斯*]
-  normalFor: [汪汪糖]
-- name: 妙哉饮品
+  betterFor: []
+  normalFor: [阿鲁玛]
+- name: 白珍珠
   idx: 432
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [罗塔斯*]
-  normalFor: [汪汪糖]
-- name: 木薯
+  betterFor: []
+  normalFor: [托托塔拉]
+- name: 金珍珠
   idx: 433
   exist: "N"
   gold: ""
   big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 罗塔斯*]
-- name: 可可以外的果树
+  betterFor: [森谷]
+  normalFor: []
+- name: 泡沫之梦的香气
   idx: 434
   exist: "N"
   gold: ""
   big: ""
-  betterFor: []
-  normalFor: [罗塔斯*]
-- name: 酸奶饭
+  betterFor: [托托塔拉]
+  normalFor: []
+- name: 春风进行曲
   idx: 435
   exist: "N"
   gold: ""
   big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 罗塔斯*]
-- name: 柠檬冰激凌
+  betterFor: [韦恩, 托托塔拉]
+  normalFor: []
+- name: 绣球花
   idx: 436
   exist: "N"
   gold: ""
   big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 罗塔斯*]
-- name: 蓝莓冰激凌
+  betterFor: [静]
+  normalFor: [韦恩, 优卡, 小女神大人, 御美代]
+- name: 奶酪
   idx: 437
   exist: "N"
   gold: ""
   big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 罗塔斯*]
-- name: 石头斑鱼锅
+  betterFor: [费朗克]
+  normalFor: [韦恩, 丝特法妮, 马尔科]
+- name: 荔枝酒
   idx: 438
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [提格雷*]
-  normalFor: [汪汪糖]
-- name: 鮟鱇鱼锅
+  betterFor: [费朗克, 布拉德]
+  normalFor: [韦恩, 马尔科]
+- name: 羊毛
   idx: 439
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [提格雷*, 哈鲁巴*]
-  normalFor: [汪汪糖]
-- name: 阿拉伯马克鲁巴饭
+  betterFor: []
+  normalFor: [卢迪斯, 托托塔拉]
+- name: 果树
   idx: 440
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [提格雷*]
-  normalFor: [汪汪糖]
-- name: 生春卷
+  betterFor: []
+  normalFor: [卢迪斯]
+- name: 所有贝类
   idx: 441
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [哈鲁巴*, 银次郎]
-  normalFor: [汪汪糖]
-- name: 冬荫功汤
+  betterFor: []
+  normalFor: [日向]
+- name: 最中
   idx: 442
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [哈鲁巴*]
-  normalFor: [汪汪糖]
-- name: 海鲜拌饭
+  betterFor: [悠月*, 弥一]
+  normalFor: []
+- name: 绿茶
   idx: 443
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [哈鲁巴*, 银次郎]
-  normalFor: [汪汪糖]
-- name: 秋葵汤
+  betterFor: [霞, 一徹, 梅吉, 御美代, 银次郎]
+  normalFor: [悠月*, 心鞠, 辰巳, 森谷]
+- name: 桃子果酱
   idx: 444
   exist: "N"
   gold: ""
   big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 哈鲁巴*]
-- name: 香草茶全般
+  betterFor: [莉雪特, 希卡, 小魔女大人*, 雏桃]
+  normalFor: [优卡, 凯丽, 布拉德]
+- name: 曼珠沙华
   idx: 445
   exist: "N"
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [汪汪糖, 哈鲁巴*]
-- name: 南国罗米三文鱼
+  normalFor: [莉雪特, 诺艾尔]
+- name: 饲料叶
   idx: 446
   exist: "N"
   gold: ""
   big: ""
-  bestFor: [托托塔拉]
   betterFor: []
-  normalFor: [汪汪糖]
-- name: 巴西炖鱼
+  normalFor: [莉雪特]
+- name: 月夜夜想曲
   idx: 447
   exist: "N"
   gold: ""
   big: ""
   betterFor: [托托塔拉]
-  normalFor: [汪汪糖]
-- name: 皮塔饼
+  normalFor: [莉雪特]
+- name: 腌萝卜
   idx: 448
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [托托塔拉]
-  normalFor: [汪汪糖]
-- name: 炎帝华尔兹
+  betterFor: [心鞠, 霞, 银次郎]
+  normalFor: [一徹, 森谷]
+- name: 切蒲英
   idx: 449
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [托托塔拉]
-  normalFor: [汪汪糖]
-- name: 雪花圆舞曲
+  betterFor: []
+  normalFor: [霞, 密斯拉*]
+- name: 茶叶
   idx: 450
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [托托塔拉]
-  normalFor: [汪汪糖]
-- name: 泡沫之梦的香气
+  betterFor: [优卡]
+  normalFor: [哈鲁巴*, 托托塔拉]
+- name: 所有冷饮
   idx: 451
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [托托塔拉]
-  normalFor: [汪汪糖]
-- name: 洛神花茶
+  betterFor: [优卡]
+  normalFor: []
+- name: 樱桃果酱
   idx: 452
   exist: "N"
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [汪汪糖, 托托塔拉]
-- name: 白珍珠
+  normalFor: [优卡, 米兰达, 布拉德]
+- name: 杏子果酱
   idx: 453
   exist: "N"
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [汪汪糖, 托托塔拉]
-- name: 很喜欢以外的花束
+  normalFor: [优卡, 凯丽, 布拉德]
+- name: 菠萝果酱
   idx: 454
   exist: "N"
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [汪汪糖, 托托塔拉]
-- name: 樱桃桃子调饮
+  normalFor: [优卡, 布拉德, 夏鲁克]
+- name: 草莓果酱
   idx: 455
   exist: "N"
   gold: ""
   big: ""
-  bestFor: [小魔女大人*]
   betterFor: [雏桃]
-  normalFor: [汪汪糖]
-- name: 牛蒡汤
+  normalFor: [优卡, 米兰达, 诺艾尔, 布拉德]
+- name: 水果酸奶
   idx: 456
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [小魔女大人*]
-  normalFor: [汪汪糖]
-- name: 油炸豆腐
+  betterFor: [希卡]
+  normalFor: []
+- name: 各种冷饮
   idx: 457
   exist: "N"
   gold: ""
   big: ""
-  bestFor: [一徹]
-  betterFor: [静, 辰巳, 弥一, 梅吉, 御美代]
-  normalFor: [汪汪糖]
-- name: 下野家例
+  betterFor: [希卡]
+  normalFor: []
+- name: 和食
   idx: 458
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [一徹]
-  normalFor: [汪汪糖]
-- name: 仙贝
+  betterFor: [小稻荷大小(男)*]
+  normalFor: []
+- name: 和果子
   idx: 459
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [一徹]
-  normalFor: [汪汪糖, 辰巳]
-- name: 菜肉焖饭
+  betterFor: [小稻荷大小(男)*]
+  normalFor: []
+- name: 葡萄酒
   idx: 460
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [一徹, 银次郎]
-  normalFor: [汪汪糖]
-- name: 粽子
+  bestFor: [布拉德]
+  betterFor: [丝特法妮, 费朗克]
+  normalFor: [马尔科]
+- name: 极品奶酪
   idx: 461
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [一徹]
-  normalFor: [汪汪糖]
-- name: 凉拌菜谱
+  betterFor: [丝特法妮, 费朗克]
+  normalFor: []
+- name: 极品乳类加工品
   idx: 462
   exist: "N"
   gold: ""
   big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 一徹]
-- name: 龙胆
+  betterFor: [汪汪糖]
+  normalFor: []
+- name: 枫糖浆
   idx: 463
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [静]
-  normalFor: [汪汪糖, 雏桃]
-- name: 凉拌蔬菜
+  betterFor: []
+  normalFor: [汪汪糖, 米兰达]
+- name: 乳制品
   idx: 464
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [静, 梅吉, 御美代]
-  normalFor: [汪汪糖, 森谷, 银次郎]
-- name: 鳗鱼盖饭
+  betterFor: []
+  normalFor: [汪汪糖]
+- name: 酸奶
   idx: 465
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [静, 银次郎]
-  normalFor: [汪汪糖]
-- name: 梅香黄瓜
+  betterFor: [费朗克]
+  normalFor: [布拉德]
+- name: 极品酸奶
   idx: 466
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [静]
-  normalFor: [汪汪糖]
-- name: 湖水奏鸣曲
+  betterFor: [费朗克]
+  normalFor: []
+- name: 樱桃酒
   idx: 467
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [静]
-  normalFor: [汪汪糖]
-- name: 蚬贝汤
+  betterFor: [费朗克, 布拉德]
+  normalFor: [米兰达, 马尔科]
+- name: 草莓酒
   idx: 468
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [静, 银次郎]
-  normalFor: [汪汪糖]
-- name: 豆浆布丁
+  betterFor: [费朗克, 布拉德]
+  normalFor: [米兰达, 凯丽, 马尔科]
+- name: 蔬菜酱
   idx: 469
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [静, 辰巳, 弥一, 御美代]
-  normalFor: [汪汪糖]
-- name: 百合
+  betterFor: []
+  normalFor: [海科特]
+- name: 红色的线
   idx: 470
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [静]
-  normalFor: [汪汪糖]
-- name: 大福的食谱
+  betterFor: [诺艾尔]
+  normalFor: [海科特, 米兰达]
+- name: 浆果
   idx: 471
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [辰巳]
-  normalFor: [汪汪糖]
-- name: 紫苏饭团
+  betterFor: []
+  normalFor: [科林, 凯丽]
+- name: 杏仁黄油
   idx: 472
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [辰巳]
-  normalFor: [汪汪糖]
-- name: 栗子
+  betterFor: [诺艾尔]
+  normalFor: []
+- name: 乐园狂想曲
   idx: 473
   exist: "N"
   gold: ""
   big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 辰巳]
-- name: 凉拌
+  betterFor: [阿鲁玛, 托托塔拉]
+  normalFor: [卡里拉, 提格雷*]
+- name: 泡菜
   idx: 474
   exist: "N"
   gold: ""
   big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 辰巳]
-- name: 南瓜补丁
+  betterFor: [密斯拉*]
+  normalFor: []
+- name: 古老的土偶
   idx: 475
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [弥一]
-  normalFor: [汪汪糖]
-- name: 南瓜焗饭
+  betterFor: [密斯拉*]
+  normalFor: []
+- name: 古代鱼化石
   idx: 476
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [弥一]
-  normalFor: [汪汪糖]
-- name: 蒙布朗
+  betterFor: [密斯拉*]
+  normalFor: [罗塔斯*]
+- name: 西式咸菜
   idx: 477
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [弥一]
-  normalFor: [汪汪糖]
-- name: 和黄金有关的东西
+  betterFor: []
+  normalFor: [密斯拉*]
+- name: 提神药
   idx: 478
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [森谷]
-  normalFor: [汪汪糖]
-- name: 鮟鱇
+  betterFor: [罗塔斯*]
+  normalFor: []
+- name: 耐力药G
   idx: 479
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [森谷]
-  normalFor: [汪汪糖]
-- name: 远东哲罗鱼
+  betterFor: [罗塔斯*]
+  normalFor: []
+- name: 妙哉饮品
   idx: 480
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [森谷]
-  normalFor: [汪汪糖]
-- name: 旗鱼
+  betterFor: [罗塔斯*]
+  normalFor: []
+- name: 可可以外的果树
   idx: 481
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [森谷]
-  normalFor: [汪汪糖]
-- name: 芜菁千枚渍
+  betterFor: []
+  normalFor: [罗塔斯*]
+- name: 炎帝华尔兹
   idx: 482
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [森谷, 梅吉, 银次郎]
-  normalFor: [汪汪糖]
-- name: 金珍珠
+  betterFor: [托托塔拉]
+  normalFor: []
+- name: 雪花圆舞曲
   idx: 483
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [森谷]
-  normalFor: [汪汪糖]
-- name: 大闸蟹
+  betterFor: [托托塔拉]
+  normalFor: []
+- name: 很喜欢以外的花束
   idx: 484
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [森谷]
-  normalFor: [汪汪糖]
-- name: 锦鲤
+  betterFor: []
+  normalFor: [托托塔拉]
+- name: 凉拌菜谱
   idx: 485
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [森谷]
-  normalFor: [汪汪糖]
-- name: 海螺
+  betterFor: []
+  normalFor: [一徹]
+- name: 龙胆
   idx: 486
   exist: "N"
   gold: ""
   big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 森谷]
-- name: 草莓冰淇淋
+  betterFor: [静]
+  normalFor: [雏桃]
+- name: 湖水奏鸣曲
   idx: 487
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [雏桃]
-  normalFor: [汪汪糖]
-- name: 樱桃冰淇淋
+  betterFor: [静]
+  normalFor: []
+- name: 大福的食谱
   idx: 488
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [雏桃]
-  normalFor: [汪汪糖]
-- name: 樱桃茶
+  betterFor: [辰巳]
+  normalFor: []
+- name: 凉拌
   idx: 489
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [雏桃]
-  normalFor: [汪汪糖]
-- name: 大型花式蛋糕
+  betterFor: []
+  normalFor: [辰巳]
+- name: 和黄金有关的东西
   idx: 490
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [雏桃]
-  normalFor: [汪汪糖]
-- name: 桃子冰淇淋
+  betterFor: [森谷]
+  normalFor: []
+- name: 芜菁千枚渍
   idx: 491
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [雏桃]
-  normalFor: [汪汪糖]
-- name: 糖汁刨冰
+  betterFor: [森谷, 梅吉, 银次郎]
+  normalFor: []
+- name: 煮芋尖
   idx: 492
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [雏桃]
-  normalFor: [汪汪糖]
-- name: 粥
+  betterFor: []
+  normalFor: [梅吉]
+- name: 梅干
   idx: 493
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [梅吉, 御美代]
-  normalFor: [汪汪糖]
-- name: 蛋花汤
+  betterFor: [御美代, 银次郎]
+  normalFor: []
+- name: 雪花莲
   idx: 494
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [梅吉, 御美代]
-  normalFor: [汪汪糖]
-- name: 芜菁汤
+  betterFor: [御美代]
+  normalFor: []
+- name: 豆浆
   idx: 495
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [梅吉]
-  normalFor: [汪汪糖]
-- name: 栲紅薯
+  betterFor: [御美代]
+  normalFor: []
+- name: 豆腐
   idx: 496
   exist: "N"
   gold: ""
   big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 梅吉]
-- name: 白萝卜干
+  betterFor: [御美代]
+  normalFor: []
+- name: 凉拌黄瓜
   idx: 497
   exist: "N"
   gold: ""
   big: ""
-  betterFor: [御美代]
-  normalFor: [汪汪糖, 梅吉, 银次郎]
-- name: 煮芋尖
+  betterFor: [银次郎]
+  normalFor: []
+- name: 腌茄子
   idx: 498
   exist: "N"
   gold: ""
   big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 梅吉]
-- name: 茶碗蒸
+  betterFor: [银次郎]
+  normalFor: []
+- name: 緑茶
   idx: 499
   exist: "N"
   gold: ""
   big: ""
-  bestFor: [御美代]
   betterFor: []
-  normalFor: [汪汪糖]
-- name: 杂炊饭
-  idx: 500
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [御美代, 银次郎]
-  normalFor: [汪汪糖]
-- name: 梅干
-  idx: 501
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [御美代, 银次郎]
-  normalFor: [汪汪糖]
-- name: 炖煮南瓜
-  idx: 502
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [御美代]
-  normalFor: [汪汪糖]
-- name: 雪花莲
-  idx: 503
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [御美代]
-  normalFor: [汪汪糖]
-- name: 豆浆
-  idx: 504
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [御美代]
-  normalFor: [汪汪糖]
-- name: 豆腐
-  idx: 505
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [御美代]
-  normalFor: [汪汪糖]
-- name: 味噌汤
-  idx: 506
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [御美代]
-  normalFor: [汪汪糖]
-- name: 豆馅糯米饼
-  idx: 507
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [御美代]
-  normalFor: [汪汪糖]
-- name: 草团子
-  idx: 508
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 御美代]
-- name: 辣咖喱
-  idx: 509
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [银次郎]
-  normalFor: [汪汪糖]
-- name: 凉拌黄瓜
-  idx: 510
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [银次郎]
-  normalFor: [汪汪糖]
-- name: 乌尾終
-  idx: 510
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 提格雷*]
-- name: 饺子
-  idx: 511
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [银次郎]
-  normalFor: [汪汪糖]
-- name: 高级螃蟹汤
-  idx: 512
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [银次郎]
-  normalFor: [汪汪糖]
-- name: 金枪鱼紫菜寿司卷
-  idx: 513
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [银次郎]
-  normalFor: [汪汪糖]
-- name: 腌茄子
-  idx: 514
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [银次郎]
-  normalFor: [汪汪糖]
-- name: 炒饭
-  idx: 515
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: [银次郎]
-  normalFor: [汪汪糖]
-- name: 緑茶
-  idx: 516
-  exist: "N"
-  gold: ""
-  big: ""
-  betterFor: []
-  normalFor: [汪汪糖, 银次郎]
+  normalFor: [银次郎]
