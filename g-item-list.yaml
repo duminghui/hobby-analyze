@@ -1460,7 +1460,7 @@
   normalFor: [诺艾尔, 夏鲁克, 阿鲁玛]
 - name: 章鱼意面
   idx: 206
-  have: H
+  have: "N"
   gold: ""
   big: ""
   bestFor: [夏鲁克]
