@@ -174,8 +174,8 @@ func analyze(d data) {
 			//if bOk {
 			//	for _, pName := range icBetter.pNames {
 			//		if _, ok2 := resultPersonItemMap[pName]; !ok2 {
-			//			resultPersonItemMap[pName] = icBest.item.Name
-			//			resultItemPeopleMap[icBest.item.Name] = append(resultItemPeopleMap[icBest.item.Name], pName)
+			//			resultPersonItemMap[pName] = icBest.item.Name + "+"
+			//			resultItemPeopleMap[icBest.item.Name] = append(resultItemPeopleMap[icBest.item.Name], pName+"+")
 			//			delPNames = append(delPNames, pName)
 			//		}
 			//	}
