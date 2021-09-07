@@ -72,7 +72,7 @@ func analyze(d data) {
 	normalICMap := make(map[string]*itemCount)
 	normalICs := itemCountSlice{}
 	for _, item := range d.items {
-		if item.Exist == "E" {
+		if item.Have == "H" {
 			weight := item.Gold + item.Big
 			if weight == "" {
 				weight = "N"
@@ -168,6 +168,9 @@ func analyze(d data) {
 					delPNames = append(delPNames, pName)
 				}
 			}
+			delPNameSlice(betterICs, delPNames)
+			delPNameSlice(normalICs, delPNames)
+			//delPNames = []string{}
 			//if bOk {
 			//	for _, pName := range icBetter.pNames {
 			//		if _, ok2 := resultPersonItemMap[pName]; !ok2 {
@@ -177,6 +180,9 @@ func analyze(d data) {
 			//		}
 			//	}
 			//}
+			//delPNameSlice(betterICs, delPNames)
+			//delPNameSlice(normalICs, delPNames)
+			//delPNames = []string{}
 			//if nIc, ok := normalICMap[p.Best]; ok {
 			//	for _, pName := range nIc.pNames {
 			//		if _, ok2 := resultPersonItemMap[pName]; !ok2 {
@@ -186,8 +192,8 @@ func analyze(d data) {
 			//		}
 			//	}
 			//}
-			delPNameSlice(betterICs, delPNames)
-			delPNameSlice(normalICs, delPNames)
+			//delPNameSlice(betterICs, delPNames)
+			//delPNameSlice(normalICs, delPNames)
 		}
 	}
 	fmt.Println("Best:", resultPersonItemMap, len(resultPersonItemMap))
@@ -299,7 +305,7 @@ func main() {
 	hobbiesFile := "./g-hobbies-fix.yaml"
 	readYamlFile(hobbiesFile, &(d.people))
 
-	itemFile := "./g-item.yaml"
+	itemFile := "./g-item-list.yaml"
 	readYamlFile(itemFile, &(d.items))
 
 	//itemFile := "./g-item-flow.yaml"

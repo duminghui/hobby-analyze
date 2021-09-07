@@ -7,6 +7,14 @@ import (
 	"gopkg.in/yaml.v2"
 )
 
+type kindItem struct {
+	KindLv1 string   `yaml:"kindLv1"`
+	KindLv2 string   `yaml:"kindLv2"`
+	Items   []string `yaml:"items,flow"`
+	Golds   []string `yaml:"golds,flow,omitempty"`
+	Big     []string `yaml:"big,flow,omitempty"`
+}
+
 type itemInfoFlow struct {
 	I []interface{} `yaml:"i,flow"`
 }
@@ -14,7 +22,7 @@ type itemInfoFlow struct {
 type itemInfo struct {
 	Name      string   `yaml:"name"`
 	Idx       int      `yaml:"idx"`
-	Exist     string   `yaml:"exist"`
+	Have      string   `yaml:"have"`
 	Gold      string   `yaml:"gold"`
 	Big       string   `yaml:"big"`
 	BestFor   []string `yaml:"bestFor,flow,omitempty"`
@@ -24,7 +32,7 @@ type itemInfo struct {
 
 func (i itemInfo) String() string {
 	weight := fmt.Sprintf("%s%s", i.Gold, i.Big)
-	return fmt.Sprintf("{#%d,%s,%s,%s}", i.Idx, i.Name, i.Exist, weight)
+	return fmt.Sprintf("{#%d,%s,%s,%s}", i.Idx, i.Name, i.Have, weight)
 }
 
 type person struct {

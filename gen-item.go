@@ -12,25 +12,16 @@ import (
 	"gopkg.in/yaml.v2"
 )
 
-type sBreedRule struct {
-	PrefixKey []string         `yaml:"prefixKey,flow"`
-	SuffixKey []string         `yaml:"suffixKey,flow"`
-	Exception []breedException `yaml:"exception"`
+type gItemData struct {
+	Hobbies    []string `yaml:"hobbies,flow"`
+	Have       []string `yaml:"have,flow"`
+	Golds      []string `yaml:"golds,flow"`
+	Big        []string `yaml:"big,flow"`
+	PNotExist  []string `yaml:"pNotExist,flow"`
+	KCNotExist []string `yaml:"kcNotExist,flow"`
 }
 
-type breedException struct {
-	Name  string   `yaml:"name"`
-	Items []string `yaml:"items,flow"`
-}
-
-type sItemData struct {
-	Exists    []string `yaml:"exists,flow"`
-	ExistsFix []string `yaml:"existsFix,flow"`
-	Golds     []string `yaml:"golds,flow"`
-	Big       []string `yaml:"big,flow"`
-}
-
-type gBreed struct {
+type gKindCustom struct {
 	Name  string   `yaml:"name"`
 	Items []string `yaml:"items,flow"`
 }
@@ -45,24 +36,6 @@ func saveYamlFile(outFilePath string, in interface{}) {
 	fmt.Println()
 }
 
-func stringSliceItemNotInMap(src []string, dstMap map[string]int) ([]string, []string) {
-	var notInSlice []string
-	notInMap := make(map[string]int)
-	for _, s := range src {
-		if _, ok := dstMap[s]; !ok {
-			notInSlice = append(notInSlice, s)
-			notInMap[s] = 1
-		}
-	}
-	var fixSlice []string
-	for _, s := range src {
-		if _, ok := notInMap[s]; !ok {
-			fixSlice = append(fixSlice, s)
-		}
-	}
-	return notInSlice, fixSlice
-}
-
 func inStringArray(arr []string, str string) bool {
 	for _, s := range arr {
 		if s == str {
@@ -72,307 +45,196 @@ func inStringArray(arr []string, str string) bool {
 	return false
 }
 
+func appendSingle(arr []string, str string) []string {
+	if !inStringArray(arr, str) {
+		arr = append(arr, str)
+	}
+	return arr
+}
+
+func stringJoin(array interface{}, seq string) string {
+	return strings.Replace(strings.Trim(fmt.Sprint(array), "[]"), " ", seq, -1)
+}
+
 func main() {
 
 	sDataFile := "./s-hobbies.yaml"
 	var personSlice []*person
 	readYamlFile(sDataFile, &personSlice)
-
-	// Format File
-	//formatHobbiesFile := "./s-hobbies-f.yaml"
-	//saveYamlFile(formatHobbiesFile, personSlice)
 	saveYamlFile(sDataFile, personSlice)
 
-	sItemFile := "./s-item.yaml"
-	itemData := sItemData{}
-	readYamlFile(sItemFile, &itemData)
+	sKindItemFile := "./s-kind-item.yaml"
+	var kindItemSlice []kindItem
+	readYamlFile(sKindItemFile, &kindItemSlice)
+	saveYamlFile(sKindItemFile, kindItemSlice)
 
-	sBreedRuleFile := "./s-breed-rule.yaml"
-	breedRule := sBreedRule{}
-	readYamlFile(sBreedRuleFile, &breedRule)
-	// Format File
-	saveYamlFile(sBreedRuleFile, breedRule)
+	sKindCustomFile := "./s-kind-custom.yaml"
+	var kindCustomSlice []gKindCustom
+	readYamlFile(sKindCustomFile, &kindCustomSlice)
+	saveYamlFile(sKindCustomFile, &kindCustomSlice)
 
-	sBreedFile := "./s-breed.yaml"
-	var breedData []gBreed
-	readYamlFile(sBreedFile, &breedData)
-	// Format File
-	saveYamlFile(sBreedFile, &breedData)
-
-	breedNameSliceMap := make(map[string][]string)
-	var breedNameSlice []string
-	for _, b := range breedData {
-		breedNameSliceMap[b.Name] = b.Items
-		breedNameSlice = append(breedNameSlice, b.Name)
+	kcItemMap := make(map[string][]string)
+	for _, kc := range kindCustomSlice {
+		kcItemMap[kc.Name] = kc.Items
 	}
 
-	exceptionBreedMap := make(map[string]int)
-	for _, ex := range breedRule.Exception {
-		for _, iName := range ex.Items {
-			key := fmt.Sprintf("%s:%s", ex.Name, iName)
-			exceptionBreedMap[key] = 1
+	// 从所有物品中提取使用的物品列表,并提取出存在的物品列表,在使用的物品中存在所有物品中不存在的物品列表
+	var duplicateNameSlice []string
+	allItemIdxMap := make(map[string]int)
+	allItemHaveMap := make(map[string]bool)
+
+	goldItemMap := make(map[string]string)
+	bigItemMap := make(map[string]string)
+
+	_idx := 0
+	for _, kind := range kindItemSlice {
+		for _, itemName := range kind.Items {
+			have := true
+			if strings.HasSuffix(itemName, "*") {
+				have = false
+				itemName = strings.Replace(itemName, "*", "", -1)
+			}
+
+			allItemHaveMap[itemName] = have
+			if _, ok := allItemIdxMap[itemName]; ok {
+				duplicateNameSlice = append(duplicateNameSlice, itemName)
+			} else {
+				_idx++
+				allItemIdxMap[itemName] = _idx
+			}
+		}
+		for _, itemName := range kind.Golds {
+			goldItemMap[itemName] = "G"
+		}
+		for _, itemName := range kind.Big {
+			bigItemMap[itemName] = "B"
 		}
 	}
 
-	// 获取所有物品信息及品种信息
-	itemNameMap := make(map[string]int)
+	// person的物品没在s-kind-item中
+	var pItemNotExistSlice []string
+	// person中使用的物品
+	var gItemInfoSlice []*itemInfo
+	gItemInfoMap := make(map[string]*itemInfo)
+	haveIdxMap := make(map[string]int)
 
+	genInfo := func(itemName string, personName string, flag string) {
+		info, ok := gItemInfoMap[itemName]
+		if !ok {
+			idx, idxOk := allItemIdxMap[itemName]
+			if !idxOk {
+				pItemNotExistSlice = appendSingle(pItemNotExistSlice, itemName)
+				idx = len(allItemIdxMap) + len(pItemNotExistSlice)
+			} else {
+				haveIdxMap[itemName] = 1
+			}
+			haveFlag := allItemHaveMap[itemName]
+			have := "N"
+			if haveFlag {
+				have = "H"
+			}
+			gold := goldItemMap[itemName]
+			big := bigItemMap[itemName]
+			info = &itemInfo{
+				Name: itemName,
+				Idx:  idx,
+				Have: have,
+				Gold: gold,
+				Big:  big,
+			}
+			gItemInfoSlice = append(gItemInfoSlice, info)
+			gItemInfoMap[itemName] = info
+		}
+		if flag == "best" {
+			info.BestFor = append(info.BestFor, personName)
+		} else if flag == "b" {
+			info.BetterFor = append(info.BetterFor, personName)
+		} else if flag == "n" {
+			info.NormalFor = append(info.NormalFor, personName)
+		}
+	}
+
+	// kind-custom的物品没在s-kind-item中
+	var kcItemNotExistSlice []string
+	// 检查kind-custom的物品是否都在person中
 	for pIdx, p := range personSlice {
 		p.Idx = pIdx + 1
-		var itemNames []string
 		if p.Best != "" {
-			itemNames = append(itemNames, p.Best)
-		}
-		itemNames = append(itemNames, p.Better...)
-		itemNames = append(itemNames, p.Normal...)
-		for _, itemName := range itemNames {
-			hasKey := false
-			for _, key := range breedRule.PrefixKey {
-				if strings.Contains(itemName, key) {
-					hasKey = true
-					break
-				}
-			}
-			if hasKey {
-				if _, ok := breedNameSliceMap[itemName]; !ok {
-					breedNameSlice = append(breedNameSlice, itemName)
-					breedNameSliceMap[itemName] = []string{}
-				}
-				continue
-			}
-			itemNameMap[itemName] = 1
-		}
-	}
-	// 添加品种相关的物品, 如果不在存在列表中, 不添加
-	itemExistMap := make(map[string]int)
-	var itemExistFix []string
-	for _, itemName := range itemData.Exists {
-		if itemName != "" {
-			itemExistMap[itemName] = 1
-			itemExistFix = append(itemExistFix, itemName)
-		}
-	}
-
-	for _, breed := range breedData {
-		for _, itemName := range breed.Items {
-			//if _, ok := itemExistMap[itemName]; ok {
-			itemNameMap[itemName] = 1
-			//}
-		}
-	}
-
-	for itemName := range itemNameMap {
-		if _, ok := breedNameSliceMap[itemName]; ok {
-			continue
-		}
-		for _, breedName := range breedNameSlice {
-			rBreedName := breedName
-
-			for _, key := range breedRule.PrefixKey {
-				rBreedName = strings.Replace(rBreedName, key, "所有", -1)
-			}
-			for _, key := range breedRule.SuffixKey {
-				rBreedName = strings.Replace(rBreedName, key, "", -1)
-				if !strings.Contains(rBreedName, "所有") {
-					rBreedName = "所有" + rBreedName
-				}
-			}
-			allIndex := strings.LastIndex(rBreedName, "所有")
-			if strings.Contains(rBreedName, "所有") {
-				rBreedName = rBreedName[allIndex+len("所有"):]
-			}
-			_, ok1 := exceptionBreedMap[fmt.Sprintf("%s:%s", rBreedName, itemName)]
-			_, ok2 := exceptionBreedMap[fmt.Sprintf("%s:%s", breedName, itemName)]
-			if ok1 || ok2 {
-				continue
-			}
-
-			if rBreedName == "果汁" {
-				rBreedName = "汁"
-			}
-			if breedName == "羽毛類" {
-				fmt.Println(itemName, rBreedName)
-			}
-			if strings.HasSuffix(itemName, rBreedName) {
-				if !inStringArray(breedNameSliceMap[breedName], itemName) {
-					breedNameSliceMap[breedName] = append(breedNameSliceMap[breedName], itemName)
-				}
-			}
-		}
-	}
-
-	itemNameFixMap := make(map[string]int)
-	for idx, p := range personSlice {
-		if p.Best != "" {
-			itemNameFixMap[p.Best] = 1
+			genInfo(p.Best, p.Name, "best")
 		}
 		var betterFix []string
 		for _, itemName := range p.Better {
-			itemNames, _ := breedNameSliceMap[itemName]
-			if len(itemNames) > 0 {
-				for _, itemName1 := range itemNames {
-					if !inStringArray(betterFix, itemName1) {
-						betterFix = append(betterFix, itemName1)
+			if kcItems, ok := kcItemMap[itemName]; ok && len(kcItems) > 0 {
+				for _, kcItemName := range kcItems {
+					if _, idxOk := allItemIdxMap[kcItemName]; !idxOk {
+						kcItemNotExistSlice = appendSingle(kcItemNotExistSlice, kcItemName)
 					}
-					itemNameFixMap[itemName1] = 1
 				}
+				betterFix = append(betterFix, kcItems...)
 			} else {
-				if !inStringArray(betterFix, itemName) {
-					betterFix = append(betterFix, itemName)
-				}
-				itemNameFixMap[itemName] = 1
+				betterFix = append(betterFix, itemName)
 			}
 		}
-		personSlice[idx].BetterFix = betterFix
-
+		p.BetterFix = betterFix
+		for _, itemName := range betterFix {
+			genInfo(itemName, p.Name, "b")
+		}
 		var normalFix []string
 		for _, itemName := range p.Normal {
-			itemNames, _ := breedNameSliceMap[itemName]
-			if len(itemNames) > 0 {
-				for _, itemName1 := range itemNames {
-					itemNameFixMap[itemName1] = 1
-					if !inStringArray(betterFix, itemName1) && !inStringArray(normalFix, itemName1) {
-						normalFix = append(normalFix, itemName1)
+			if kcItems, ok := kcItemMap[itemName]; ok && len(kcItems) > 0 {
+				for _, kcItemName := range kcItems {
+					if _, idxOk := allItemIdxMap[kcItemName]; !idxOk {
+						kcItemNotExistSlice = appendSingle(kcItemNotExistSlice, kcItemName)
 					}
 				}
+				normalFix = append(normalFix, kcItems...)
 			} else {
-				if !inStringArray(betterFix, itemName) && !inStringArray(normalFix, itemName) {
-					normalFix = append(normalFix, itemName)
-				}
-				itemNameFixMap[itemName] = 1
+				normalFix = append(normalFix, itemName)
 			}
 		}
-		personSlice[idx].NormalFix = normalFix
-	}
-
-	_, itemExistSlice := stringSliceItemNotInMap(itemExistFix, itemNameFixMap)
-	_, golds := stringSliceItemNotInMap(itemData.Golds, itemNameFixMap)
-	_, bigSlice := stringSliceItemNotInMap(itemData.Big, itemNameFixMap)
-	itemData.ExistsFix = itemExistSlice
-	itemData.Golds = golds
-	itemData.Big = bigSlice
-
-	existFixMap := make(map[string]int)
-	goldMap := make(map[string]string)
-	bigMap := make(map[string]string)
-	for _, name := range itemData.ExistsFix {
-		existFixMap[name] = 1
-	}
-	for _, name := range itemData.Golds {
-		goldMap[name] = "G"
-	}
-	for _, name := range itemData.Big {
-		bigMap[name] = "B"
-	}
-	idxMap := make(map[string]int)
-	for idx, name := range itemExistFix {
-		name = strings.Replace(name, "*", "", -1)
-		idxMap[name] = idx + 1
-	}
-
-	var itemInfoSlice []*itemInfo
-	itemMap := make(map[string]*itemInfo)
-
-	genNameList := func(itemNames []string, personName string, personBest string, addFlag string) {
-		for _, itemName := range itemNames {
-			info, ok := itemMap[itemName]
-			if !ok {
-
-				exitFlag := existFixMap[itemName]
-				exist := "N"
-				if exitFlag > 0 {
-					exist = "E"
-				}
-				big := bigMap[itemName]
-				gold := goldMap[itemName]
-				idx := idxMap[itemName]
-				info = &itemInfo{
-					Name:  itemName,
-					Idx:   idx,
-					Exist: exist,
-					Big:   big,
-					Gold:  gold,
-				}
-				itemInfoSlice = append(itemInfoSlice, info)
-				itemMap[itemName] = info
-			}
-			if personBest == itemName {
-				info.BestFor = append(info.BestFor, personName)
-			}
-			if addFlag == "b" {
-				info.BetterFor = append(info.BetterFor, personName)
-			} else if addFlag == "n" {
-				info.NormalFor = append(info.NormalFor, personName)
-			}
+		p.NormalFix = normalFix
+		for _, itemName := range normalFix {
+			genInfo(itemName, p.Name, "n")
 		}
 	}
 
-	for pIdx, p := range personSlice {
-		p.Idx = pIdx + 1
-		if p.Best != "" {
-			genNameList([]string{p.Best}, p.Name, p.Best, "")
-		}
-		genNameList(p.BetterFix, p.Name, p.Best, "b")
-		genNameList(p.NormalFix, p.Name, p.Best, "n")
-	}
-
-	idxFix := len(idxMap) + 1
-	for _, item := range itemInfoSlice {
-		if item.Idx == 0 {
-			item.Idx = idxFix
-			idxFix++
-		}
-	}
-
-	sort.Slice(itemInfoSlice, func(i int, j int) bool {
-		return itemInfoSlice[i].Idx < itemInfoSlice[j].Idx
+	sort.Slice(gItemInfoSlice, func(i, j int) bool {
+		return gItemInfoSlice[i].Idx < gItemInfoSlice[j].Idx
 	})
-
-	arrayJoin := func(array interface{}, seq string) string {
-		return strings.Replace(strings.Trim(fmt.Sprint(array), "[]"), " ", seq, -1)
+	for idx, item := range gItemInfoSlice {
+		item.Idx = idx + 1
 	}
 
-	var names []string
-	var notExistNames []string
-	count := 0
-	for _, info := range itemInfoSlice {
-		name := info.Name
-		if info.Exist != "E" {
-			count++
-			name = name + "*"
-			notExistNames = append(notExistNames, name)
-		}
-		names = append(names, name)
-	}
-	allItemNames := arrayJoin(names, ",")
-
-	saveYamlFile("./itemNames.txt", allItemNames)
-
-	notExistNameStr := arrayJoin(notExistNames, ",")
-	saveYamlFile("./itemNames-no.txt", notExistNameStr)
-
-	saveYamlFile(sItemFile, itemData)
-
+	itemData := gItemData{}
 	outItemFile := "./g-item.yaml"
-	saveYamlFile(outItemFile, itemInfoSlice)
+	for _, item := range gItemInfoSlice {
+		itemName := item.Name
+		if item.Have != "H" {
+			itemName += "*"
+		} else {
+			itemData.Have = append(itemData.Have, itemName)
+		}
+		itemData.Hobbies = append(itemData.Hobbies, itemName)
+		if item.Gold == "G" {
+			itemData.Golds = append(itemData.Golds, itemName)
+		}
+		if item.Big == "G" {
+			itemData.Big = append(itemData.Big, itemName)
+		}
+	}
+	itemData.PNotExist = pItemNotExistSlice
+	itemData.KCNotExist = kcItemNotExistSlice
+	saveYamlFile(outItemFile, itemData)
+
+	outItemListFile := "./g-item-list.yaml"
+	saveYamlFile(outItemListFile, gItemInfoSlice)
 
 	var itemInfoFlowSlice []itemInfoFlow
-	for _, item := range itemInfoSlice {
-		info := itemInfoFlow{[]interface{}{item.Idx, item.Name, item.Exist, item.Gold, item.Big, item.BestFor, item.BetterFor, item.NormalFor}}
+	for _, item := range gItemInfoSlice {
+		info := itemInfoFlow{[]interface{}{item.Idx, item.Name, item.Have, item.Gold, item.Big, item.BestFor, item.BetterFor, item.NormalFor}}
 		itemInfoFlowSlice = append(itemInfoFlowSlice, info)
 	}
 	saveYamlFile("./g-item-flow.yaml", itemInfoFlowSlice)
-
-	breedFile := "./g-breed.yaml"
-	var breedSlice []gBreed
-	for _, breedName := range breedNameSlice {
-		breedItemSlice := breedNameSliceMap[breedName]
-		//if len(breedItemSlice) > 0 {
-		breedSlice = append(breedSlice, gBreed{breedName, breedItemSlice})
-		//}
-	}
-
-	saveYamlFile(breedFile, breedSlice)
 
 	fixFile := "./g-hobbies-fix.yaml"
 	for _, p := range personSlice {
@@ -380,11 +242,11 @@ func main() {
 			iName := p.Better[i]
 			jName := p.Better[j]
 			iIdx := 0
-			if item, ok := itemMap[iName]; ok {
+			if item, ok := gItemInfoMap[iName]; ok {
 				iIdx = item.Idx
 			}
 			jIdx := 0
-			if item, ok := itemMap[jName]; ok {
+			if item, ok := gItemInfoMap[jName]; ok {
 				jIdx = item.Idx
 			}
 
@@ -393,17 +255,17 @@ func main() {
 		sort.Slice(p.BetterFix, func(i, j int) bool {
 			iName := p.BetterFix[i]
 			jName := p.BetterFix[j]
-			return itemMap[iName].Idx < itemMap[jName].Idx
+			return gItemInfoMap[iName].Idx < gItemInfoMap[jName].Idx
 		})
 		sort.Slice(p.Normal, func(i, j int) bool {
 			iName := p.Normal[i]
 			jName := p.Normal[j]
 			iIdx := 0
-			if item, ok := itemMap[iName]; ok {
+			if item, ok := gItemInfoMap[iName]; ok {
 				iIdx = item.Idx
 			}
 			jIdx := 0
-			if item, ok := itemMap[jName]; ok {
+			if item, ok := gItemInfoMap[jName]; ok {
 				jIdx = item.Idx
 			}
 
@@ -412,24 +274,12 @@ func main() {
 		sort.Slice(p.NormalFix, func(i, j int) bool {
 			iName := p.NormalFix[i]
 			jName := p.NormalFix[j]
-			return itemMap[iName].Idx < itemMap[jName].Idx
+			return gItemInfoMap[iName].Idx < gItemInfoMap[jName].Idx
 		})
 	}
 	saveYamlFile(fixFile, personSlice)
-
-	var notInPerson []string
-	for existName := range idxMap {
-		if _, ok := itemMap[existName]; !ok {
-			notInPerson = append(notInPerson, existName)
-		}
-	}
-	fmt.Println("s-item存在,s-hobbies不存在", len(notInPerson), notInPerson)
-	var notInExist []string
-	for iName := range itemMap {
-		if _, ok := idxMap[iName]; !ok {
-			notInExist = append(notInExist, iName)
-		}
-	}
-	fmt.Println("s-hobbies存在,s-item不存在", len(notInExist), notInExist)
+	fmt.Println("s-kind-item重复出现的: ", duplicateNameSlice)
+	fmt.Println("s-hobbies没在s-kind-item中", len(pItemNotExistSlice), pItemNotExistSlice)
+	fmt.Println("s-kind-custom没在s-kind-item中", len(kcItemNotExistSlice), kcItemNotExistSlice)
 
 }
