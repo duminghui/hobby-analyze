@@ -149,7 +149,7 @@ func analyze(d data) {
 		icBetter, bOk := betterICMap[p.Best]
 		// 如果较好的不存在, 或者较好的数量小于2, 比较该人的Better项, 如果better项中的权重高,并且数量高的, 就使用better里的.
 		if !bOk || icBetter.pCount < 2 {
-			for _, itemName := range p.BetterFix {
+			for _, itemName := range p.BetterSlice() {
 				if ic, ok2 := betterICMap[itemName]; ok2 {
 					if ic.weight != "N" && ic.pCount > 2 {
 						useBest = false

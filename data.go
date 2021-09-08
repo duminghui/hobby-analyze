@@ -38,11 +38,25 @@ func (i itemInfo) String() string {
 type person struct {
 	Name      string   `yaml:"name"`
 	Idx       int      `yaml:"idx,omitempty"`
-	Best      string   `yaml:"best"`
+	Best      string   `yaml:"best,omitempty"`
 	Better    []string `yaml:"better,flow"`
 	BetterFix []string `yaml:"betterFix,flow,omitempty"`
 	Normal    []string `yaml:"normal,flow,omitempty"`
 	NormalFix []string `yaml:"normalFix,flow,omitempty"`
+}
+
+func (p person) BetterSlice() []string {
+	if len(p.BetterFix) > 0 {
+		return p.BetterFix
+	}
+	return p.Better
+}
+
+func (p person) NormalSlice() []string {
+	if len(p.NormalFix) > 0 {
+		return p.NormalFix
+	}
+	return p.Normal
 }
 
 func (p person) String() string {
