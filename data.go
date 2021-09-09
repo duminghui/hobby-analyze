@@ -34,6 +34,9 @@ func (i itemInfo) String() string {
 	weight := fmt.Sprintf("%s%s", i.Gold, i.Big)
 	return fmt.Sprintf("{#%d,%s,%s,%s}", i.Idx, i.Name, i.Have, weight)
 }
+func (i itemInfo) weight() string {
+	return fmt.Sprintf("%s%s", i.Gold, i.Big)
+}
 
 type person struct {
 	Name      string   `yaml:"name"`

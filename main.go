@@ -8,6 +8,11 @@ import (
 
 //go:generate go run gen-item.go data.go
 
+type itemResult struct {
+	itemName string
+	flag     string
+}
+
 type data struct {
 	people []person
 	items  []itemInfo
@@ -125,7 +130,7 @@ func analyze(d data) {
 	delPNameSlice(betterICs, notExistNames)
 	delPNameSlice(normalICs, notExistNames)
 	fmt.Println("ExistPeople", existPeople, len(existPeople))
-	resultPersonItemMap := make(map[string]string)
+	resultPersonItemMap := make(map[string]itemResult)
 	resultItemPeopleMap := make(map[string][]string)
 
 	//for _, ic := range bstICMap {
@@ -163,8 +168,9 @@ func analyze(d data) {
 			var delPNames []string
 			for _, pName := range icBest.pNames {
 				if _, ok2 := resultPersonItemMap[pName]; !ok2 {
-					resultPersonItemMap[pName] = icBest.item.Name + "++"
-					resultItemPeopleMap[icBest.item.Name] = append(resultItemPeopleMap[icBest.item.Name], pName+"++")
+					itemName := icBest.item.Name
+					resultPersonItemMap[pName] = itemResult{itemName, icBest.item.weight() + "++"}
+					resultItemPeopleMap[itemName] = append(resultItemPeopleMap[itemName], pName+"++")
 					delPNames = append(delPNames, pName)
 				}
 			}
@@ -211,8 +217,9 @@ func analyze(d data) {
 		var delPNames []string
 		for _, pName := range ic.pNames {
 			if _, ok := resultPersonItemMap[pName]; !ok {
-				resultPersonItemMap[pName] = ic.item.Name + "+"
-				resultItemPeopleMap[ic.item.Name] = append(resultItemPeopleMap[ic.item.Name], pName+"+")
+				itemName := ic.item.Name
+				resultPersonItemMap[pName] = itemResult{itemName, ic.item.weight() + "+"}
+				resultItemPeopleMap[itemName] = append(resultItemPeopleMap[itemName], pName+"+")
 				delPNames = append(delPNames, pName)
 			}
 		}
@@ -234,8 +241,9 @@ func analyze(d data) {
 		var delPNames []string
 		for _, pName := range ic.pNames {
 			if _, ok := resultPersonItemMap[pName]; !ok {
-				resultPersonItemMap[pName] = ic.item.Name
-				resultItemPeopleMap[ic.item.Name] = append(resultItemPeopleMap[ic.item.Name], pName)
+				itemName := ic.item.Name
+				resultPersonItemMap[pName] = itemResult{itemName, ic.item.weight() + ""}
+				resultItemPeopleMap[itemName] = append(resultItemPeopleMap[itemName], pName)
 				delPNames = append(delPNames, pName)
 			}
 		}
@@ -245,7 +253,12 @@ func analyze(d data) {
 	fmt.Println("==============================")
 
 	for idx, p := range existPeople {
-		fmt.Printf("%d, %s: %s", idx+1, p.Name, resultPersonItemMap[p.Name])
+		ir, ok := resultPersonItemMap[p.Name]
+		if ok {
+			fmt.Printf("#%d %s: %s", idx+1, p.Name, ir.itemName+ir.flag)
+		} else {
+			fmt.Printf("#%d %s:", idx+1, p.Name)
+		}
 		fmt.Println()
 	}
 	fmt.Println("=================")
@@ -254,7 +267,7 @@ func analyze(d data) {
 	for _, item := range d.items {
 		if pNames, ok := resultItemPeopleMap[item.Name]; ok {
 			idx++
-			fmt.Println(idx, item.Name, pNames)
+			fmt.Printf("#%d %s: %s\n", idx, item.Name+item.weight(), pNames)
 		}
 	}
 }
