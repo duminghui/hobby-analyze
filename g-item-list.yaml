@@ -297,7 +297,7 @@
   have: "N"
   gold: ""
   big: ""
-  betterFor: [布拉德, 希卡, 孔雀**]
+  betterFor: [布拉德, 希卡, 孔雀***]
   normalFor: [费朗克, 米兰达, 凯丽, 优卡, 汪汪糖]
 - name: 桃子
   idx: 44
