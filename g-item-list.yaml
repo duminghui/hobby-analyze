@@ -800,7 +800,7 @@
   normalFor: []
 - name: 蚬贝汤
   idx: 114
-  have: "N"
+  have: H
   gold: ""
   big: ""
   betterFor: [静, 银次郎]
@@ -878,7 +878,7 @@
   normalFor: [诺艾尔, 密斯拉]
 - name: 烤奶酪
   idx: 125
-  have: "N"
+  have: H
   gold: ""
   big: ""
   betterFor: []
@@ -908,7 +908,7 @@
   normalFor: [丝特法妮, 卢迪斯]
 - name: 奶酪土豆
   idx: 129
-  have: "N"
+  have: H
   gold: ""
   big: ""
   betterFor: []
@@ -943,7 +943,7 @@
   normalFor: [小女神大人, 一徹]
 - name: 烤鱼
   idx: 134
-  have: "N"
+  have: H
   gold: ""
   big: ""
   betterFor: [银次郎]
@@ -1095,7 +1095,7 @@
   normalFor: [悠月*, 静]
 - name: 水煮蛋
   idx: 155
-  have: "N"
+  have: H
   gold: ""
   big: ""
   betterFor: []
@@ -1261,7 +1261,7 @@
   normalFor: [罗塔斯]
 - name: 白米饭
   idx: 178
-  have: "N"
+  have: H
   gold: ""
   big: ""
   betterFor: [日向, 心鞠, 梅吉, 银次郎]
@@ -1345,14 +1345,14 @@
   normalFor: []
 - name: 粥
   idx: 190
-  have: "N"
+  have: H
   gold: ""
   big: ""
   betterFor: [梅吉, 御美代]
   normalFor: []
 - name: 蛋浇饭
   idx: 191
-  have: "N"
+  have: H
   gold: ""
   big: ""
   betterFor: [日向]
@@ -1515,7 +1515,7 @@
   normalFor: [霞]
 - name: 奶酪通心粉
   idx: 214
-  have: "N"
+  have: H
   gold: ""
   big: ""
   betterFor: []
@@ -1659,7 +1659,7 @@
   normalFor: [日向]
 - name: 奶酪蛋糕
   idx: 234
-  have: "N"
+  have: H
   gold: ""
   big: ""
   betterFor: []
@@ -2137,14 +2137,14 @@
   normalFor: [密斯拉, 森谷, 梅吉]
 - name: 绿茶
   idx: 301
-  have: "N"
+  have: H
   gold: ""
   big: ""
   betterFor: [霞, 一徹, 梅吉, 御美代, 银次郎]
   normalFor: [悠月*, 心鞠, 辰巳, 森谷]
 - name: 甜米酒
   idx: 302
-  have: "N"
+  have: H
   gold: ""
   big: ""
   betterFor: [费朗克, 布拉德, 心鞠, 静, 御美代]

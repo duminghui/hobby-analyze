@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-//go:generate go run gen-item.go data.go
+//go:generate go run gen-item.go data.go utils.go
 
 type itemResult struct {
 	itemName string
@@ -23,6 +23,11 @@ type itemCount struct {
 	weight int
 	pCount int
 	pNames []string
+}
+
+type usedItemInfo struct {
+	name   string
+	pCount int
 }
 
 func (i itemCount) String() string {
@@ -65,6 +70,7 @@ func (ics itemCountSlice) Swap(i, j int) {
 }
 
 func analyze(d data) {
+	itemInfoMap := make(map[string]itemInfo)
 	bstICMap := make(map[string]*itemCount)
 	betterICMap := make(map[string]*itemCount)
 	betterICs := itemCountSlice{}
@@ -72,6 +78,7 @@ func analyze(d data) {
 	normalICs := itemCountSlice{}
 	for _, item := range d.items {
 		if item.Have == "H" {
+			itemInfoMap[item.Name] = item
 			weight := len(item.Gold + item.Big)
 			bestLen := len(item.BestFor)
 			if bestLen > 0 {
@@ -193,7 +200,7 @@ func analyze(d data) {
 			//delPNameSlice(normalICs, delPNames)
 		}
 	}
-	fmt.Println("Best:", resultPersonItemMap, len(resultPersonItemMap))
+	fmt.Println("After Best:", resultPersonItemMap, len(resultPersonItemMap))
 	iCount := 0
 	for {
 		sort.Sort(betterICs)
@@ -217,7 +224,30 @@ func analyze(d data) {
 		delPNameSlice(betterICs, delPNames)
 		delPNameSlice(normalICs, delPNames)
 	}
-	fmt.Println("Better:", resultPersonItemMap, len(resultPersonItemMap), iCount)
+	var usedItemSlice []usedItemInfo
+	for itemName, pNames := range resultItemPeopleMap {
+		usedItemSlice = append(usedItemSlice, usedItemInfo{itemName, len(pNames)})
+	}
+	sort.Slice(usedItemSlice, func(i, j int) bool {
+		return usedItemSlice[i].pCount > usedItemSlice[j].pCount
+	})
+	var delPNames []string
+	for _, p := range existPeople {
+		if _, ok := resultPersonItemMap[p.Name]; ok {
+			continue
+		}
+		for _, usedItem := range usedItemSlice {
+			itemName := usedItem.name
+			if inStringArray(p.NormalSlice(), usedItem.name) {
+				_itemInfo := itemInfoMap[itemName]
+				resultPersonItemMap[p.Name] = itemResult{itemName, _itemInfo.weight() + ""}
+				resultItemPeopleMap[itemName] = append(resultItemPeopleMap[itemName], p.Name)
+				delPNames = append(delPNames, p.Name)
+			}
+		}
+	}
+	delPNameSlice(normalICs, delPNames)
+	fmt.Println("After Better:", resultPersonItemMap, len(resultPersonItemMap), iCount)
 	iCount = 0
 	for {
 		iCount++
@@ -229,16 +259,16 @@ func analyze(d data) {
 		if ic.pCount == 0 {
 			break
 		}
-		var delPNames []string
+		var _delPNames []string
 		for _, pName := range ic.pNames {
 			if _, ok := resultPersonItemMap[pName]; !ok {
 				itemName := ic.item.Name
 				resultPersonItemMap[pName] = itemResult{itemName, ic.item.weight() + ""}
 				resultItemPeopleMap[itemName] = append(resultItemPeopleMap[itemName], pName)
-				delPNames = append(delPNames, pName)
+				_delPNames = append(_delPNames, pName)
 			}
 		}
-		delPNameSlice(normalICs, delPNames)
+		delPNameSlice(normalICs, _delPNames)
 	}
 	fmt.Println("Normal:", resultPersonItemMap, len(resultPersonItemMap), iCount)
 	fmt.Println("==============================")

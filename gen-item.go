@@ -1,3 +1,4 @@
+// go:build ignore
 //go:build ignore
 // +build ignore
 
@@ -47,26 +48,6 @@ func saveYamlFile(outFilePath string, in interface{}) {
 	}
 	fmt.Printf("保存文件:%s", outFilePath)
 	fmt.Println()
-}
-
-func inStringArray(arr []string, str string) bool {
-	for _, s := range arr {
-		if s == str {
-			return true
-		}
-	}
-	return false
-}
-
-func appendSingle(arr []string, str string) []string {
-	if !inStringArray(arr, str) {
-		arr = append(arr, str)
-	}
-	return arr
-}
-
-func stringJoin(array interface{}, seq string) string {
-	return strings.Replace(strings.Trim(fmt.Sprint(array), "[]"), " ", seq, -1)
 }
 
 func main() {
