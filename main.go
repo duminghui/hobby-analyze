@@ -20,7 +20,7 @@ type data struct {
 
 type itemCount struct {
 	item   itemInfo
-	weight string
+	weight int
 	pCount int
 	pNames []string
 }
@@ -45,14 +45,8 @@ func (ics itemCountSlice) Less(i, j int) bool {
 	} else if icI.pCount == 0 && icJ.pCount == 0 {
 		return icI.item.Idx < icJ.item.Idx
 	}
-	icIW := len(icI.weight)
-	if icI.weight == "N" {
-		icIW = 0
-	}
-	icJW := len(icJ.weight)
-	if icJ.weight == "N" {
-		icJW = 0
-	}
+	icIW := icI.weight
+	icJW := icJ.weight
 
 	if icIW == icJW {
 		if icI.pCount == icJ.pCount {
@@ -78,10 +72,7 @@ func analyze(d data) {
 	normalICs := itemCountSlice{}
 	for _, item := range d.items {
 		if item.Have == "H" {
-			weight := item.Gold + item.Big
-			if weight == "" {
-				weight = "N"
-			}
+			weight := len(item.Gold + item.Big)
 			bestLen := len(item.BestFor)
 			if bestLen > 0 {
 				ic := &itemCount{
@@ -156,7 +147,7 @@ func analyze(d data) {
 		if !bOk || icBetter.pCount < 2 {
 			for _, itemName := range p.BetterSlice() {
 				if ic, ok2 := betterICMap[itemName]; ok2 {
-					if ic.weight != "N" && ic.pCount > 2 {
+					if ic.weight > 0 && ic.pCount > 2 {
 						useBest = false
 						break
 					}
