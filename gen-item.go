@@ -1,7 +1,3 @@
-// go:build ignore
-//go:build ignore
-// +build ignore
-
 package main
 
 import (
@@ -50,7 +46,7 @@ func saveYamlFile(outFilePath string, in interface{}) {
 	fmt.Println()
 }
 
-func main() {
+func genItems() {
 
 	sDataFile := "./s-hobbies.yaml"
 	var personSlice []*person
@@ -152,11 +148,15 @@ func main() {
 			}
 		}
 	}
+	// 整理s-kind-custom中出现的物品, 因为s-hobbies中有只出现类的情况.
 	// 如果没在s-kind-item中出现, 则删除
 	// 如果在person出现,则不删除
 	// 如果没在person中出现, 查看他在kc中出现的次数, >1不删除
 	// 如果=1,查看他所在的种类在person中的情况, 如果在better中出现不删除, 否则查看全部的出现情况, 如果出现次数>1不删除
 
+	// kind-custom的物品没在s-kind-item中
+	var kcItemNotExistSlice []string
+	// kind-custom没有person使用, 待删除的物品
 	var delKcItemSlice []string
 	processItemMap := make(map[string]int)
 	for _, kc := range kindCustomSlice {
@@ -166,7 +166,8 @@ func main() {
 			}
 			processItemMap[itemName] = 1
 			if _, ok := allItemIdxMap[itemName]; !ok {
-				delKcItemSlice = append(delKcItemSlice, itemName)
+				//delKcItemSlice = append(delKcItemSlice, itemName)
+				kcItemNotExistSlice = appendSingle(kcItemNotExistSlice, itemName)
 				continue
 			}
 			if _, ok := allItemInPCountMap[itemName]; ok {
@@ -184,17 +185,13 @@ func main() {
 			delKcItemSlice = append(delKcItemSlice, itemName)
 		}
 	}
-	// kind-custom的物品没在s-kind-item中
-	var kcItemNotExistSlice []string
+
 	kcItemMap := make(map[string]gKindCustom)
 	for idx := range kindCustomSlice {
 		kc := &kindCustomSlice[idx]
 		var fix []string
 		isFix := false
 		for _, itemName := range kc.Items {
-			if _, idxOk := allItemIdxMap[itemName]; !idxOk {
-				kcItemNotExistSlice = appendSingle(kcItemNotExistSlice, itemName)
-			}
 			if !inStringArray(delKcItemSlice, itemName) {
 				fix = append(fix, itemName)
 			} else {
@@ -416,6 +413,6 @@ func main() {
 	fmt.Println("s-kind-item重复出现的: ", duplicateNameSlice)
 	fmt.Println("s-hobbies没在s-kind-item中", len(pItemNotExistSlice), pItemNotExistSlice)
 	fmt.Println("s-kind-custom没在s-kind-item中", len(kcItemNotExistSlice), kcItemNotExistSlice)
-	fmt.Println("s-kind-custom待删除的:", len(delKcItemSlice), delKcItemSlice)
+	fmt.Println("s-kind-custom无人使用的:", len(delKcItemSlice), delKcItemSlice)
 
 }

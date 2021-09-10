@@ -13,6 +13,10 @@ type itemResult struct {
 	flag     string
 }
 
+func (i itemResult) String() string {
+	return fmt.Sprintf("%s%s", i.itemName, i.flag)
+}
+
 type data struct {
 	people []person
 	items  []itemInfo
@@ -121,13 +125,13 @@ func analyze(d data) {
 		if !strings.HasSuffix(p.Name, "*") {
 			existPeople = append(existPeople, p)
 		} else {
-			delete(bstICMap, p.Best)
 			notExistNames = append(notExistNames, p.Name)
 		}
 	}
 	delPNameSlice(betterICs, notExistNames)
 	delPNameSlice(normalICs, notExistNames)
-	fmt.Println("ExistPeople", existPeople, len(existPeople))
+	lenExistPeople := len(existPeople)
+	fmt.Println("ExistPeople", existPeople, lenExistPeople)
 	resultPersonItemMap := make(map[string]itemResult)
 	resultItemPeopleMap := make(map[string][]string)
 
@@ -178,8 +182,8 @@ func analyze(d data) {
 			//if bOk {
 			//	for _, pName := range icBetter.pNames {
 			//		if _, ok2 := resultPersonItemMap[pName]; !ok2 {
-			//			resultPersonItemMap[pName] = icBest.item.Name + "+"
-			//			resultItemPeopleMap[icBest.item.Name] = append(resultItemPeopleMap[icBest.item.Name], pName+"+")
+			//			resultPersonItemMap[pName] = itemResult{itemName, icBest.item.weight() + "+"}
+			//			resultItemPeopleMap[itemName] = append(resultItemPeopleMap[itemName], pName+"+")
 			//			delPNames = append(delPNames, pName)
 			//		}
 			//	}
@@ -190,8 +194,8 @@ func analyze(d data) {
 			//if nIc, ok := normalICMap[p.Best]; ok {
 			//	for _, pName := range nIc.pNames {
 			//		if _, ok2 := resultPersonItemMap[pName]; !ok2 {
-			//			resultPersonItemMap[pName] = icBest.item.Name
-			//			resultItemPeopleMap[icBest.item.Name] = append(resultItemPeopleMap[icBest.item.Name], pName)
+			//			resultPersonItemMap[pName] = itemResult{itemName, icBest.item.weight()}
+			//			resultItemPeopleMap[itemName] = append(resultItemPeopleMap[itemName], pName)
 			//			delPNames = append(delPNames, pName)
 			//		}
 			//	}
@@ -200,7 +204,9 @@ func analyze(d data) {
 			//delPNameSlice(normalICs, delPNames)
 		}
 	}
-	fmt.Println("After Best:", resultPersonItemMap, len(resultPersonItemMap))
+	fmt.Printf("#After Best People: %s %d/%d\n", resultPersonItemMap, len(resultPersonItemMap), lenExistPeople)
+	fmt.Printf("#After Best Item: %s,%d\n", resultItemPeopleMap, len(resultItemPeopleMap))
+	fmt.Println("--------------------------")
 	iCount := 0
 	for {
 		sort.Sort(betterICs)
@@ -224,6 +230,10 @@ func analyze(d data) {
 		delPNameSlice(betterICs, delPNames)
 		delPNameSlice(normalICs, delPNames)
 	}
+	fmt.Printf("#After Better People 1: %s %d/%d\n", resultPersonItemMap, len(resultPersonItemMap), lenExistPeople)
+	fmt.Printf("#After Better Item 1: %s,%d\n", resultItemPeopleMap, len(resultItemPeopleMap))
+	fmt.Println("--------------------------")
+
 	var usedItemSlice []usedItemInfo
 	for itemName, pNames := range resultItemPeopleMap {
 		usedItemSlice = append(usedItemSlice, usedItemInfo{itemName, len(pNames)})
@@ -238,16 +248,19 @@ func analyze(d data) {
 		}
 		for _, usedItem := range usedItemSlice {
 			itemName := usedItem.name
-			if inStringArray(p.NormalSlice(), usedItem.name) {
+			if inStringArray(p.NormalSlice(), itemName) {
 				_itemInfo := itemInfoMap[itemName]
 				resultPersonItemMap[p.Name] = itemResult{itemName, _itemInfo.weight() + ""}
 				resultItemPeopleMap[itemName] = append(resultItemPeopleMap[itemName], p.Name)
 				delPNames = append(delPNames, p.Name)
+				break
 			}
 		}
 	}
 	delPNameSlice(normalICs, delPNames)
-	fmt.Println("After Better:", resultPersonItemMap, len(resultPersonItemMap), iCount)
+	fmt.Printf("#After Better People 2: %s %d/%d\n", resultPersonItemMap, len(resultPersonItemMap), lenExistPeople)
+	fmt.Printf("#After Better Item 2: %s,%d\n", resultItemPeopleMap, len(resultItemPeopleMap))
+	fmt.Println("--------------------------")
 	iCount = 0
 	for {
 		iCount++
@@ -270,15 +283,18 @@ func analyze(d data) {
 		}
 		delPNameSlice(normalICs, _delPNames)
 	}
-	fmt.Println("Normal:", resultPersonItemMap, len(resultPersonItemMap), iCount)
+	//fmt.Println("After Normal:", resultPersonItemMap, len(resultPersonItemMap), iCount)
+	//fmt.Println("After Normal:", resultItemPeopleMap, len(resultItemPeopleMap))
 	fmt.Println("==============================")
 
+	var peopleNoItemSlice []string
 	for idx, p := range existPeople {
 		ir, ok := resultPersonItemMap[p.Name]
 		if ok {
-			fmt.Printf("#%d %s: %s", idx+1, p.Name, ir.itemName+ir.flag)
+			fmt.Printf("#%d %s: %s", idx+1, p.Name, ir)
 		} else {
 			fmt.Printf("#%d %s:", idx+1, p.Name)
+			peopleNoItemSlice = append(peopleNoItemSlice, p.Name)
 		}
 		fmt.Println()
 	}
@@ -291,6 +307,7 @@ func analyze(d data) {
 			fmt.Printf("#%d %s: %s\n", idx, item.Name+item.weight(), pNames)
 		}
 	}
+	fmt.Println("没有分配物品的:", peopleNoItemSlice)
 }
 
 func delPNameSlice(ics itemCountSlice, pNames []string) {
@@ -335,6 +352,8 @@ func delPName(pNames []string, pName string) []string {
 }
 
 func main() {
+	genItems()
+	fmt.Println("====================================")
 	d := data{}
 	hobbiesFile := "./g-hobbies-fix.yaml"
 	readYamlFile(hobbiesFile, &(d.people))
