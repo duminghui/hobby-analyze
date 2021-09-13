@@ -264,7 +264,9 @@ func genItems() {
 		var betterFix []string
 		for _, itemName := range p.Better {
 			if kcItems := itemSliceFromKindCustom(itemName); len(kcItems) > 0 {
-				betterFix = append(betterFix, kcItems...)
+				for _, iName := range kcItems {
+					betterFix = appendSingle(betterFix, iName)
+				}
 				isFix = true
 			} else {
 				betterFix = append(betterFix, itemName)
@@ -280,8 +282,12 @@ func genItems() {
 		var normalFix []string
 		for _, itemName := range p.Normal {
 			if kcItems := itemSliceFromKindCustom(itemName); len(kcItems) > 0 {
-				normalFix = append(normalFix, kcItems...)
-				isFix = true
+				for _, iName := range kcItems {
+					if !inStringArray(p.BetterSlice(), iName) {
+						normalFix = appendSingle(normalFix, iName)
+						isFix = true
+					}
+				}
 			} else {
 				normalFix = append(normalFix, itemName)
 			}

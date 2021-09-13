@@ -17,6 +17,15 @@ func (i itemResult) String() string {
 	return fmt.Sprintf("%s%s", i.itemName, i.flag)
 }
 
+type personResult struct {
+	pName string
+	flag  string
+}
+
+func (p personResult) String() string {
+	return fmt.Sprintf("%s%s", p.pName, p.flag)
+}
+
 type data struct {
 	people []person
 	items  []itemInfo
@@ -121,9 +130,11 @@ func analyze(d data) {
 
 	var existPeople []person
 	var notExistNames []string
+	personMap := make(map[string]person)
 	for _, p := range d.people {
 		if !strings.HasSuffix(p.Name, "*") {
 			existPeople = append(existPeople, p)
+			personMap[p.Name] = p
 		} else {
 			notExistNames = append(notExistNames, p.Name)
 		}
@@ -131,9 +142,10 @@ func analyze(d data) {
 	delPNameSlice(betterICs, notExistNames)
 	delPNameSlice(normalICs, notExistNames)
 	lenExistPeople := len(existPeople)
+	fmt.Println("NotExistPeople", notExistNames, lenExistPeople)
 	fmt.Println("ExistPeople", existPeople, lenExistPeople)
 	resultPersonItemMap := make(map[string]itemResult)
-	resultItemPeopleMap := make(map[string][]string)
+	resultItemPeopleMap := make(map[string][]personResult)
 
 	//for _, ic := range bstICMap {
 	//	fmt.Println("********")
@@ -172,7 +184,7 @@ func analyze(d data) {
 				if _, ok2 := resultPersonItemMap[pName]; !ok2 {
 					itemName := icBest.item.Name
 					resultPersonItemMap[pName] = itemResult{itemName, icBest.item.weight() + "++"}
-					resultItemPeopleMap[itemName] = append(resultItemPeopleMap[itemName], pName+"++")
+					resultItemPeopleMap[itemName] = append(resultItemPeopleMap[itemName], personResult{pName, "++"})
 					delPNames = append(delPNames, pName)
 				}
 			}
@@ -223,7 +235,7 @@ func analyze(d data) {
 			if _, ok := resultPersonItemMap[pName]; !ok {
 				itemName := ic.item.Name
 				resultPersonItemMap[pName] = itemResult{itemName, ic.item.weight() + "+"}
-				resultItemPeopleMap[itemName] = append(resultItemPeopleMap[itemName], pName+"+")
+				resultItemPeopleMap[itemName] = append(resultItemPeopleMap[itemName], personResult{pName, "+"})
 				delPNames = append(delPNames, pName)
 			}
 		}
@@ -251,7 +263,7 @@ func analyze(d data) {
 			if inStringArray(p.NormalSlice(), itemName) {
 				_itemInfo := itemInfoMap[itemName]
 				resultPersonItemMap[p.Name] = itemResult{itemName, _itemInfo.weight() + ""}
-				resultItemPeopleMap[itemName] = append(resultItemPeopleMap[itemName], p.Name)
+				resultItemPeopleMap[itemName] = append(resultItemPeopleMap[itemName], personResult{p.Name, ""})
 				delPNames = append(delPNames, p.Name)
 				break
 			}
@@ -276,13 +288,64 @@ func analyze(d data) {
 		for _, pName := range ic.pNames {
 			if _, ok := resultPersonItemMap[pName]; !ok {
 				itemName := ic.item.Name
-				resultPersonItemMap[pName] = itemResult{itemName, ic.item.weight() + ""}
-				resultItemPeopleMap[itemName] = append(resultItemPeopleMap[itemName], pName)
+				resultPersonItemMap[pName] = itemResult{itemName, ic.item.weight()}
+				resultItemPeopleMap[itemName] = append(resultItemPeopleMap[itemName], personResult{pName, ""})
 				_delPNames = append(_delPNames, pName)
 			}
 		}
 		delPNameSlice(normalICs, _delPNames)
 	}
+
+	// 检查分配结果, 如果一个的可以再分配到其他地方, 就进行分配.
+	var usedItemSliceEsc []usedItemInfo
+	var usedItemSliceDesc []usedItemInfo
+	for itemName, pNames := range resultItemPeopleMap {
+		usedItemSliceEsc = append(usedItemSliceEsc, usedItemInfo{itemName, len(pNames)})
+		usedItemSliceDesc = append(usedItemSliceDesc, usedItemInfo{itemName, len(pNames)})
+	}
+	sort.Slice(usedItemSliceEsc, func(i, j int) bool {
+		return usedItemSliceEsc[i].pCount < usedItemSliceEsc[j].pCount
+	})
+	sort.Slice(usedItemSliceDesc, func(i, j int) bool {
+		return usedItemSliceDesc[i].pCount > usedItemSliceDesc[j].pCount
+	})
+	for _, usedItemEsc := range usedItemSliceEsc {
+		resultPersonSlice := resultItemPeopleMap[usedItemEsc.name]
+		if len(resultPersonSlice) == 1 {
+			rp := resultPersonSlice[0]
+			if rp.flag == "++" {
+				continue
+			}
+			pName := rp.pName
+			p := personMap[pName]
+			for _, usedItemDesc := range usedItemSliceDesc {
+				toItemName := usedItemDesc.name
+				if _, ok := resultItemPeopleMap[toItemName]; !ok {
+					continue
+				}
+				if toItemName == usedItemEsc.name {
+					continue
+				}
+				item := itemInfoMap[toItemName]
+				if inStringArray(p.BetterSlice(), toItemName) {
+					resultPersonItemMap[pName] = itemResult{item.Name, item.weight() + "+"}
+					resultItemPeopleMap[toItemName] = append(resultItemPeopleMap[toItemName], personResult{pName, "+"})
+					delete(resultItemPeopleMap, usedItemEsc.name)
+					break
+				}
+				if rp.flag == "+" {
+					continue
+				}
+				if inStringArray(p.NormalSlice(), toItemName) {
+					resultPersonItemMap[pName] = itemResult{item.Name, item.weight()}
+					resultItemPeopleMap[toItemName] = append(resultItemPeopleMap[toItemName], personResult{pName, ""})
+					delete(resultItemPeopleMap, usedItemEsc.name)
+					break
+				}
+			}
+		}
+	}
+
 	//fmt.Println("After Normal:", resultPersonItemMap, len(resultPersonItemMap), iCount)
 	//fmt.Println("After Normal:", resultItemPeopleMap, len(resultItemPeopleMap))
 	fmt.Println("==============================")
