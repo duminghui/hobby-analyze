@@ -18,7 +18,7 @@
   gold: ""
   big: ""
   betterFor: [布拉德**, 密斯拉]
-  normalFor: [费德**, 梅根**, 科林**, 米兰达, 小女神大人, 托托塔拉]
+  normalFor: [费德**, 梅根**, 科林**, 米兰达**, 小女神大人, 托托塔拉]
 - name: 土豆
   idx: 4
   have: H
@@ -60,7 +60,7 @@
   gold: ""
   big: ""
   betterFor: [布拉德**, 梅根**, 海科特**, 密斯拉]
-  normalFor: [费德**, 科林**, 米兰达, 诺艾尔**, 小女神大人, 银次郎, 托托塔拉, 罗塔斯]
+  normalFor: [费德**, 科林**, 米兰达**, 诺艾尔**, 小女神大人, 银次郎, 托托塔拉, 罗塔斯]
 - name: 玉米
   idx: 10
   have: H
@@ -102,7 +102,7 @@
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [布拉德**, 海科特**, 米兰达]
+  normalFor: [布拉德**, 海科特**, 米兰达**]
 - name: 菠萝
   idx: 16
   have: H
@@ -290,7 +290,7 @@
   have: "N"
   gold: ""
   big: ""
-  betterFor: [米兰达, 银次郎, 卢迪斯**]
+  betterFor: [米兰达**, 银次郎, 卢迪斯**]
   normalFor: [丝特法妮, 卢迪斯**]
 - name: 樱桃
   idx: 43
@@ -298,7 +298,7 @@
   gold: ""
   big: ""
   betterFor: [布拉德**, 希卡**, 孔雀***]
-  normalFor: [凯丽**, 费朗克**, 米兰达, 卢迪斯**, 优卡**, 罗塔斯, 汪汪糖]
+  normalFor: [凯丽**, 费朗克**, 米兰达**, 卢迪斯**, 优卡**, 罗塔斯, 汪汪糖]
 - name: 杏仁
   idx: 44
   have: "N"
@@ -389,7 +389,7 @@
   gold: ""
   big: ""
   betterFor: [布拉德**]
-  normalFor: [马尔科**, 海科特**, 费朗克**, 米兰达, 卢迪斯**, 罗塔斯]
+  normalFor: [马尔科**, 海科特**, 费朗克**, 米兰达**, 卢迪斯**, 罗塔斯]
 - name: 柿子
   idx: 57
   have: "N"
@@ -452,7 +452,7 @@
   gold: ""
   big: ""
   betterFor: [费朗克**]
-  normalFor: [马尔科**, 布拉德**, 科林**, 米兰达, 霞]
+  normalFor: [马尔科**, 布拉德**, 科林**, 米兰达**, 霞]
 - name: 极品鸡蛋
   idx: 66
   have: "N"
@@ -480,7 +480,7 @@
   gold: ""
   big: ""
   betterFor: [凯丽**, 灰熊-茶, 灰熊-黑]
-  normalFor: [梅根**, 米兰达, 小女神大人, 丝特法妮, 悠月, 弥一]
+  normalFor: [梅根**, 米兰达**, 小女神大人, 丝特法妮, 悠月, 弥一]
 - name: 蜂王浆
   idx: 70
   have: "N"
@@ -530,7 +530,7 @@
   have: H
   gold: ""
   big: ""
-  betterFor: [海科特**, 米兰达, 心鞠]
+  betterFor: [海科特**, 米兰达**, 心鞠]
   normalFor: [丝特法妮, 心鞠]
 - name: 含羞草沙拉
   idx: 77
@@ -538,7 +538,7 @@
   gold: ""
   big: ""
   betterFor: [莉雪特**, 科林**, 心鞠]
-  normalFor: [米兰达]
+  normalFor: [米兰达**]
 - name: 奶香沙拉
   idx: 78
   have: "N"
@@ -636,7 +636,7 @@
   have: "N"
   gold: ""
   big: ""
-  betterFor: [梅根**, 海科特**, 米兰达, 诺艾尔**, 心鞠]
+  betterFor: [梅根**, 海科特**, 米兰达**, 诺艾尔**, 心鞠]
   normalFor: []
 - name: 椰子沙拉
   idx: 92
@@ -687,7 +687,7 @@
   have: "N"
   gold: ""
   big: ""
-  betterFor: [米兰达, 心鞠]
+  betterFor: [米兰达**, 心鞠]
   normalFor: []
 - name: 意式蔬菜沙拉
   idx: 99
@@ -709,7 +709,7 @@
   gold: ""
   big: ""
   bestFor: [梅根**]
-  betterFor: [米兰达]
+  betterFor: [米兰达**]
   normalFor: []
 - name: 香草汤
   idx: 102
@@ -881,7 +881,7 @@
   have: H
   gold: ""
   big: ""
-  betterFor: [米兰达]
+  betterFor: [米兰达**]
   normalFor: [诺艾尔**, 密斯拉]
 - name: 烤奶酪
   idx: 126
@@ -1034,13 +1034,13 @@
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [米兰达]
+  normalFor: [米兰达**]
 - name: 干烧虾仁
   idx: 147
   have: "N"
   gold: ""
   big: ""
-  betterFor: [米兰达, 银次郎, 卢迪斯**]
+  betterFor: [米兰达**, 银次郎, 卢迪斯**]
   normalFor: []
 - name: 酿番茄
   idx: 148
@@ -1048,7 +1048,7 @@
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [米兰达]
+  normalFor: [米兰达**]
 - name: 可乐饼
   idx: 149
   have: H
@@ -1532,7 +1532,7 @@
   have: "N"
   gold: ""
   big: ""
-  bestFor: [米兰达]
+  bestFor: [米兰达**]
   betterFor: []
   normalFor: []
 - name: 红豆包
@@ -1599,7 +1599,7 @@
   have: "N"
   gold: ""
   big: ""
-  betterFor: [米兰达]
+  betterFor: [米兰达**]
   normalFor: []
 - name: 甘薯点心
   idx: 226
@@ -2048,14 +2048,14 @@
   gold: ""
   big: ""
   betterFor: [梅根**]
-  normalFor: [费德**, 米兰达, 心鞠]
+  normalFor: [费德**, 米兰达**, 心鞠]
 - name: 胡萝卜汁
   idx: 289
   have: H
   gold: ""
   big: ""
   betterFor: [梅根**]
-  normalFor: [米兰达, 心鞠, 密斯拉]
+  normalFor: [米兰达**, 心鞠, 密斯拉]
 - name: 苹果汁
   idx: 290
   have: H
@@ -2277,7 +2277,7 @@
   gold: ""
   big: ""
   betterFor: [诺艾尔**]
-  normalFor: [马尔科**, 布拉德**, 海科特**, 米兰达]
+  normalFor: [马尔科**, 布拉德**, 海科特**, 米兰达**]
 - name: 黄色布
   idx: 321
   have: H
@@ -2802,14 +2802,14 @@
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [凯丽**, 梅根**, 科林**, 米兰达, 诺艾尔**, 悠月, 霞, 梅吉, 御美代, 雏桃, 弥一, 希卡**]
+  normalFor: [凯丽**, 梅根**, 科林**, 米兰达**, 诺艾尔**, 悠月, 霞, 梅吉, 御美代, 雏桃, 弥一, 希卡**]
 - name: 李子
   idx: 396
   have: H
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [布拉德**, 凯丽**, 梅根**, 科林**, 米兰达, 诺艾尔**, 阿鲁玛]
+  normalFor: [布拉德**, 凯丽**, 梅根**, 科林**, 米兰达**, 诺艾尔**, 阿鲁玛]
 - name: 鳄梨
   idx: 397
   have: H
@@ -2999,7 +2999,7 @@
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [米兰达]
+  normalFor: [米兰达**]
 - name: 魔术蓝草
   idx: 424
   have: H
@@ -3020,7 +3020,7 @@
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [凯丽**, 海科特**, 米兰达, 诺艾尔**, 小女神大人, 优卡**, 希卡**, 托托塔拉, 阿鲁玛]
+  normalFor: [凯丽**, 海科特**, 米兰达**, 诺艾尔**, 小女神大人, 优卡**, 希卡**, 托托塔拉, 阿鲁玛]
 - name: 淡紫色羽扇豆
   idx: 427
   have: H
@@ -3062,7 +3062,7 @@
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [海科特**, 科林**, 米兰达, 诺艾尔**, 日向, 卢迪斯**, 阿鲁玛, 罗塔斯, 汪汪糖]
+  normalFor: [海科特**, 科林**, 米兰达**, 诺艾尔**, 日向, 卢迪斯**, 阿鲁玛, 罗塔斯, 汪汪糖]
 - name: 绿色羽毛
   idx: 433
   have: H
@@ -3146,7 +3146,7 @@
   gold: ""
   big: ""
   betterFor: [诺艾尔**]
-  normalFor: [海科特**, 米兰达]
+  normalFor: [海科特**, 米兰达**]
 - name: 浆果
   idx: 445
   have: "N"
@@ -3160,7 +3160,7 @@
   gold: ""
   big: ""
   betterFor: [灰熊-茶, 灰熊-黑]
-  normalFor: [米兰达, 汪汪糖]
+  normalFor: [米兰达**, 汪汪糖]
 - name: 艾草
   idx: 447
   have: "N"
@@ -3279,14 +3279,14 @@
   gold: ""
   big: ""
   betterFor: [布拉德**, 费朗克**]
-  normalFor: [马尔科**, 米兰达]
+  normalFor: [马尔科**, 米兰达**]
 - name: 草莓酒
   idx: 464
   have: "N"
   gold: ""
   big: ""
   betterFor: [布拉德**, 费朗克**]
-  normalFor: [马尔科**, 凯丽**, 米兰达]
+  normalFor: [马尔科**, 凯丽**, 米兰达**]
 - name: 葡萄酒
   idx: 465
   have: "N"
@@ -3343,7 +3343,7 @@
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [布拉德**, 米兰达, 优卡**]
+  normalFor: [布拉德**, 米兰达**, 优卡**]
 - name: 桃子果酱
   idx: 473
   have: "N"
@@ -3371,7 +3371,7 @@
   gold: ""
   big: ""
   betterFor: [雏桃]
-  normalFor: [布拉德**, 米兰达, 诺艾尔**, 优卡**]
+  normalFor: [布拉德**, 米兰达**, 诺艾尔**, 优卡**]
 - name: 水果酸奶
   idx: 477
   have: "N"
