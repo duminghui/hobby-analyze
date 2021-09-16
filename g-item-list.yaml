@@ -18,7 +18,7 @@
   gold: ""
   big: ""
   betterFor: [布拉德**, 密斯拉]
-  normalFor: [费德**, 梅根**, 科林**, 米兰达**, 小女神大人, 托托塔拉]
+  normalFor: [费德**, 梅根**, 科林**, 米兰达**, 小女神大人, 托托塔拉**]
 - name: 土豆
   idx: 4
   have: H
@@ -53,14 +53,14 @@
   gold: ""
   big: ""
   betterFor: [布拉德**, 密斯拉]
-  normalFor: [费德**, 梅根**, 海科特**, 科林**, 费朗克**, 小女神大人, 托托塔拉, 罗塔斯]
+  normalFor: [费德**, 梅根**, 海科特**, 科林**, 费朗克**, 小女神大人, 托托塔拉**, 罗塔斯]
 - name: 番茄
   idx: 9
   have: H
   gold: ""
   big: ""
   betterFor: [布拉德**, 梅根**, 海科特**, 密斯拉]
-  normalFor: [费德**, 科林**, 米兰达**, 诺艾尔**, 小女神大人, 银次郎, 托托塔拉, 罗塔斯]
+  normalFor: [费德**, 科林**, 米兰达**, 诺艾尔**, 小女神大人, 银次郎, 托托塔拉**, 罗塔斯]
 - name: 玉米
   idx: 10
   have: H
@@ -129,7 +129,7 @@
   have: H
   gold: ""
   big: ""
-  betterFor: [密斯拉, 狐狸-白*]
+  betterFor: [密斯拉, 狐狸-白(冬)*]
   normalFor: [费德**, 费朗克**, 诺艾尔**, 小女神大人]
 - name: 牛蒡
   idx: 20
@@ -143,7 +143,7 @@
   have: H
   gold: G
   big: ""
-  betterFor: [汪汪糖, 狸-栗*]
+  betterFor: [汪汪糖, 狸-栗(春夏秋)*]
   normalFor: [费德**, 海科特**, 科林**, 小女神大人, 心鞠, 梅吉]
 - name: 茄子
   idx: 22
@@ -179,7 +179,7 @@
   gold: ""
   big: ""
   betterFor: [布拉德**, 梅根**]
-  normalFor: [费德**, 海科特**, 小女神大人, 托托塔拉]
+  normalFor: [费德**, 海科特**, 小女神大人, 托托塔拉**]
 - name: 雏菊
   idx: 27
   have: H
@@ -193,7 +193,7 @@
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [托托塔拉, 阿鲁玛]
+  normalFor: [托托塔拉**, 阿鲁玛]
 - name: 木槿
   idx: 29
   have: H
@@ -269,7 +269,7 @@
   have: "N"
   gold: ""
   big: ""
-  betterFor: [小稻荷大小(男)*, 麻雀-茶**, 麻雀-橄榄*]
+  betterFor: [小稻荷大小(男)*, 麻雀-茶(春夏秋)**, 麻雀-橄榄(春夏秋)*]
   normalFor: []
 - name: 小麦
   idx: 40
@@ -297,7 +297,7 @@
   have: "N"
   gold: ""
   big: ""
-  betterFor: [布拉德**, 希卡**, 孔雀***]
+  betterFor: [布拉德**, 希卡**, 孔雀(全年)**]
   normalFor: [凯丽**, 费朗克**, 米兰达**, 卢迪斯**, 优卡**, 罗塔斯, 汪汪糖]
 - name: 杏仁
   idx: 44
@@ -318,7 +318,7 @@
   have: H
   gold: ""
   big: ""
-  betterFor: [希卡**, 维氏冕狐猴**]
+  betterFor: [希卡**, 维氏冕狐猴(全年)**]
   normalFor: [卢迪斯**, 优卡**, 罗塔斯, 汪汪糖]
 - name: 柠檬
   idx: 47
@@ -332,56 +332,56 @@
   have: H
   gold: ""
   big: ""
-  betterFor: [希卡**, 鹦鹉-白**]
+  betterFor: [希卡**, 鹦鹉-白(全年)**]
   normalFor: [卢迪斯**, 优卡**, 罗塔斯]
 - name: 橙子
   idx: 49
   have: H
   gold: ""
   big: ""
-  betterFor: [科林**, 希卡**, 猴子-金*, 鹦鹉-黄**]
+  betterFor: [科林**, 希卡**, 猴子-金(全年), 鹦鹉-黄(全年)**]
   normalFor: [卢迪斯**, 优卡**, 罗塔斯, 汪汪糖]
 - name: 芒果
   idx: 50
   have: H
   gold: ""
   big: ""
-  betterFor: [希卡**, 猴子-茶]
+  betterFor: [希卡**, 猴子-茶(全年)]
   normalFor: [卢迪斯**, 优卡**, 希卡**, 罗塔斯]
 - name: 杨桃
   idx: 51
   have: H
   gold: ""
   big: ""
-  betterFor: [希卡**, 鹦鹉-白**, 鹦鹉-黄**, 鹦鹉-蓝*, 鹦鹉-红*]
+  betterFor: [希卡**, 鹦鹉-白(全年)**, 鹦鹉-黄(全年)**, 鹦鹉-蓝(全年)*, 鹦鹉-红(全年)*]
   normalFor: [卢迪斯**, 优卡**, 罗塔斯]
 - name: 椰子
   idx: 52
   have: "N"
   gold: ""
   big: ""
-  betterFor: [维氏冕狐猴**]
+  betterFor: [维氏冕狐猴(全年)**]
   normalFor: [卢迪斯**, 罗塔斯]
 - name: 香蕉
   idx: 53
   have: H
   gold: ""
   big: ""
-  betterFor: [卢迪斯**, 希卡**, 猴子-茶]
+  betterFor: [卢迪斯**, 希卡**, 猴子-茶(全年)]
   normalFor: [费德**, 优卡**, 夏鲁克**, 罗塔斯, 汪汪糖]
 - name: 苹果
   idx: 54
   have: H
   gold: ""
   big: ""
-  betterFor: [布拉德**, 科林**, 希卡**, 汪汪糖, 狐狸-黄, 猴子-金*, 鹦鹉-红*]
+  betterFor: [布拉德**, 科林**, 希卡**, 汪汪糖, 狐狸-黄(春夏秋), 猴子-金(全年), 鹦鹉-红(全年)*]
   normalFor: [凯丽**, 海科特**, 费朗克**, 卢迪斯**, 优卡**, 罗塔斯]
 - name: 葡萄
   idx: 55
   have: H
   gold: ""
   big: ""
-  betterFor: [布拉德**, 科林**, 希卡**, 鹦鹉-蓝*, 维氏冕狐猴**]
+  betterFor: [布拉德**, 科林**, 希卡**, 鹦鹉-蓝(全年)*, 维氏冕狐猴(全年)**]
   normalFor: [卢迪斯**, 优卡**, 罗塔斯]
 - name: 橄榄
   idx: 56
@@ -395,7 +395,7 @@
   have: "N"
   gold: ""
   big: ""
-  betterFor: [希卡**, 汪汪糖, 狸-茶**, 猴子-金*]
+  betterFor: [希卡**, 汪汪糖, 狸-茶(春夏秋)**, 猴子-金(全年)]
   normalFor: [卢迪斯**, 优卡**, 罗塔斯]
 - name: 春茶叶
   idx: 58
@@ -403,21 +403,21 @@
   gold: ""
   big: ""
   betterFor: [优卡**]
-  normalFor: [托托塔拉, 哈鲁巴]
+  normalFor: [托托塔拉**, 哈鲁巴]
 - name: 夏茶叶
   idx: 59
   have: H
   gold: ""
   big: ""
   betterFor: [优卡**]
-  normalFor: [托托塔拉, 哈鲁巴]
+  normalFor: [托托塔拉**, 哈鲁巴]
 - name: 秋茶叶
   idx: 60
   have: H
   gold: ""
   big: ""
   betterFor: [优卡**]
-  normalFor: [托托塔拉, 哈鲁巴]
+  normalFor: [托托塔拉**, 哈鲁巴]
 - name: 香菇
   idx: 61
   have: "N"
@@ -473,20 +473,20 @@
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [卢迪斯**, 托托塔拉]
+  normalFor: [卢迪斯**, 托托塔拉**]
 - name: 蜂蜜
   idx: 69
   have: H
   gold: ""
   big: ""
-  betterFor: [凯丽**, 灰熊-茶, 灰熊-黑]
+  betterFor: [凯丽**, 灰熊-茶(春夏秋), 灰熊-黑(春夏秋)]
   normalFor: [梅根**, 米兰达**, 小女神大人, 丝特法妮, 悠月, 弥一]
 - name: 蜂王浆
   idx: 70
   have: "N"
   gold: ""
   big: ""
-  betterFor: [梅根**, 灰熊-茶, 灰熊-黑]
+  betterFor: [梅根**, 灰熊-茶(春夏秋), 灰熊-黑(春夏秋)]
   normalFor: []
 - name: 极品免毛
   idx: 71
@@ -595,7 +595,7 @@
   gold: ""
   big: ""
   betterFor: [银次郎]
-  normalFor: [扎哈**, 卡里拉]
+  normalFor: [扎哈**, 卡里拉**]
 - name: 生鱼片
   idx: 86
   have: H
@@ -616,7 +616,7 @@
   gold: ""
   big: ""
   betterFor: [心鞠]
-  normalFor: [卡里拉]
+  normalFor: [卡里拉**]
 - name: 明太子沙拉
   idx: 89
   have: "N"
@@ -643,7 +643,7 @@
   have: "N"
   gold: ""
   big: ""
-  bestFor: [卡里拉]
+  bestFor: [卡里拉**]
   betterFor: [心鞠]
   normalFor: [丝特法妮]
 - name: 热带沙拉
@@ -665,7 +665,7 @@
   have: "N"
   gold: ""
   big: ""
-  bestFor: [托托塔拉]
+  bestFor: [托托塔拉**]
   betterFor: []
   normalFor: []
 - name: 生春卷
@@ -875,7 +875,7 @@
   gold: ""
   big: ""
   betterFor: [马尔科**]
-  normalFor: [布拉德**, 卡里拉]
+  normalFor: [布拉德**, 卡里拉**]
 - name: 烤番茄
   idx: 125
   have: H
@@ -1012,7 +1012,7 @@
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [托托塔拉, 扎哈**, 卡里拉, 夏鲁克**, 提格雷]
+  normalFor: [托托塔拉**, 扎哈**, 卡里拉**, 夏鲁克**, 提格雷]
 - name: 辣椒炒乌贼
   idx: 144
   have: "N"
@@ -1026,7 +1026,7 @@
   have: H
   gold: ""
   big: ""
-  betterFor: [托托塔拉]
+  betterFor: [托托塔拉**]
   normalFor: []
 - name: 蔬菜冻
   idx: 146
@@ -1193,7 +1193,7 @@
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [马尔科**, 霞, 扎哈**, 卡里拉, 提格雷]
+  normalFor: [马尔科**, 霞, 扎哈**, 卡里拉**, 提格雷]
 - name: 蔬菜锅
   idx: 169
   have: "N"
@@ -1207,7 +1207,7 @@
   have: "N"
   gold: ""
   big: ""
-  betterFor: [托托塔拉]
+  betterFor: [托托塔拉**]
   normalFor: []
 - name: 萨莫萨三角饺
   idx: 171
@@ -1237,7 +1237,7 @@
   big: ""
   bestFor: [卢迪斯**]
   betterFor: [哈鲁巴]
-  normalFor: [卡里拉]
+  normalFor: [卡里拉**]
 - name: 火上锅
   idx: 175
   have: "N"
@@ -1434,8 +1434,8 @@
   gold: ""
   big: ""
   bestFor: [提格雷]
-  betterFor: [托托塔拉]
-  normalFor: [卡里拉, 夏鲁克**]
+  betterFor: [托托塔拉**]
+  normalFor: [卡里拉**, 夏鲁克**]
 - name: 印度鸡肉饭
   idx: 203
   have: "N"
@@ -1562,7 +1562,7 @@
   have: "N"
   gold: ""
   big: ""
-  betterFor: [托托塔拉]
+  betterFor: [托托塔拉**]
   normalFor: []
 - name: 夏威夷细面汤
   idx: 221
@@ -1577,7 +1577,7 @@
   have: H
   gold: ""
   big: ""
-  betterFor: [托托塔拉]
+  betterFor: [托托塔拉**]
   normalFor: []
 - name: 热带三明治
   idx: 223
@@ -1607,7 +1607,7 @@
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [凯丽**, 费朗克**, 丝特法妮, 托托塔拉, 汪汪糖]
+  normalFor: [凯丽**, 费朗克**, 丝特法妮, 托托塔拉**, 汪汪糖]
 - name: 可丽饼
   idx: 227
   have: H
@@ -1885,7 +1885,7 @@
   have: H
   gold: ""
   big: ""
-  betterFor: [凯丽**, 希卡**, 托托塔拉]
+  betterFor: [凯丽**, 希卡**, 托托塔拉**]
   normalFor: []
 - name: 油炸甜甜圈
   idx: 266
@@ -1955,7 +1955,7 @@
   have: "N"
   gold: ""
   big: ""
-  betterFor: [托托塔拉, 罗塔斯]
+  betterFor: [托托塔拉**, 罗塔斯]
   normalFor: [御美代, 静, 小魔女大人]
 - name: 芦荟酸奶
   idx: 276
@@ -2205,7 +2205,7 @@
   have: "N"
   gold: ""
   big: ""
-  betterFor: [托托塔拉]
+  betterFor: [托托塔拉**]
   normalFor: [夏鲁克**, 阿鲁玛]
 - name: 热带果汁
   idx: 311
@@ -2228,7 +2228,7 @@
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [托托塔拉]
+  normalFor: [托托塔拉**]
 - name: 拉西酪乳
   idx: 314
   have: "N"
@@ -2262,7 +2262,7 @@
   have: H
   gold: ""
   big: ""
-  betterFor: [心鞠, 银次郎, 麻雀-茶**, 麻雀-橄榄*, 野鸡**]
+  betterFor: [心鞠, 银次郎, 麻雀-茶(春夏秋)**, 麻雀-橄榄(春夏秋)*, 野鸡(春夏秋)**]
   normalFor: []
 - name: 盐
   idx: 319
@@ -2304,7 +2304,7 @@
   have: H
   gold: ""
   big: ""
-  betterFor: [扎哈**, 卡里拉]
+  betterFor: [扎哈**, 卡里拉**]
   normalFor: [夏鲁克**, 提格雷]
 - name: 鲽鱼
   idx: 325
@@ -2339,7 +2339,7 @@
   have: H
   gold: ""
   big: ""
-  betterFor: [扎哈**, 卡里拉]
+  betterFor: [扎哈**, 卡里拉**]
   normalFor: [夏鲁克**, 提格雷]
 - name: 小龙虾
   idx: 330
@@ -2381,7 +2381,7 @@
   have: H
   gold: ""
   big: ""
-  betterFor: [马尔科**, 雕]
+  betterFor: [马尔科**, 雕(春夏秋)]
   normalFor: []
 - name: 虾虎鱼
   idx: 336
@@ -2395,7 +2395,7 @@
   have: H
   gold: ""
   big: ""
-  betterFor: [马尔科**, 雕]
+  betterFor: [马尔科**, 雕(春夏秋)]
   normalFor: []
 - name: 鲫鱼
   idx: 338
@@ -2465,7 +2465,7 @@
   have: H
   gold: ""
   big: ""
-  betterFor: [鲸头鹳*]
+  betterFor: [鲸头鹳(全年)*]
   normalFor: []
 - name: 鱿鱼
   idx: 348
@@ -2500,35 +2500,35 @@
   have: H
   gold: ""
   big: ""
-  betterFor: [卡里拉]
+  betterFor: [卡里拉**]
   normalFor: [马尔科**, 扎哈**, 夏鲁克**]
 - name: 角蝾螺
   idx: 353
   have: H
   gold: ""
   big: ""
-  betterFor: [卡里拉]
+  betterFor: [卡里拉**]
   normalFor: [夏鲁克**]
 - name: 蚬贝
   idx: 354
   have: H
   gold: ""
   big: ""
-  betterFor: [卡里拉, 龟**]
+  betterFor: [卡里拉**, 龟(全年)**]
   normalFor: [夏鲁克**]
 - name: 扇贝
   idx: 355
   have: H
   gold: ""
   big: ""
-  betterFor: [卡里拉]
+  betterFor: [卡里拉**]
   normalFor: [扎哈**, 夏鲁克**]
 - name: 海胆
   idx: 356
   have: H
   gold: ""
   big: ""
-  betterFor: [扎哈**, 卡里拉]
+  betterFor: [扎哈**, 卡里拉**]
   normalFor: [马尔科**, 夏鲁克**, 提格雷]
 - name: 鲣鱼
   idx: 357
@@ -2606,7 +2606,7 @@
   gold: ""
   big: ""
   betterFor: [森谷**]
-  normalFor: [卡里拉]
+  normalFor: [卡里拉**]
 - name: 鳐鱼
   idx: 368
   have: "N"
@@ -2689,7 +2689,7 @@
   have: "N"
   gold: ""
   big: ""
-  betterFor: [卡里拉]
+  betterFor: [卡里拉**]
   normalFor: [马尔科**, 森谷**, 扎哈**, 夏鲁克**]
 - name: 法螺贝
   idx: 380
@@ -2697,7 +2697,7 @@
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [卡里拉]
+  normalFor: [卡里拉**]
 - name: 海螺
   idx: 381
   have: "N"
@@ -2710,14 +2710,14 @@
   have: "N"
   gold: ""
   big: ""
-  betterFor: [灰熊-茶, 灰熊-黑]
+  betterFor: [灰熊-茶(春夏秋), 灰熊-黑(春夏秋)]
   normalFor: []
 - name: 鲶鱼
   idx: 383
   have: "N"
   gold: ""
   big: ""
-  betterFor: [鲸头鹳*]
+  betterFor: [鲸头鹳(全年)*]
   normalFor: []
 - name: 金闪闪肥料
   idx: 384
@@ -2732,7 +2732,7 @@
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [费朗克**, 托托塔拉, 哈鲁巴, 小魔女大人]
+  normalFor: [费朗克**, 托托塔拉**, 哈鲁巴, 小魔女大人]
 - name: 鸡饲料
   idx: 386
   have: H
@@ -2794,7 +2794,7 @@
   have: H
   gold: ""
   big: ""
-  betterFor: [扫雪鼬-茶白**]
+  betterFor: [扫雪鼬-茶白(春夏秋)**]
   normalFor: [布拉德**, 科林**]
 - name: 杏子
   idx: 395
@@ -2992,7 +2992,7 @@
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [凯丽**, 海科特**, 科林**, 小女神大人, 雏桃, 优卡**, 希卡**, 托托塔拉, 阿鲁玛]
+  normalFor: [凯丽**, 海科特**, 科林**, 小女神大人, 雏桃, 优卡**, 希卡**, 托托塔拉**, 阿鲁玛]
 - name: 魔术红草
   idx: 423
   have: "N"
@@ -3020,14 +3020,14 @@
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [凯丽**, 海科特**, 米兰达**, 诺艾尔**, 小女神大人, 优卡**, 希卡**, 托托塔拉, 阿鲁玛]
+  normalFor: [凯丽**, 海科特**, 米兰达**, 诺艾尔**, 小女神大人, 优卡**, 希卡**, 托托塔拉**, 阿鲁玛]
 - name: 淡紫色羽扇豆
   idx: 427
   have: H
   gold: ""
   big: ""
   betterFor: [静]
-  normalFor: [凯丽**, 御美代, 雏桃, 托托塔拉, 阿鲁玛]
+  normalFor: [凯丽**, 御美代, 雏桃, 托托塔拉**, 阿鲁玛]
 - name: 紫阳花
   idx: 428
   have: H
@@ -3041,7 +3041,7 @@
   gold: ""
   big: ""
   betterFor: [阿鲁玛]
-  normalFor: [莉雪特**, 凯丽**, 优卡**, 希卡**, 托托塔拉, 卡里拉]
+  normalFor: [莉雪特**, 凯丽**, 优卡**, 希卡**, 托托塔拉**, 卡里拉**]
 - name: 滨海珍珠菜
   idx: 430
   have: H
@@ -3055,7 +3055,7 @@
   gold: ""
   big: ""
   betterFor: [优卡**, 阿鲁玛]
-  normalFor: [莉雪特**, 凯丽**, 希卡**, 卡里拉]
+  normalFor: [莉雪特**, 凯丽**, 希卡**, 卡里拉**]
 - name: 红色羽毛
   idx: 432
   have: H
@@ -3104,27 +3104,27 @@
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [卡里拉]
+  normalFor: [卡里拉**]
 - name: 心跳少女的香气
   idx: 439
   have: "N"
   gold: ""
   big: ""
-  betterFor: [托托塔拉]
+  betterFor: [托托塔拉**]
   normalFor: []
 - name: 拂晓天明的香气
   idx: 440
   have: "N"
   gold: ""
   big: ""
-  betterFor: [托托塔拉]
+  betterFor: [托托塔拉**]
   normalFor: [日向]
 - name: 泡沫之梦的香气
   idx: 441
   have: "N"
   gold: ""
   big: ""
-  betterFor: [托托塔拉]
+  betterFor: [托托塔拉**]
   normalFor: []
 - name: 雪球
   idx: 442
@@ -3138,8 +3138,8 @@
   have: H
   gold: ""
   big: ""
-  betterFor: [托托塔拉, 阿鲁玛]
-  normalFor: [卡里拉, 提格雷]
+  betterFor: [托托塔拉**, 阿鲁玛]
+  normalFor: [卡里拉**, 提格雷]
 - name: 红色的线
   idx: 444
   have: "N"
@@ -3159,7 +3159,7 @@
   have: "N"
   gold: ""
   big: ""
-  betterFor: [灰熊-茶, 灰熊-黑]
+  betterFor: [灰熊-茶(春夏秋), 灰熊-黑(春夏秋)]
   normalFor: [米兰达**, 汪汪糖]
 - name: 艾草
   idx: 447
@@ -3180,14 +3180,14 @@
   have: "N"
   gold: ""
   big: ""
-  betterFor: [灰熊-茶]
+  betterFor: [灰熊-茶(春夏秋)]
   normalFor: [辰巳]
 - name: 蓝莓
   idx: 450
   have: "N"
   gold: ""
   big: ""
-  betterFor: [灰熊-黑]
+  betterFor: [灰熊-黑(春夏秋)]
   normalFor: [科林**, 阿鲁玛]
 - name: 鼠尾草
   idx: 451
@@ -3209,7 +3209,7 @@
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [托托塔拉]
+  normalFor: [托托塔拉**]
 - name: 金珍珠
   idx: 454
   have: "N"
@@ -3489,14 +3489,14 @@
   have: "N"
   gold: ""
   big: ""
-  betterFor: [韦恩**, 托托塔拉]
+  betterFor: [韦恩**, 托托塔拉**]
   normalFor: []
 - name: 月夜夜想曲
   idx: 494
   have: "N"
   gold: ""
   big: ""
-  betterFor: [托托塔拉]
+  betterFor: [托托塔拉**]
   normalFor: [莉雪特**]
 - name: 湖水奏鸣曲
   idx: 495
@@ -3510,14 +3510,14 @@
   have: "N"
   gold: ""
   big: ""
-  betterFor: [托托塔拉]
+  betterFor: [托托塔拉**]
   normalFor: []
 - name: 雪花圆舞曲
   idx: 497
   have: "N"
   gold: ""
   big: ""
-  betterFor: [托托塔拉]
+  betterFor: [托托塔拉**]
   normalFor: []
 - name: 很喜欢以外的花束
   idx: 498
@@ -3525,7 +3525,7 @@
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [托托塔拉]
+  normalFor: [托托塔拉**]
 - name: 和黄金有关的东西
   idx: 499
   have: "N"
@@ -3608,5 +3608,5 @@
   have: "N"
   gold: ""
   big: ""
-  betterFor: [灰熊-茶, 灰熊-黑]
+  betterFor: [灰熊-茶(春夏秋), 灰熊-黑(春夏秋)]
   normalFor: []
