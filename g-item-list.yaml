@@ -129,7 +129,7 @@
   have: H
   gold: ""
   big: ""
-  betterFor: [密斯拉, 狐狸-白(冬)*]
+  betterFor: [密斯拉, 狐狸-白(冬)]
   normalFor: [费德**, 费朗克**, 诺艾尔**, 小女神大人]
 - name: 牛蒡
   idx: 20
@@ -206,7 +206,7 @@
   have: "N"
   gold: ""
   big: ""
-  betterFor: [静]
+  betterFor: [静**]
   normalFor: []
 - name: 向日葵
   idx: 31
@@ -221,27 +221,27 @@
   gold: ""
   big: ""
   betterFor: [御美代**]
-  normalFor: [韦恩**, 小女神大人, 静, 优卡**, 阿鲁玛**]
+  normalFor: [韦恩**, 小女神大人, 静**, 优卡**, 阿鲁玛**]
 - name: 红瞿麦
   idx: 33
   have: H
   gold: ""
   big: ""
-  betterFor: [御美代**, 雏桃**, 静]
+  betterFor: [御美代**, 雏桃**, 静**]
   normalFor: [莉雪特**, 悠月]
 - name: 非洲菊
   idx: 34
   have: H
   gold: ""
   big: ""
-  betterFor: [御美代**, 静]
+  betterFor: [御美代**, 静**]
   normalFor: [阿鲁玛**]
 - name: 龙胆
   idx: 35
   have: H
   gold: ""
   big: ""
-  betterFor: [静]
+  betterFor: [静**]
   normalFor: [雏桃**]
 - name: 雪花莲
   idx: 36
@@ -565,28 +565,28 @@
   have: "N"
   gold: ""
   big: ""
-  betterFor: [心鞠**, 静, 辰巳, 弥一**]
+  betterFor: [心鞠**, 静**, 辰巳, 弥一**]
   normalFor: [丝特法妮]
 - name: 凉拌蔬菜
   idx: 82
   have: H
   gold: ""
   big: ""
-  betterFor: [梅吉**, 御美代**, 静]
+  betterFor: [梅吉**, 御美代**, 静**]
   normalFor: [森谷**, 银次郎**]
 - name: 梅香黄瓜
   idx: 83
   have: "N"
   gold: ""
   big: ""
-  betterFor: [静]
+  betterFor: [静**]
   normalFor: []
 - name: 梅子紫苏沙拉
   idx: 84
   have: "N"
   gold: ""
   big: ""
-  bestFor: [静]
+  bestFor: [静**]
   betterFor: [心鞠**]
   normalFor: []
 - name: 芥末章鱼
@@ -764,7 +764,7 @@
   normalFor: []
 - name: 蛋花汤
   idx: 109
-  have: "N"
+  have: H
   gold: ""
   big: ""
   betterFor: [梅吉**, 御美代**]
@@ -810,7 +810,7 @@
   have: H
   gold: ""
   big: ""
-  betterFor: [银次郎**, 静]
+  betterFor: [银次郎**, 静**]
   normalFor: []
 - name: 意式水煮鱼贝
   idx: 116
@@ -892,10 +892,10 @@
   normalFor: [布拉德**, 丝特法妮]
 - name: 奶汁烤菜
   idx: 127
-  have: "N"
+  have: H
   gold: ""
   big: ""
-  betterFor: [莉雪特**]
+  betterFor: [莉雪特**, 自己]
   normalFor: [丝特法妮]
 - name: 法式咸派
   idx: 128
@@ -1062,7 +1062,7 @@
   gold: ""
   big: ""
   bestFor: [马尔科**]
-  betterFor: []
+  betterFor: [自己]
   normalFor: [卢迪斯**]
 - name: 奶酪火锅
   idx: 151
@@ -1074,7 +1074,7 @@
   normalFor: []
 - name: 白萝卜干
   idx: 152
-  have: "N"
+  have: H
   gold: ""
   big: ""
   betterFor: [御美代**, 御美代**]
@@ -1099,7 +1099,7 @@
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [悠月, 静]
+  normalFor: [悠月, 静**]
 - name: 水煮蛋
   idx: 156
   have: H
@@ -1142,7 +1142,7 @@
   have: H
   gold: ""
   big: ""
-  betterFor: [日向**, 银次郎**, 静]
+  betterFor: [日向**, 银次郎**, 静**]
   normalFor: []
 - name: 炸虾
   idx: 162
@@ -1156,7 +1156,7 @@
   have: "N"
   gold: ""
   big: ""
-  betterFor: [日向**, 心鞠**, 森谷**, 银次郎**, 静]
+  betterFor: [日向**, 心鞠**, 森谷**, 银次郎**, 静**]
   normalFor: []
 - name: 下野家例
   idx: 164
@@ -1185,7 +1185,7 @@
   gold: ""
   big: ""
   bestFor: [一徹]
-  betterFor: [梅吉**, 御美代**, 静, 辰巳, 弥一**]
+  betterFor: [梅吉**, 御美代**, 静**, 辰巳, 弥一**]
   normalFor: []
 - name: 咸烹海味
   idx: 168
@@ -1218,14 +1218,14 @@
   normalFor: []
 - name: 石头斑鱼锅
   idx: 172
-  have: "N"
+  have: H
   gold: ""
   big: ""
   betterFor: [提格雷]
   normalFor: []
 - name: 鮟鱇鱼锅
   idx: 173
-  have: "N"
+  have: H
   gold: ""
   big: ""
   betterFor: [哈鲁巴, 提格雷]
@@ -1313,7 +1313,7 @@
   have: "N"
   gold: ""
   big: ""
-  betterFor: [银次郎**, 静]
+  betterFor: [银次郎**, 静**]
   normalFor: []
 - name: 新香卷
   idx: 186
@@ -1395,7 +1395,7 @@
   normalFor: [霞]
 - name: 杂炊饭
   idx: 197
-  have: "N"
+  have: H
   gold: ""
   big: ""
   betterFor: [御美代**, 银次郎**]
@@ -1769,11 +1769,11 @@
   have: "N"
   gold: ""
   big: ""
-  betterFor: [御美代**, 静, 辰巳, 弥一**]
+  betterFor: [御美代**, 静**, 辰巳, 弥一**]
   normalFor: []
 - name: 香草冰激凌
   idx: 250
-  have: "N"
+  have: H
   gold: ""
   big: ""
   betterFor: []
@@ -1896,14 +1896,14 @@
   normalFor: [阿鲁玛**]
 - name: 草莓冰激凌
   idx: 267
-  have: "N"
+  have: H
   gold: ""
   big: ""
   betterFor: [雏桃**, 夏鲁克**, 阿鲁玛**]
   normalFor: []
 - name: 菠萝冰激凌
   idx: 268
-  have: "N"
+  have: H
   gold: ""
   big: ""
   betterFor: [夏鲁克**, 阿鲁玛**]
@@ -1924,7 +1924,7 @@
   normalFor: []
 - name: 香蕉冰激凌
   idx: 271
-  have: "N"
+  have: H
   gold: ""
   big: ""
   betterFor: [卢迪斯**]
@@ -1945,7 +1945,7 @@
   normalFor: [罗塔斯]
 - name: 柠檬冰激凌
   idx: 274
-  have: "N"
+  have: H
   gold: ""
   big: ""
   betterFor: []
@@ -1956,14 +1956,14 @@
   gold: ""
   big: ""
   betterFor: [托托塔拉**, 罗塔斯]
-  normalFor: [御美代**, 静, 小魔女大人]
+  normalFor: [御美代**, 静**, 小魔女大人]
 - name: 芦荟酸奶
   idx: 276
   have: "N"
   gold: ""
   big: ""
   bestFor: [罗塔斯]
-  betterFor: [静]
+  betterFor: [静**]
   normalFor: []
 - name: 奶糕
   idx: 277
@@ -1981,7 +1981,7 @@
   normalFor: []
 - name: 酸奶冰激凌
   idx: 279
-  have: "N"
+  have: H
   gold: ""
   big: ""
   betterFor: [阿鲁玛**, 罗塔斯]
@@ -2133,14 +2133,14 @@
   gold: ""
   big: ""
   bestFor: [辰巳]
-  betterFor: [静, 弥一**]
+  betterFor: [静**, 弥一**]
   normalFor: [梅根**, 霞, 小稻荷大小(男)*, 小稻荷大小(女)]
 - name: 抹茶
   idx: 301
   have: H
   gold: ""
   big: ""
-  betterFor: [霞, 静]
+  betterFor: [霞, 静**]
   normalFor: [梅吉**, 森谷**, 密斯拉]
 - name: 绿茶
   idx: 302
@@ -2154,7 +2154,7 @@
   have: H
   gold: ""
   big: ""
-  betterFor: [心鞠**, 御美代**, 静]
+  betterFor: [心鞠**, 御美代**, 静**]
   normalFor: [日向**, 霞]
 - name: 梅子茶
   idx: 304
@@ -2162,7 +2162,7 @@
   gold: ""
   big: ""
   betterFor: [心鞠**, 梅吉**, 御美代**]
-  normalFor: [悠月, 霞, 静, 小稻荷大小(男)*, 小稻荷大小(女), 密斯拉]
+  normalFor: [悠月, 霞, 静**, 小稻荷大小(男)*, 小稻荷大小(女), 密斯拉]
 - name: 冰糖姜水
   idx: 305
   have: H
@@ -2180,7 +2180,7 @@
   normalFor: []
 - name: 浆果调饮
   idx: 307
-  have: "N"
+  have: H
   gold: ""
   big: ""
   betterFor: [凯丽**]
@@ -2794,7 +2794,7 @@
   have: H
   gold: ""
   big: ""
-  betterFor: [扫雪鼬-茶白(春夏秋)**]
+  betterFor: [扫雪鼬-茶(春夏秋)**, 扫雪鼬-白(冬)]
   normalFor: [布拉德**, 科林**]
 - name: 杏子
   idx: 395
@@ -2844,7 +2844,7 @@
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [悠月, 静, 卢迪斯**]
+  normalFor: [悠月, 静**, 卢迪斯**]
 - name: 黑树枝
   idx: 402
   have: "N"
@@ -2872,7 +2872,7 @@
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [静]
+  normalFor: [静**]
 - name: 枫树
   idx: 406
   have: H
@@ -2935,7 +2935,7 @@
   gold: ""
   big: ""
   betterFor: []
-  normalFor: [静]
+  normalFor: [静**]
 - name: 精金
   idx: 415
   have: H
@@ -3026,14 +3026,14 @@
   have: H
   gold: ""
   big: ""
-  betterFor: [静]
+  betterFor: [静**]
   normalFor: [凯丽**, 御美代**, 雏桃**, 托托塔拉**, 阿鲁玛**]
 - name: 紫阳花
   idx: 428
   have: H
   gold: ""
   big: ""
-  betterFor: [莉雪特**, 静]
+  betterFor: [莉雪特**, 静**]
   normalFor: [小女神大人, 雏桃**]
 - name: 马蹄莲
   idx: 429
@@ -3222,7 +3222,7 @@
   have: "N"
   gold: ""
   big: ""
-  betterFor: [静]
+  betterFor: [静**]
   normalFor: [韦恩**, 小女神大人, 御美代**, 优卡**]
 - name: 乳制品
   idx: 456
@@ -3503,7 +3503,7 @@
   have: "N"
   gold: ""
   big: ""
-  betterFor: [静]
+  betterFor: [静**]
   normalFor: []
 - name: 炎帝华尔兹
   idx: 496

@@ -163,7 +163,7 @@
   best: 油炸豆腐
   better: [豆腐皮, 日式杂烩汤, 下野家例, 馎饦, 菜肉焖饭, 粽子, 仙贝, 绿茶]
   normal: [烤蘑菇, 腌萝卜, 凉拌菜谱]
-- name: 静
+- name: 静**
   idx: 25
   best: 梅子紫苏沙拉
   better: [百合, 红瞿麦, 非洲菊, 龙胆, 南瓜沙拉, 凉拌蔬菜, 梅香黄瓜, 蚬贝汤, 味噌青花鱼, 年节菜, 油炸豆腐, 鳗鱼盖饭, 豆浆布丁,
@@ -291,63 +291,69 @@
 - name: 狐狸-黄(春夏秋)
   idx: 44
   better: [苹果]
-- name: 狐狸-白(冬)*
+- name: 狐狸-白(冬)
   idx: 45
   better: [胡萝卜]
-- name: 扫雪鼬-茶白(春夏秋)**
+- name: 扫雪鼬-茶(春夏秋)**
   idx: 46
   better: [核桃]
-- name: 灰熊-茶(春夏秋)
+- name: 扫雪鼬-白(冬)
   idx: 47
+  better: [核桃]
+- name: 灰熊-茶(春夏秋)
+  idx: 48
   better: [蜂蜜, 蜂王浆, 大马哈鱼, 枫糖浆, 栗子, 巢蜜]
 - name: 灰熊-黑(春夏秋)
-  idx: 48
+  idx: 49
   better: [蜂蜜, 蜂王浆, 大马哈鱼, 枫糖浆, 蓝莓, 巢蜜]
 - name: 狸-茶(春夏秋)**
-  idx: 49
+  idx: 50
   better: [柿子]
 - name: 狸-栗(春夏秋)*
-  idx: 50
+  idx: 51
   better: [地瓜]
 - name: 麻雀-茶(春夏秋)**
-  idx: 51
-  better: [糯米, 大米]
-- name: 麻雀-橄榄(春夏秋)*
   idx: 52
   better: [糯米, 大米]
-- name: 雕(春夏秋)
+- name: 麻雀-橄榄(春夏秋)*
   idx: 53
+  better: [糯米, 大米]
+- name: 雕(春夏秋)
+  idx: 54
   better: [虹鳟, 红鳟]
 - name: 野鸡(春夏秋)**
-  idx: 54
+  idx: 55
   better: [大米]
 - name: 龟(全年)**
-  idx: 55
+  idx: 56
   better: [蚬贝]
 - name: 鲸头鹳(全年)*
-  idx: 56
+  idx: 57
   better: [黑鱼, 鲶鱼]
 - name: 猴子-茶(全年)
-  idx: 57
+  idx: 58
   better: [芒果, 香蕉]
 - name: 猴子-金(全年)
-  idx: 58
+  idx: 59
   better: [橙子, 苹果, 柿子]
 - name: 鹦鹉-白(全年)**
-  idx: 59
+  idx: 60
   better: [荔枝, 杨桃]
 - name: 鹦鹉-黄(全年)**
-  idx: 60
+  idx: 61
   better: [橙子, 杨桃]
 - name: 鹦鹉-蓝(全年)*
-  idx: 61
+  idx: 62
   better: [杨桃, 葡萄]
 - name: 鹦鹉-红(全年)*
-  idx: 62
+  idx: 63
   better: [杨桃, 苹果]
 - name: 孔雀(全年)**
-  idx: 63
+  idx: 64
   better: [樱桃]
 - name: 维氏冕狐猴(全年)**
-  idx: 64
+  idx: 65
   better: [猕猴桃, 椰子, 葡萄]
+- name: 自己
+  idx: 66
+  better: [奶汁烤菜, 牛奶火锅]
